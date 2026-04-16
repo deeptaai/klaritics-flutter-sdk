@@ -7,18 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "APXFlutterBidiEventBus.h"
-#import "ApxorSDK/APXController.h"
-#import "ApxorFlutterPlugin.h"
+#import "ANTFlutterBidiEventBus.h"
+#import "AnthraSDK/ANTController.h"
 #import <Flutter/Flutter.h>
 
 static FlutterBasicMessageChannel *card_channel = nil;
 static NSObject<FlutterBinaryMessenger> *messenger = nil;
-@implementation APXFlutterBidiEventBus {
+@implementation ANTFlutterBidiEventBus {
     NSMutableDictionary *receivers;
 }
 - (void) sendAndGetWithData: (NSDictionary *)data receiver:(Receiver)receiver {
-    id<APXBidiDelegate> otherBus = [[APXController sharedController] getBidiEventsBusWithKey:@"APXOR_FLUTTER_C"];
+    id<ANTBidiDelegate> otherBus = [[ANTController sharedController] getBidiEventsBusWithKey:@"APXOR_FLUTTER_C"];
     if (nil != otherBus) {
         [otherBus receiveAndRespondWithData:data receiver:receiver];
     }
@@ -52,17 +51,17 @@ static NSObject<FlutterBinaryMessenger> *messenger = nil;
         //add receivers to it
         [receivers setValue:eReceiver forKey:[[eName stringByAppendingString:@"_"] stringByAppendingString:eTime]];
         
-        [[APXController sharedController] logInternalEventWithName:eName info:data];
-        [[APXController sharedController] registerForEventWithType:APXEventTypeInternal listener:self];
+        [[ANTController sharedController] logInternalEventWithName:eName info:data];
+        [[ANTController sharedController] registerForEventWithType:ANTEventTypeInternal listener:self];
     }
 }
 
-- (void)onEvent:(APXEvent *)event {
+- (void)onEvent:(ANTEvent *)event {
     NSDictionary *data = [event getAdditionalInfo];
     NSString *eventName = event.identifier;
     
     if ([receivers objectForKey:eventName]) {
-        [[APXController sharedController] deregisterForEventWithType:APXEventTypeInternal listener:self];
+        [[ANTController sharedController] deregisterForEventWithType:ANTEventTypeInternal listener:self];
         Receiver eventReceiver = [self->receivers objectForKey:eventName];
         eventReceiver([data valueForKey:@"r"]);
         

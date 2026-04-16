@@ -9,9 +9,9 @@
 #ifndef APXBidiEvents_h
 #define APXBidiEvents_h
 
-#import "ApxorSDK/APXBidiDelegate.h"
+#import "AnthraSDK/ANTBidiDelegate.h"
 
-@interface APXFlutterBidiEventBus: NSObject <APXBidiDelegate,APXEventListener>
+@interface ANTFlutterBidiEventBus: NSObject <ANTBidiDelegate,ANTEventListener>
 
 @end
 

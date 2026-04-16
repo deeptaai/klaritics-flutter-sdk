@@ -13,7 +13,7 @@ import '../widgets/fade_transition_page.dart';
 import 'author_details.dart';
 import 'book_details.dart';
 import 'scaffold.dart';
-import 'package:apxor_flutter/observer.dart';
+import 'package:anthra_flutter/observer.dart';
 
 /// Builds the top-level navigator for the app. The pages to display are based
 /// on the `routeState` that was parsed by the TemplateRouteParser.
@@ -55,7 +55,7 @@ class _BookstoreNavigatorState extends State<BookstoreNavigator> {
 
     return Navigator(
       key: widget.navigatorKey,
-      observers: [ApxNavigationObserver()],
+      observers: [AnthraNavigationObserver()],
       onPopPage: (route, dynamic result) {
         // When a page that is stacked on top of the scaffold is popped, display
         // the /books or /authors tab in BookstoreScaffold.

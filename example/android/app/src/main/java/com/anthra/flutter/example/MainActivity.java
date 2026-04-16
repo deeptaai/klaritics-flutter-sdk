@@ -1,4 +1,4 @@
-package com.apxor.flutter.example;
+package com.anthra.flutter.example;
 
 import android.os.Bundle;
 

@@ -2,7 +2,7 @@
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
-import 'package:apxor_flutter/apxor_flutter.dart';
+import 'package:anthra_flutter/anthra_flutter.dart';
 import 'package:flutter/material.dart';
 
 import '../data/library.dart';
@@ -16,7 +16,7 @@ class AuthorsScreen extends StatelessWidget {
 
   @override
   StatelessElement createElement() {
-    ApxorFlutter.logAppEvent("AuthorsTabOpened");
+    AnthraFlutter.logAppEvent("AuthorsTabOpened");
     return super.createElement();
   }
 

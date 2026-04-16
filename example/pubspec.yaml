@@ -1,5 +1,6 @@
-name: apxor_flutter_example
-description: Demonstrates how to use the apxor_flutter plugin.
+name: anthra_flutter_example
+description: Demonstrates how to use the anthra_flutter plugin.
+
 publish_to: "none"
 
 environment:
@@ -7,7 +8,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  apxor_flutter:
+  anthra_flutter:
     path: ../
   adaptive_navigation: ^0.0.3
   collection: ^1.15.0

@@ -2,7 +2,7 @@
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
-import 'package:apxor_flutter/apxor_flutter.dart';
+import 'package:anthra_flutter/anthra_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/link.dart';
 
@@ -21,7 +21,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   @override
   void initState() {
     super.initState();
-    ApxorFlutter.logAppEvent("SettingsTabOpened");
+    AnthraFlutter.logAppEvent("SettingsTabOpened");
   }
 
   @override

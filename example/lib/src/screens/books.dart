@@ -2,7 +2,7 @@
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
-import 'package:apxor_flutter/apxor_flutter.dart';
+import 'package:anthra_flutter/anthra_flutter.dart';
 import 'package:flutter/material.dart';
 
 import '../data.dart';
@@ -27,8 +27,8 @@ class _BooksScreenState extends State<BooksScreen>
     super.initState();
     _tabController = TabController(length: 3, vsync: this)
       ..addListener(_handleTabIndexChanged);
-    ApxorFlutter.setTabController(_tabController);
-    ApxorFlutter.logAppEvent("BooksTabOpened");
+    AnthraFlutter.setTabController(_tabController);
+    AnthraFlutter.logAppEvent("BooksTabOpened");
   }
 
   @override
@@ -104,16 +104,16 @@ class _BooksScreenState extends State<BooksScreen>
   void _handleTabIndexChanged() {
     switch (_tabController.index) {
       case 1:
-        ApxorFlutter.logAppEvent("NewBooksTabClicked");
+        AnthraFlutter.logAppEvent("NewBooksTabClicked");
         _routeState.go('/books/new');
         break;
       case 2:
-        ApxorFlutter.logAppEvent("AllBooksTabClicked");
+        AnthraFlutter.logAppEvent("AllBooksTabClicked");
         _routeState.go('/books/all');
         break;
       case 0:
       default:
-        ApxorFlutter.logAppEvent("PopularBooksTabClicked");
+        AnthraFlutter.logAppEvent("PopularBooksTabClicked");
         _routeState.go('/books/popular');
         break;
     }

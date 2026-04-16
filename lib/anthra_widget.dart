@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class ApxorWidget extends StatefulWidget {
+class AnthraWidget extends StatefulWidget {
   final Widget child;
   final containerKey;
-  const ApxorWidget({Key? key, required this.child, this.containerKey}) : super(key: key);
+  const AnthraWidget({Key? key, required this.child, this.containerKey}) : super(key: key);
   @override
-  _ApxorWidgetState createState() => _ApxorWidgetState();
+  _AnthraWidgetState createState() => _AnthraWidgetState();
 }
 
-class _ApxorWidgetState extends State<ApxorWidget> {
+class _AnthraWidgetState extends State<AnthraWidget> {
   @override
   Widget build(BuildContext context) {
     return RepaintBoundary(

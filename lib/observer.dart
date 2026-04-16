@@ -1,4 +1,4 @@
-import 'package:apxor_flutter/apxor.dart';
+import 'package:anthra_flutter/anthra_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -25,10 +25,10 @@ String? defaultNameExtractor(Route route) {
   return null;
 }
 
-class ApxNavigationObserver extends NavigatorObserver {
+class AnthraNavigationObserver extends NavigatorObserver {
   final ScreenNameExtractor nameExtractor;
 
-  ApxNavigationObserver({
+  AnthraNavigationObserver({
     this.nameExtractor = defaultNameExtractor,
   });
 
@@ -54,7 +54,7 @@ class ApxNavigationObserver extends NavigatorObserver {
     if (route != null && route is PageRoute) {
       String? name = nameExtractor(route);
       if (name != null && route.navigator?.context != null) {
-        ApxorFlutter.internalTrackScreen(name, route.navigator!.context, true);
+        AnthraFlutter.internalTrackScreen(name, route.navigator!.context, true);
       }
     }
   }

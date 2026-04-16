@@ -1,18 +1,13 @@
-# Apxor Flutter SDK
+# Anthra Flutter SDK
 
 > **Note: Flutter SDK supported version is `>= 3.0.1`**
 
-Flutter SDK Wrapper for Apxor SDK. Read more about [Apxor](https://www.apxor.com)
+Flutter wrapper for **Anthra**,
 
 ## Integration
 
-Add `apxor_flutter` dependency in `pubspec.yaml`
+Add `anthra_flutter` dependency in `pubspec.yaml`
 
-```yaml
-dependencies:
-  apxor_flutter:
-    git: https://github.com/apxor/apxor-flutter-sdk.git
-```
 
 ### Android
 
@@ -120,7 +115,7 @@ The Apxor SDK automatically captures device IDs which the Apxor backend uses to 
 If you want to, you can assign your own user IDs. This is particularly useful if you want to study a specific user with ease. To assign your own user ID, you can use
 
 ```dart
-ApxorFlutter.setUserIdentifier("<SOME_USER_ID>");
+AnthraFlutter.setUserIdentifier("<SOME_USER_ID>");
 ```
 
 ### User Attributes
@@ -130,7 +125,7 @@ There is often additional user identifying information, such as name and email a
 To add some more attributes that are specific to a particular user,
 
 ```dart
-ApxorFlutter.setUserAttributes({
+AnthraFlutter.setUserAttributes({
   'age': 27,
   'gender': "male",
 });
@@ -143,7 +138,7 @@ A Session can be simply defined as user journey as he opens the app, until he cl
 To add session attributes that are specific to a session,
 
 ```dart
-ApxorFlutter.setSessionAttributes({
+AnthraFlutter.setSessionAttributes({
   "network": "4G",
   "location": "Hyderabad",
 });
@@ -156,7 +151,7 @@ App events make it easier to analyze user behavior and optimize your product and
 To track an event with the event name and properties.
 
 ```dart
-ApxorFlutter.logAppEvent("Login", attributes: {
+AnthraFlutter.logAppEvent("Login", attributes: {
   "type": "Google",
   "language": "valyrian",
 });
@@ -173,7 +168,7 @@ These are typically logged to capture behavioural observations and interactions 
 > Soft back button, user reaching end of page, etc.
 
 ```dart
-ApxorFlutter.logClientEvent("SoftBackPressed", attributes: {
+AnthraFlutter.logClientEvent("SoftBackPressed", attributes: {
   "screenName": "Payment",
 });
 ```
@@ -183,7 +178,7 @@ ApxorFlutter.logClientEvent("SoftBackPressed", attributes: {
 Use `setDeeplinkListener` to listen on deeplink redirection from Apxor SDK and handle redirection logic (including external redirection) within application logic as follows
 
 ```dart
-ApxorFlutter.setDeeplinkListener((url) {
+AnthraFlutter.setDeeplinkListener((url) {
   // interpret the URL and handle redirection within the application
   _routeState.go(url!);
 
@@ -193,22 +188,22 @@ ApxorFlutter.setDeeplinkListener((url) {
 
 ### Track screens
 
-You can use `ApxorFlutter.trackScreen` API to track screen navigations. Examples are as follows
+You can use `AnthraFlutter.trackScreen` to track screen navigations. Examples are as follows
 
 ```dart
-ApxorFlutter.trackScreen("LoginScreen",context);
+AnthraFlutter.trackScreen("LoginScreen",context);
 
-ApxorFlutter.trackScreen("AddToCartScreen",context);
+AnthraFlutter.trackScreen("AddToCartScreen",context);
 
-ApxorFlutter.trackScreen("PaymentScreen",context);
+AnthraFlutter.trackScreen("PaymentScreen",context);
 ```
 
-If you are using `Navigator` for navigation and routing in the application, you can add `ApxNavigationObserver` to the `observer` list and Apxor SDK track screens upon navigating from one screen to another.
+If you are using `Navigator` for navigation and routing in the application, you can add `AnthraNavigationObserver` to the `observer` list so the native SDK can track screens when routes change.
 
 ```dart
 return Navigator(
   key: widget.navigatorKey,
-  observers: [ApxNavigationObserver()], // Add this line
+  observers: [AnthraNavigationObserver()], // Add this line
   onPopPage: (route, dynamic result) {
     // ...
   },

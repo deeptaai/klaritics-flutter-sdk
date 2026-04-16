@@ -3,8 +3,7 @@
 // package as the core of your plugin.
 // ignore: avoid_web_libraries_in_flutter
 @JS()
-library apxor_flutterweb_plugin;
-
+library anthra_flutter_web_plugin;
 import 'dart:js';
 import 'dart:js_util' as js2;
 import 'dart:convert';
@@ -34,7 +33,7 @@ dynamic x(dynamic r) {
 typedef ApxDeeplinkListener = void Function(String? url);
 
 @JS('window.Apxor')
-class ApxorFlutter {
+class AnthraFlutter {
   static final captureKey = GlobalKey();
   static final apxorState = ApxorState();
   static const String ApxorWebViewJSInterface = "";

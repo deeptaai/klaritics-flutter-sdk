@@ -2,13 +2,13 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:ui' as ui;
 
-import 'package:apxor_flutter/apxor_widget.dart';
+import 'package:anthra_flutter/anthra_widget.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 
-typedef ApxDeeplinkListener = void Function(String? url);
+typedef ANTDeeplinkListener = void Function(String? url);
 
 dynamic x(dynamic r) {
   return const Utf8Decoder().convert(base64Decode(base64Encode(r)));
@@ -24,13 +24,13 @@ var k7 = x([0x62, 0x6f, 0x74, 0x74, 0x6f, 0x6d]);
 var k8 = x([0x6c, 0x65, 0x66, 0x74]);
 var k9 = x([0x72, 0x69, 0x67, 0x68, 0x74]);
 
-class ApxorFlutter {
-  static const MethodChannel apxorMethodChannel =
-      MethodChannel('plugins.flutter.io/apxor_flutter');
+class AnthraFlutter {
+  static const MethodChannel anthraMethodChannel =
+      MethodChannel('plugins.flutter.io/anthra_flutter');
 
   static bool _isInitialized = false;
 
-  static ApxDeeplinkListener? _deeplinkListener;
+  static ANTDeeplinkListener? _deeplinkListener;
 
   static double density = 1;
 
@@ -62,29 +62,29 @@ class ApxorFlutter {
     var method = data["method"];
     switch (method) {
       case "ActionEvent":
-        ApxorFlutter.logAppEvent(data["eventName"],
+        AnthraFlutter.logAppEvent(data["eventName"],
             attributes: data["attributes"]);
         break;
       case "AppEvent":
-        ApxorFlutter.logAppEvent(data["eventName"],
+        AnthraFlutter.logAppEvent(data["eventName"],
             attributes: data["attributes"]);
         break;
       case "ClientEvent":
-        ApxorFlutter.logClientEvent(data["eventName"],
+        AnthraFlutter.logClientEvent(data["eventName"],
             attributes: data["attributes"]);
         break;
       case "RedirectTo":
         var actionConfig = jsonDecode(data["actionConfig"]);
         var deepLink = actionConfig["deep_link"];
         var url = deepLink["uri"];
-        ApxorFlutter._logInternalEvent("apx_redirection",
+        AnthraFlutter._logInternalEvent("apx_redirection",
             attributes: {"url": url});
         break;
       case "UpdateFlag":
-        ApxorFlutter._logInternalEvent("update_flag", attributes: data);
+        AnthraFlutter._logInternalEvent("update_flag", attributes: data);
         break;
       case "UpdateCount":
-        ApxorFlutter._logInternalEvent("update_count", attributes: data);
+        AnthraFlutter._logInternalEvent("update_count", attributes: data);
         break;
     }
   }
@@ -96,7 +96,7 @@ class ApxorFlutter {
 
   static bool _init() {
     BasicMessageChannel<dynamic> channel = const BasicMessageChannel(
-        "plugins.flutter.io/apxor_commands", JSONMessageCodec());
+        "plugins.flutter.io/anthra_commands", JSONMessageCodec());
     channel.setMessageHandler((message) async {
       String name = message["name"];
       switch (name) {
@@ -106,7 +106,7 @@ class ApxorFlutter {
             String rootElement = message["root_element"] ?? "";
             dynamic d = await _d1((message["d"] as num).toDouble(),
                 js: js, rootElement: rootElement);
-            apxorMethodChannel.invokeMethod("dr", <String, dynamic>{
+            anthraMethodChannel.invokeMethod("dr", <String, dynamic>{
               'r': d,
               't': message["t"],
             });
@@ -121,7 +121,7 @@ class ApxorFlutter {
             if (layout != null) {
               LT? target = findView([layout], p);
               if (target != null && target.po != null) {
-                apxorMethodChannel.invokeMethod("fr", <String, dynamic>{
+                anthraMethodChannel.invokeMethod("fr", <String, dynamic>{
                   'r': {
                     't': target.po!.top,
                     'l': target.po!.left,
@@ -132,7 +132,7 @@ class ApxorFlutter {
                 });
               }
             }
-            apxorMethodChannel.invokeMethod("fr", <String, dynamic>{
+            anthraMethodChannel.invokeMethod("fr", <String, dynamic>{
               'r': {"t": 0, "l": 0, "b": 0, "r": 0},
               't': message["t"],
             });
@@ -144,7 +144,7 @@ class ApxorFlutter {
             double d = (message["d"] as num).toDouble();
             String rootElement = message["root_element"] ?? "";
             LT? layout = await _g(f: true, rootElement: rootElement);
-            apxorMethodChannel.invokeMethod("avf", <String, dynamic>{
+            anthraMethodChannel.invokeMethod("avf", <String, dynamic>{
               'r': layout?.toJ(d),
               't': message["t"],
             });
@@ -194,7 +194,6 @@ class ApxorFlutter {
           break;
       }
     });
-    print("Apxor FlutterSDK initialized");
     return true;
   }
 
@@ -220,7 +219,7 @@ class ApxorFlutter {
   }
 
   static Widget createWidget(Widget child) {
-    return ApxorWidget(
+    return AnthraWidget(
       child: child,
       containerKey: captureKey,
     );
@@ -230,7 +229,7 @@ class ApxorFlutter {
       {Map<String, dynamic>? attributes}) {
     _ensureInitialized();
     if (_isValidString(eventName)) {
-      apxorMethodChannel.invokeMethod('logAppEvent',
+      anthraMethodChannel.invokeMethod('logAppEvent',
           <String, dynamic>{'name': eventName, 'attrs': attributes});
     } else {
       print('Error: `eventName` cannot be null or empty for logAppEvent');
@@ -241,7 +240,7 @@ class ApxorFlutter {
       {Map<String, dynamic>? attributes}) {
     _ensureInitialized();
     if (_isValidString(eventName)) {
-      apxorMethodChannel.invokeMethod('logClientEvent',
+      anthraMethodChannel.invokeMethod('logClientEvent',
           <String, dynamic>{'name': eventName, 'attrs': attributes});
     } else {
       print('Error: `eventName` cannot be null or empty for logClientEvent');
@@ -252,7 +251,7 @@ class ApxorFlutter {
       {Map<String, dynamic>? attributes}) {
     _ensureInitialized();
     if (_isValidString(eventName)) {
-      apxorMethodChannel.invokeMethod('logInternalEvent',
+      anthraMethodChannel.invokeMethod('logInternalEvent',
           <String, dynamic>{'name': eventName, 'attrs': attributes});
     } else {
       print('Error: `eventName` cannot be null or empty for logInternalEvent');
@@ -261,20 +260,20 @@ class ApxorFlutter {
 
   static void setUserAttributes(Map<String, dynamic> attributes) {
     _ensureInitialized();
-    apxorMethodChannel.invokeMethod(
+    anthraMethodChannel.invokeMethod(
         'setUserAttributes', <String, dynamic>{'attrs': attributes});
   }
 
   static void setSessionAttributes(Map<String, dynamic> attributes) {
     _ensureInitialized();
-    apxorMethodChannel.invokeMethod(
+    anthraMethodChannel.invokeMethod(
         'setSessionAttributes', <String, dynamic>{'attrs': attributes});
   }
 
   static void setUserIdentifier(String customUserId) {
     _ensureInitialized();
     if (_isValidString(customUserId)) {
-      apxorMethodChannel.invokeMethod(
+      anthraMethodChannel.invokeMethod(
           'setUserIdentifier', <String, String>{'userId': customUserId});
     } else {
       print(
@@ -285,7 +284,7 @@ class ApxorFlutter {
   static void setPushRegistrationToken(String token) {
     _ensureInitialized();
     if (_isValidString(token)) {
-      apxorMethodChannel.invokeMethod(
+      anthraMethodChannel.invokeMethod(
           'setPushRegistrationToken', <String, String>{'token': token});
     } else {
       print(
@@ -303,7 +302,7 @@ class ApxorFlutter {
     if (!_isValidString(name)) {
       print('Error: `name` cannot be null or empty in `trackScreen`');
     }
-    apxorMethodChannel
+    anthraMethodChannel
         .invokeMethod('trackScreen', <String, String>{'name': name});
     if (usingNavigator) {
       _ctx = context;
@@ -323,23 +322,23 @@ class ApxorFlutter {
       print('Error: `name` cannot be null or empty in `setCurrentScreenName`');
       return;
     }
-    apxorMethodChannel
+    anthraMethodChannel
         .invokeMethod('setCurrentScreenName', <String, String>{'name': name});
   }
 
-  static void setDeeplinkListener(ApxDeeplinkListener callback) {
+  static void setDeeplinkListener(ANTDeeplinkListener callback) {
     _ensureInitialized();
     _deeplinkListener = callback;
   }
 
   static Future<String?> getDeviceId() async {
     _ensureInitialized();
-    return await apxorMethodChannel.invokeMethod('getDeviceId');
+    return await anthraMethodChannel.invokeMethod('getDeviceId');
   }
 
   static Future<dynamic> getAttributes(List<String> attributes) async {
     _ensureInitialized();
-    return await apxorMethodChannel
+    return await anthraMethodChannel
         .invokeMethod('getAttributes', <String, dynamic>{'attrs': attributes});
   }
 
@@ -350,7 +349,7 @@ class ApxorFlutter {
   static void setTabController(TabController controller) {
     controller.addListener(() {
       if (controller.previousIndex != controller.index) {
-        apxorMethodChannel.invokeMethod('rm');
+        anthraMethodChannel.invokeMethod('rm');
       }
     });
   }
@@ -428,7 +427,7 @@ class ApxorFlutter {
           Uint8List? pngBytes = byteData?.buffer.asUint8List();
           return {"l": r.toJ(d), "s": base64.encode(pngBytes as List<int>)};
         } else {
-          print("app is not wrapped with apxor widget");
+          print("app is not wrapped with AnthraWidget");
         }
       } else {
         print("layout is null in layout extracton");

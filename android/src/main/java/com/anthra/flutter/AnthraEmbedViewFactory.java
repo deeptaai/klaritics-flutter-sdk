@@ -1,4 +1,4 @@
-package com.apxor.flutter;
+package com.anthra.flutter;
 
 import android.content.Context;
 import androidx.annotation.Nullable;
@@ -9,10 +9,10 @@ import io.flutter.plugin.platform.PlatformViewFactory;
 import io.flutter.plugin.common.BinaryMessenger;
 import java.util.Map;
 
-class ApxorEmbedViewFactory extends PlatformViewFactory {
+class AnthraEmbedViewFactory extends PlatformViewFactory {
   private final BinaryMessenger binaryMessenger;
 
-  public ApxorEmbedViewFactory(BinaryMessenger binaryMessenger) {
+  public AnthraEmbedViewFactory(BinaryMessenger binaryMessenger) {
     super(StandardMessageCodec.INSTANCE);
     this.binaryMessenger = binaryMessenger;
   }
@@ -21,6 +21,6 @@ class ApxorEmbedViewFactory extends PlatformViewFactory {
   @Override
   public PlatformView create(@NonNull Context context, int id, @Nullable Object args) {
     final Map<String, Object> creationParams = (Map<String, Object>) args;
-    return new ApxorEmbedView(context, id, creationParams, binaryMessenger);
+    return new AnthraEmbedView(context, id, creationParams, binaryMessenger);
   }
 }

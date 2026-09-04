@@ -1,4 +1,4 @@
-package com.apxor.flutter;
+package com.anthra.flutter;
 
 import static com.apxor.androidsdk.core.Constants.INTERNAL_EVENTS;
 

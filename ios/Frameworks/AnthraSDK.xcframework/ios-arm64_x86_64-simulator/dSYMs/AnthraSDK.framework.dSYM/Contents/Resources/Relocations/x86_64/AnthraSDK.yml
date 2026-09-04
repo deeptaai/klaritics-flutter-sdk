@@ -1,0 +1,1057 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/dasarikousik/Library/Developer/Xcode/DerivedData/AnthraiOSSDK-ddghkhuvmimyqfcqfzxxewhzuqqx/Build/Intermediates.noindex/ArchiveIntermediates/AnthraSDK/InstallationBuildProductsLocation/Library/Frameworks/AnthraSDK.framework/AnthraSDK'
+relocations:
+  - { offset: 0x632D0, size: 0x8, addend: 0x0, symName: _AnthraSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x6CDB0, symSize: 0x0 }
+  - { offset: 0x63305, size: 0x8, addend: 0x0, symName: _AnthraSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x6CDE0, symSize: 0x0 }
+  - { offset: 0x63342, size: 0x8, addend: 0x0, symName: '-[UIApplication(BSMobileProvision) getMobileProvision]', symObjAddr: 0x0, symBinAddr: 0x1220, symSize: 0x770 }
+  - { offset: 0x63350, size: 0x8, addend: 0x0, symName: '-[UIApplication(BSMobileProvision) getMobileProvision]', symObjAddr: 0x0, symBinAddr: 0x1220, symSize: 0x770 }
+  - { offset: 0x6337A, size: 0x8, addend: 0x0, symName: _getMobileProvision.mobileProvision, symObjAddr: 0xACC0, symBinAddr: 0x8CA38, symSize: 0x0 }
+  - { offset: 0x63599, size: 0x8, addend: 0x0, symName: ___os_log_helper_16_2_3_8_34_8_34_4_2, symObjAddr: 0x770, symBinAddr: 0x1990, symSize: 0x50 }
+  - { offset: 0x635E2, size: 0x8, addend: 0x0, symName: '-[UIApplication(BSMobileProvision) releaseMode]', symObjAddr: 0x7C0, symBinAddr: 0x19E0, symSize: 0x240 }
+  - { offset: 0x63648, size: 0x8, addend: 0x0, symName: '-[UIApplication(BSMobileProvision) releaseModeString]', symObjAddr: 0xA00, symBinAddr: 0x1C20, symSize: 0xF5 }
+  - { offset: 0x6373F, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper APXAppInfoMAP]', symObjAddr: 0x0, symBinAddr: 0x1D20, symSize: 0xF0 }
+  - { offset: 0x6374D, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper APXAppInfoMAP]', symObjAddr: 0x0, symBinAddr: 0x1D20, symSize: 0xF0 }
+  - { offset: 0x63788, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper APXDeviceInfoMAP]', symObjAddr: 0xF0, symBinAddr: 0x1E10, symSize: 0x130 }
+  - { offset: 0x637C3, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper APXSDKInfoMAP]', symObjAddr: 0x220, symBinAddr: 0x1F40, symSize: 0xE0 }
+  - { offset: 0x637FE, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper APXSessionMAP]', symObjAddr: 0x300, symBinAddr: 0x2020, symSize: 0x1C0 }
+  - { offset: 0x63839, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper APXUserMAP]', symObjAddr: 0x4C0, symBinAddr: 0x21E0, symSize: 0xA0 }
+  - { offset: 0x63872, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper APXSystemEventMAP]', symObjAddr: 0x560, symBinAddr: 0x2280, symSize: 0xA0 }
+  - { offset: 0x638AB, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper APXAppEventMAP]', symObjAddr: 0x600, symBinAddr: 0x2320, symSize: 0xC0 }
+  - { offset: 0x638E6, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper APXNavigationEventMAP]', symObjAddr: 0x6C0, symBinAddr: 0x23E0, symSize: 0xC0 }
+  - { offset: 0x63921, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper APXCENavigationEventMAP]', symObjAddr: 0x780, symBinAddr: 0x24A0, symSize: 0xC0 }
+  - { offset: 0x6395C, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper APXObservationEventMAP]', symObjAddr: 0x840, symBinAddr: 0x2560, symSize: 0x110 }
+  - { offset: 0x63997, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper APXChunkMAP]', symObjAddr: 0x950, symBinAddr: 0x2670, symSize: 0xB0 }
+  - { offset: 0x639D1, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper masterMap]', symObjAddr: 0xA00, symBinAddr: 0x2720, symSize: 0x380 }
+  - { offset: 0x63A0C, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper convert:inInstance:]', symObjAddr: 0xD80, symBinAddr: 0x2AA0, symSize: 0x140 }
+  - { offset: 0x63A72, size: 0x8, addend: 0x0, symName: '+[ANTServerAPIHelper convert:inClass:]', symObjAddr: 0xEC0, symBinAddr: 0x2BE0, symSize: 0x10C }
+  - { offset: 0x63B87, size: 0x8, addend: 0x0, symName: '+[AnthraSDK initializeAnthraWithID:]', symObjAddr: 0x90, symBinAddr: 0x2D80, symSize: 0x1C0 }
+  - { offset: 0x63C47, size: 0x8, addend: 0x0, symName: '+[AnthraSDK setUserIdentifier:]', symObjAddr: 0x2A0, symBinAddr: 0x2F40, symSize: 0x1C0 }
+  - { offset: 0x63CF6, size: 0x8, addend: 0x0, symName: '+[AnthraSDK logScreenWithName:]', symObjAddr: 0x460, symBinAddr: 0x3100, symSize: 0x1C0 }
+  - { offset: 0x63DA5, size: 0x8, addend: 0x0, symName: '+[AnthraSDK setUserCustomInfo:]', symObjAddr: 0x620, symBinAddr: 0x32C0, symSize: 0x1C0 }
+  - { offset: 0x63E54, size: 0x8, addend: 0x0, symName: '+[AnthraSDK setSessionCustomInfo:]', symObjAddr: 0x7E0, symBinAddr: 0x3480, symSize: 0x1C0 }
+  - { offset: 0x63F03, size: 0x8, addend: 0x0, symName: '+[AnthraSDK reportCustomError:withInfo:]', symObjAddr: 0x9A0, symBinAddr: 0x3640, symSize: 0x200 }
+  - { offset: 0x63FC2, size: 0x8, addend: 0x0, symName: '+[AnthraSDK logClientEventWithName:info:]', symObjAddr: 0xBA0, symBinAddr: 0x3840, symSize: 0x200 }
+  - { offset: 0x64081, size: 0x8, addend: 0x0, symName: '+[AnthraSDK logClientEventWithName:info:shouldFlatten:]', symObjAddr: 0xDA0, symBinAddr: 0x3A40, symSize: 0x220 }
+  - { offset: 0x64150, size: 0x8, addend: 0x0, symName: '+[AnthraSDK logAppEventWithName:info:]', symObjAddr: 0xFC0, symBinAddr: 0x3C60, symSize: 0x200 }
+  - { offset: 0x6420F, size: 0x8, addend: 0x0, symName: '+[AnthraSDK logAppEventWithName:info:isAggregate:]', symObjAddr: 0x11C0, symBinAddr: 0x3E60, symSize: 0x220 }
+  - { offset: 0x642DE, size: 0x8, addend: 0x0, symName: '+[AnthraSDK handleDeeplink:]', symObjAddr: 0x1530, symBinAddr: 0x41D0, symSize: 0x1C0 }
+  - { offset: 0x6437D, size: 0x8, addend: 0x0, symName: '+[AnthraSDK screenRefreshed]', symObjAddr: 0x16F0, symBinAddr: 0x4390, symSize: 0x14B }
+  - { offset: 0x64421, size: 0x8, addend: 0x0, symName: _SDKInitializer, symObjAddr: 0x0, symBinAddr: 0x2CF0, symSize: 0x70 }
+  - { offset: 0x64437, size: 0x8, addend: 0x0, symName: _finalizer, symObjAddr: 0x70, symBinAddr: 0x2D60, symSize: 0x20 }
+  - { offset: 0x6444D, size: 0x8, addend: 0x0, symName: '+[AnthraSDK logAppEventWithName:info:shouldFlatten:isAggregate:]', symObjAddr: 0x13E0, symBinAddr: 0x4080, symSize: 0xE0 }
+  - { offset: 0x644BE, size: 0x8, addend: 0x0, symName: '+[AnthraSDK getDeviceID]', symObjAddr: 0x14C0, symBinAddr: 0x4160, symSize: 0x70 }
+  - { offset: 0x6458C, size: 0x8, addend: 0x0, symName: '-[ANTChunkManager initWithConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x4500, symSize: 0x430 }
+  - { offset: 0x6459A, size: 0x8, addend: 0x0, symName: '-[ANTChunkManager initWithConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x4500, symSize: 0x430 }
+  - { offset: 0x6467B, size: 0x8, addend: 0x0, symName: '-[ANTChunkManager onEvent:]', symObjAddr: 0x780, symBinAddr: 0x4C30, symSize: 0x460 }
+  - { offset: 0x64777, size: 0x8, addend: 0x0, symName: '___38-[ANTChunkManager flushPreviousChunks]_block_invoke.90', symObjAddr: 0x1CC0, symBinAddr: 0x6170, symSize: 0x290 }
+  - { offset: 0x64864, size: 0x8, addend: 0x0, symName: '___38-[ANTChunkManager flushPreviousChunks]_block_invoke', symObjAddr: 0xC70, symBinAddr: 0x5120, symSize: 0xB20 }
+  - { offset: 0x649E9, size: 0x8, addend: 0x0, symName: '-[ANTChunkManager checkChunkStatusAndCleanTablesWithMetaInfoDetails:]', symObjAddr: 0x1F50, symBinAddr: 0x6400, symSize: 0xA60 }
+  - { offset: 0x64BD9, size: 0x8, addend: 0x0, symName: '___35-[ANTChunkManager sendCurrentChunk]_block_invoke', symObjAddr: 0x2A80, symBinAddr: 0x6F30, symSize: 0x490 }
+  - { offset: 0x64D07, size: 0x8, addend: 0x0, symName: '-[ANTChunkManager sendChunk:cid:start:end:shouldCreateNewEntryInMetaTable:]', symObjAddr: 0x2F10, symBinAddr: 0x73C0, symSize: 0x1200 }
+  - { offset: 0x65062, size: 0x8, addend: 0x0, symName: '___75-[ANTChunkManager postChunk:session:appInfo:device:chunkmeta:chunkdetails:]_block_invoke', symObjAddr: 0x5690, symBinAddr: 0x9B40, symSize: 0x520 }
+  - { offset: 0x652B1, size: 0x8, addend: 0x0, symName: '-[ANTChunkManager registerForChunkCreationWithInterval:]', symObjAddr: 0x480, symBinAddr: 0x4930, symSize: 0x240 }
+  - { offset: 0x65313, size: 0x8, addend: 0x0, symName: '___56-[ANTChunkManager registerForChunkCreationWithInterval:]_block_invoke', symObjAddr: 0x6C0, symBinAddr: 0x4B70, symSize: 0x50 }
+  - { offset: 0x65362, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x710, symBinAddr: 0x4BC0, symSize: 0x40 }
+  - { offset: 0x65389, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x750, symBinAddr: 0x4C00, symSize: 0x30 }
+  - { offset: 0x653A7, size: 0x8, addend: 0x0, symName: '-[ANTChunkManager flushPreviousChunks]', symObjAddr: 0xBE0, symBinAddr: 0x5090, symSize: 0x90 }
+  - { offset: 0x653DC, size: 0x8, addend: 0x0, symName: '___38-[ANTChunkManager flushPreviousChunks]_block_invoke_2', symObjAddr: 0x1790, symBinAddr: 0x5C40, symSize: 0x490 }
+  - { offset: 0x654CB, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1C20, symBinAddr: 0x60D0, symSize: 0x60 }
+  - { offset: 0x654F2, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x1C80, symBinAddr: 0x6130, symSize: 0x40 }
+  - { offset: 0x65510, size: 0x8, addend: 0x0, symName: '-[ANTChunkManager updateCurrentIndicies:]', symObjAddr: 0x29B0, symBinAddr: 0x6E60, symSize: 0x40 }
+  - { offset: 0x65554, size: 0x8, addend: 0x0, symName: '-[ANTChunkManager sendCurrentChunk]', symObjAddr: 0x29F0, symBinAddr: 0x6EA0, symSize: 0x90 }
+  - { offset: 0x65589, size: 0x8, addend: 0x0, symName: '___75-[ANTChunkManager sendChunk:cid:start:end:shouldCreateNewEntryInMetaTable:]_block_invoke', symObjAddr: 0x4110, symBinAddr: 0x85C0, symSize: 0xA0 }
+  - { offset: 0x655F2, size: 0x8, addend: 0x0, symName: '-[ANTChunkManager constructChunkDetailsWithEvents:userAttributes:sessionAttributes:chunkAttributes:aggregateEvents:]', symObjAddr: 0x41B0, symBinAddr: 0x8660, symSize: 0xF40 }
+  - { offset: 0x656E7, size: 0x8, addend: 0x0, symName: '-[ANTChunkManager postChunk:session:appInfo:device:chunkmeta:chunkdetails:]', symObjAddr: 0x50F0, symBinAddr: 0x95A0, symSize: 0x5A0 }
+  - { offset: 0x6579F, size: 0x8, addend: 0x0, symName: '-[ANTChunkManager .cxx_destruct]', symObjAddr: 0x5BB0, symBinAddr: 0xA060, symSize: 0x3C }
+  - { offset: 0x65C28, size: 0x8, addend: 0x0, symName: '+[ANTPostman sharedSession]', symObjAddr: 0x0, symBinAddr: 0xA0A0, symSize: 0x110 }
+  - { offset: 0x65C36, size: 0x8, addend: 0x0, symName: '+[ANTPostman sharedSession]', symObjAddr: 0x0, symBinAddr: 0xA0A0, symSize: 0x110 }
+  - { offset: 0x65C60, size: 0x8, addend: 0x0, symName: _sharedSession.sharedSession, symObjAddr: 0x143D8, symBinAddr: 0x8CA40, symSize: 0x0 }
+  - { offset: 0x65CA0, size: 0x8, addend: 0x0, symName: '-[ANTPostman getDataFromURLPath:completionHandler:]', symObjAddr: 0x1A0, symBinAddr: 0xA240, symSize: 0x520 }
+  - { offset: 0x65D8E, size: 0x8, addend: 0x0, symName: '___51-[ANTPostman getDataFromURLPath:completionHandler:]_block_invoke', symObjAddr: 0x710, symBinAddr: 0xA760, symSize: 0x210 }
+  - { offset: 0x65E64, size: 0x8, addend: 0x0, symName: '-[ANTPostman postDataToURL:withRequestBodyDictionary:headerFields:completionHandler:]', symObjAddr: 0x980, symBinAddr: 0xA9A0, symSize: 0xF70 }
+  - { offset: 0x6616A, size: 0x8, addend: 0x0, symName: '___85-[ANTPostman postDataToURL:withRequestBodyDictionary:headerFields:completionHandler:]_block_invoke', symObjAddr: 0x18F0, symBinAddr: 0xB910, symSize: 0x210 }
+  - { offset: 0x66234, size: 0x8, addend: 0x0, symName: '-[ANTPostman makeDeleteRequestToURLPath:headerFields:completionHandler:]', symObjAddr: 0x1B00, symBinAddr: 0xBB20, symSize: 0x6B0 }
+  - { offset: 0x6632C, size: 0x8, addend: 0x0, symName: '___72-[ANTPostman makeDeleteRequestToURLPath:headerFields:completionHandler:]_block_invoke', symObjAddr: 0x21B0, symBinAddr: 0xC1D0, symSize: 0x210 }
+  - { offset: 0x663F6, size: 0x8, addend: 0x0, symName: '___47-[ANTPostman getDataFromURL:completionHandler:]_block_invoke', symObjAddr: 0x2530, symBinAddr: 0xC550, symSize: 0x210 }
+  - { offset: 0x664F9, size: 0x8, addend: 0x0, symName: '-[ANTPostman init]', symObjAddr: 0x110, symBinAddr: 0xA1B0, symSize: 0x90 }
+  - { offset: 0x66532, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x920, symBinAddr: 0xA970, symSize: 0x30 }
+  - { offset: 0x66559, size: 0x8, addend: 0x0, symName: '-[ANTPostman getDataFromURL:completionHandler:]', symObjAddr: 0x23C0, symBinAddr: 0xC3E0, symSize: 0x170 }
+  - { offset: 0x665BB, size: 0x8, addend: 0x0, symName: '-[ANTPostman .cxx_destruct]', symObjAddr: 0x2740, symBinAddr: 0xC760, symSize: 0x27 }
+  - { offset: 0x668BE, size: 0x8, addend: 0x0, symName: '-[ANTSession initWithLaunchType:]', symObjAddr: 0x0, symBinAddr: 0xC790, symSize: 0x740 }
+  - { offset: 0x668D8, size: 0x8, addend: 0x0, symName: _kAPXDateFormatter, symObjAddr: 0x10960, symBinAddr: 0x8CA48, symSize: 0x0 }
+  - { offset: 0x668F3, size: 0x8, addend: 0x0, symName: _kAPXDateFormatString, symObjAddr: 0x1170, symBinAddr: 0x7B4C0, symSize: 0x0 }
+  - { offset: 0x6696D, size: 0x8, addend: 0x0, symName: '-[ANTSession initWithLaunchType:]', symObjAddr: 0x0, symBinAddr: 0xC790, symSize: 0x740 }
+  - { offset: 0x66A31, size: 0x8, addend: 0x0, symName: '-[ANTSession setSessionAttribute:forKey:]', symObjAddr: 0x740, symBinAddr: 0xCED0, symSize: 0x90 }
+  - { offset: 0x66A84, size: 0x8, addend: 0x0, symName: '-[ANTSession sessionAttributes]', symObjAddr: 0x7D0, symBinAddr: 0xCF60, symSize: 0x30 }
+  - { offset: 0x66ABD, size: 0x8, addend: 0x0, symName: '-[ANTSession onEvent:]', symObjAddr: 0x800, symBinAddr: 0xCF90, symSize: 0xF0 }
+  - { offset: 0x66B01, size: 0x8, addend: 0x0, symName: '-[ANTSession onForeground]', symObjAddr: 0x8F0, symBinAddr: 0xD080, symSize: 0xF0 }
+  - { offset: 0x66B54, size: 0x8, addend: 0x0, symName: '-[ANTSession onChunkEnded]', symObjAddr: 0x9E0, symBinAddr: 0xD170, symSize: 0x80 }
+  - { offset: 0x66B89, size: 0x8, addend: 0x0, symName: '-[ANTSession updateDuration:]', symObjAddr: 0xA60, symBinAddr: 0xD1F0, symSize: 0x1D0 }
+  - { offset: 0x66C09, size: 0x8, addend: 0x0, symName: '-[ANTSession markSessionAsFatal]', symObjAddr: 0xC30, symBinAddr: 0xD3C0, symSize: 0x70 }
+  - { offset: 0x66C3E, size: 0x8, addend: 0x0, symName: '-[ANTSession stopSession]', symObjAddr: 0xCA0, symBinAddr: 0xD430, symSize: 0xA0 }
+  - { offset: 0x66C73, size: 0x8, addend: 0x0, symName: '-[ANTSession updateEndTime]', symObjAddr: 0xD40, symBinAddr: 0xD4D0, symSize: 0x160 }
+  - { offset: 0x66CC6, size: 0x8, addend: 0x0, symName: '-[ANTSession .cxx_destruct]', symObjAddr: 0xEA0, symBinAddr: 0xD630, symSize: 0x56 }
+  - { offset: 0x66DD8, size: 0x8, addend: 0x0, symName: '-[ANTAppEvent initWithType:name:additionalInfo:]', symObjAddr: 0x0, symBinAddr: 0xD690, symSize: 0x340 }
+  - { offset: 0x66EDF, size: 0x8, addend: 0x0, symName: '-[ANTAppEvent initWithType:name:additionalInfo:]', symObjAddr: 0x0, symBinAddr: 0xD690, symSize: 0x340 }
+  - { offset: 0x66F73, size: 0x8, addend: 0x0, symName: '-[ANTAppEvent eventAttributes]', symObjAddr: 0x340, symBinAddr: 0xD9D0, symSize: 0x30 }
+  - { offset: 0x66FAC, size: 0x8, addend: 0x0, symName: '-[ANTAppEvent setEventAttribute:forKey:]', symObjAddr: 0x370, symBinAddr: 0xDA00, symSize: 0x80 }
+  - { offset: 0x66FFF, size: 0x8, addend: 0x0, symName: '-[ANTAppEvent setEventAttributes:]', symObjAddr: 0x3F0, symBinAddr: 0xDA80, symSize: 0x54 }
+  - { offset: 0x670EA, size: 0x8, addend: 0x0, symName: '-[NSDictionary(APXExtension) dictionaryByRemovingNulls]', symObjAddr: 0x0, symBinAddr: 0xDAE0, symSize: 0xB0 }
+  - { offset: 0x670F8, size: 0x8, addend: 0x0, symName: '-[NSDictionary(APXExtension) dictionaryByRemovingNulls]', symObjAddr: 0x0, symBinAddr: 0xDAE0, symSize: 0xB0 }
+  - { offset: 0x67131, size: 0x8, addend: 0x0, symName: '___55-[NSDictionary(APXExtension) dictionaryByRemovingNulls]_block_invoke', symObjAddr: 0xB0, symBinAddr: 0xDB90, symSize: 0xC1 }
+  - { offset: 0x672B6, size: 0x8, addend: 0x0, symName: '-[APXView initWithView:]', symObjAddr: 0x0, symBinAddr: 0xDC60, symSize: 0x270 }
+  - { offset: 0x67387, size: 0x8, addend: 0x0, symName: '-[APXView initWithView:]', symObjAddr: 0x0, symBinAddr: 0xDC60, symSize: 0x270 }
+  - { offset: 0x673CF, size: 0x8, addend: 0x0, symName: '-[APXView view]', symObjAddr: 0x270, symBinAddr: 0xDED0, symSize: 0x30 }
+  - { offset: 0x67408, size: 0x8, addend: 0x0, symName: '-[APXView setView:]', symObjAddr: 0x2A0, symBinAddr: 0xDF00, symSize: 0x30 }
+  - { offset: 0x6744A, size: 0x8, addend: 0x0, symName: '-[APXView name]', symObjAddr: 0x2D0, symBinAddr: 0xDF30, symSize: 0x30 }
+  - { offset: 0x67483, size: 0x8, addend: 0x0, symName: '-[APXView setName:]', symObjAddr: 0x300, symBinAddr: 0xDF60, symSize: 0x30 }
+  - { offset: 0x674C5, size: 0x8, addend: 0x0, symName: '-[APXView internalTag]', symObjAddr: 0x330, symBinAddr: 0xDF90, symSize: 0x20 }
+  - { offset: 0x674FE, size: 0x8, addend: 0x0, symName: '-[APXView setInternalTag:]', symObjAddr: 0x350, symBinAddr: 0xDFB0, symSize: 0x20 }
+  - { offset: 0x67540, size: 0x8, addend: 0x0, symName: '-[APXView subviews]', symObjAddr: 0x370, symBinAddr: 0xDFD0, symSize: 0x30 }
+  - { offset: 0x67579, size: 0x8, addend: 0x0, symName: '-[APXView setSubviews:]', symObjAddr: 0x3A0, symBinAddr: 0xE000, symSize: 0x30 }
+  - { offset: 0x675BB, size: 0x8, addend: 0x0, symName: '-[APXView viewId]', symObjAddr: 0x3D0, symBinAddr: 0xE030, symSize: 0x30 }
+  - { offset: 0x675F4, size: 0x8, addend: 0x0, symName: '-[APXView setViewId:]', symObjAddr: 0x400, symBinAddr: 0xE060, symSize: 0x30 }
+  - { offset: 0x67636, size: 0x8, addend: 0x0, symName: '-[APXView tag]', symObjAddr: 0x430, symBinAddr: 0xE090, symSize: 0x30 }
+  - { offset: 0x6766F, size: 0x8, addend: 0x0, symName: '-[APXView setTag:]', symObjAddr: 0x460, symBinAddr: 0xE0C0, symSize: 0x30 }
+  - { offset: 0x676B1, size: 0x8, addend: 0x0, symName: '-[APXView .cxx_destruct]', symObjAddr: 0x490, symBinAddr: 0xE0F0, symSize: 0x6F }
+  - { offset: 0x6777F, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabasePool databasePoolWithPath:]', symObjAddr: 0x0, symBinAddr: 0xE160, symSize: 0x70 }
+  - { offset: 0x6778D, size: 0x8, addend: 0x0, symName: '___23-[FMAPXDatabasePool db]_block_invoke', symObjAddr: 0x8A0, symBinAddr: 0xE960, symSize: 0x600 }
+  - { offset: 0x67912, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool inSavePoint:]', symObjAddr: 0x1730, symBinAddr: 0xF730, symSize: 0x1F0 }
+  - { offset: 0x6793C, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x17DF0, symBinAddr: 0x8CA50, symSize: 0x0 }
+  - { offset: 0x67AA3, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabasePool databasePoolWithPath:]', symObjAddr: 0x0, symBinAddr: 0xE160, symSize: 0x70 }
+  - { offset: 0x67AEB, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabasePool databasePoolWithPath:flags:]', symObjAddr: 0x70, symBinAddr: 0xE1D0, symSize: 0x80 }
+  - { offset: 0x67B42, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool initWithPath:flags:]', symObjAddr: 0xF0, symBinAddr: 0xE250, symSize: 0x1B0 }
+  - { offset: 0x67B99, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool initWithPath:]', symObjAddr: 0x2A0, symBinAddr: 0xE400, symSize: 0x90 }
+  - { offset: 0x67BE1, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool init]', symObjAddr: 0x330, symBinAddr: 0xE490, symSize: 0x60 }
+  - { offset: 0x67C1A, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool dealloc]', symObjAddr: 0x390, symBinAddr: 0xE4F0, symSize: 0x70 }
+  - { offset: 0x67C4F, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool executeLocked:]', symObjAddr: 0x400, symBinAddr: 0xE560, symSize: 0x50 }
+  - { offset: 0x67C93, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool pushDatabaseBackInPool:]', symObjAddr: 0x450, symBinAddr: 0xE5B0, symSize: 0x100 }
+  - { offset: 0x67CD7, size: 0x8, addend: 0x0, symName: '___44-[FMAPXDatabasePool pushDatabaseBackInPool:]_block_invoke', symObjAddr: 0x550, symBinAddr: 0xE6B0, symSize: 0xD0 }
+  - { offset: 0x67D29, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool db]', symObjAddr: 0x6C0, symBinAddr: 0xE780, symSize: 0x160 }
+  - { offset: 0x67D76, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x820, symBinAddr: 0xE8E0, symSize: 0x50 }
+  - { offset: 0x67D9D, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x870, symBinAddr: 0xE930, symSize: 0x30 }
+  - { offset: 0x67DBB, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0xEF0, symBinAddr: 0xEF60, symSize: 0x60 }
+  - { offset: 0x67DE2, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0xF50, symBinAddr: 0xEFC0, symSize: 0x40 }
+  - { offset: 0x67E00, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool countOfCheckedInDatabases]', symObjAddr: 0xF90, symBinAddr: 0xF000, symSize: 0x100 }
+  - { offset: 0x67E4D, size: 0x8, addend: 0x0, symName: '___46-[FMAPXDatabasePool countOfCheckedInDatabases]_block_invoke', symObjAddr: 0x1090, symBinAddr: 0xF100, symSize: 0x50 }
+  - { offset: 0x67EA5, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool countOfCheckedOutDatabases]', symObjAddr: 0x10E0, symBinAddr: 0xF150, symSize: 0x100 }
+  - { offset: 0x67EF2, size: 0x8, addend: 0x0, symName: '___47-[FMAPXDatabasePool countOfCheckedOutDatabases]_block_invoke', symObjAddr: 0x11E0, symBinAddr: 0xF250, symSize: 0x50 }
+  - { offset: 0x67F4A, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool countOfOpenDatabases]', symObjAddr: 0x1230, symBinAddr: 0xF2A0, symSize: 0x100 }
+  - { offset: 0x67F97, size: 0x8, addend: 0x0, symName: '___41-[FMAPXDatabasePool countOfOpenDatabases]_block_invoke', symObjAddr: 0x1330, symBinAddr: 0xF3A0, symSize: 0x70 }
+  - { offset: 0x67FEF, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool releaseAllDatabases]', symObjAddr: 0x13A0, symBinAddr: 0xF410, symSize: 0x90 }
+  - { offset: 0x68024, size: 0x8, addend: 0x0, symName: '___40-[FMAPXDatabasePool releaseAllDatabases]_block_invoke', symObjAddr: 0x1430, symBinAddr: 0xF4A0, symSize: 0x50 }
+  - { offset: 0x68064, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool inDatabase:]', symObjAddr: 0x14F0, symBinAddr: 0xF4F0, symSize: 0x90 }
+  - { offset: 0x680B7, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool beginTransaction:withBlock:]', symObjAddr: 0x1580, symBinAddr: 0xF580, symSize: 0xF0 }
+  - { offset: 0x68128, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool inDeferredTransaction:]', symObjAddr: 0x1670, symBinAddr: 0xF670, symSize: 0x60 }
+  - { offset: 0x6816C, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool inTransaction:]', symObjAddr: 0x16D0, symBinAddr: 0xF6D0, symSize: 0x60 }
+  - { offset: 0x681B0, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool path]', symObjAddr: 0x1920, symBinAddr: 0xF920, symSize: 0x30 }
+  - { offset: 0x681E9, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool setPath:]', symObjAddr: 0x1950, symBinAddr: 0xF950, symSize: 0x30 }
+  - { offset: 0x6822B, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool delegate]', symObjAddr: 0x1980, symBinAddr: 0xF980, symSize: 0x20 }
+  - { offset: 0x68264, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool setDelegate:]', symObjAddr: 0x19A0, symBinAddr: 0xF9A0, symSize: 0x20 }
+  - { offset: 0x682A6, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool maximumNumberOfDatabasesToCreate]', symObjAddr: 0x19C0, symBinAddr: 0xF9C0, symSize: 0x20 }
+  - { offset: 0x682DF, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool setMaximumNumberOfDatabasesToCreate:]', symObjAddr: 0x19E0, symBinAddr: 0xF9E0, symSize: 0x20 }
+  - { offset: 0x68321, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool openFlags]', symObjAddr: 0x1A00, symBinAddr: 0xFA00, symSize: 0x20 }
+  - { offset: 0x6835A, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabasePool .cxx_destruct]', symObjAddr: 0x1A20, symBinAddr: 0xFA20, symSize: 0x5E }
+  - { offset: 0x68968, size: 0x8, addend: 0x0, symName: '+[ANTPersistantStore dbDirectoryPath]', symObjAddr: 0x0, symBinAddr: 0xFA80, symSize: 0xE0 }
+  - { offset: 0x68991, size: 0x8, addend: 0x0, symName: _kApxorDBDirectory, symObjAddr: 0x9468, symBinAddr: 0x7B568, symSize: 0x0 }
+  - { offset: 0x6899B, size: 0x8, addend: 0x0, symName: '+[ANTPersistantStore insertStatementWithTableName:parametersDictionary:]', symObjAddr: 0x270, symBinAddr: 0xFCF0, symSize: 0x540 }
+  - { offset: 0x68AC7, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore init]', symObjAddr: 0x800, symBinAddr: 0x10230, symSize: 0x410 }
+  - { offset: 0x68BF6, size: 0x8, addend: 0x0, symName: '___53-[ANTPersistantStore createEventsTableWithTableName:]_block_invoke', symObjAddr: 0xD60, symBinAddr: 0x10790, symSize: 0x280 }
+  - { offset: 0x68CE8, size: 0x8, addend: 0x0, symName: '___60-[ANTPersistantStore createChunkMetaInfoTableWithTableName:]_block_invoke', symObjAddr: 0x11D0, symBinAddr: 0x10B60, symSize: 0x280 }
+  - { offset: 0x68DDA, size: 0x8, addend: 0x0, symName: '___44-[ANTPersistantStore createStoryConfigTable]_block_invoke', symObjAddr: 0x1520, symBinAddr: 0x10EB0, symSize: 0x270 }
+  - { offset: 0x68EB9, size: 0x8, addend: 0x0, symName: '___47-[ANTPersistantStore createStopConditionsTable]_block_invoke', symObjAddr: 0x18C0, symBinAddr: 0x11250, symSize: 0x280 }
+  - { offset: 0x68F98, size: 0x8, addend: 0x0, symName: '___48-[ANTPersistantStore createAggregateEventsTable]_block_invoke', symObjAddr: 0x1C10, symBinAddr: 0x115A0, symSize: 0x280 }
+  - { offset: 0x69077, size: 0x8, addend: 0x0, symName: '___47-[ANTPersistantStore createLifetimeEventsTable]_block_invoke', symObjAddr: 0x1F60, symBinAddr: 0x118F0, symSize: 0x280 }
+  - { offset: 0x69156, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore insertORReplaceStatementWithTableName:parametersDictionary:]', symObjAddr: 0x4CE0, symBinAddr: 0x14560, symSize: 0x540 }
+  - { offset: 0x6926F, size: 0x8, addend: 0x0, symName: '___67-[ANTPersistantStore insertDataWithTableName:parametersDictionary:]_block_invoke', symObjAddr: 0x54C0, symBinAddr: 0x14D40, symSize: 0x220 }
+  - { offset: 0x6934F, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore updateDataWithTableName:withParameters:havingParameters:]', symObjAddr: 0x57C0, symBinAddr: 0x15040, symSize: 0x700 }
+  - { offset: 0x69468, size: 0x8, addend: 0x0, symName: '___78-[ANTPersistantStore updateDataWithTableName:withParameters:havingParameters:]_block_invoke.182', symObjAddr: 0x6040, symBinAddr: 0x158C0, symSize: 0x220 }
+  - { offset: 0x69534, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore updateAggregateEventsCountRecordWithCount:havingParameters:]', symObjAddr: 0x6260, symBinAddr: 0x15AE0, symSize: 0x600 }
+  - { offset: 0x6963C, size: 0x8, addend: 0x0, symName: '___81-[ANTPersistantStore updateAggregateEventsCountRecordWithCount:havingParameters:]_block_invoke.189', symObjAddr: 0x6920, symBinAddr: 0x161A0, symSize: 0x220 }
+  - { offset: 0x69708, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore updateDataWithTableName:setParametersDictionary:withField:havingValue:]', symObjAddr: 0x6B40, symBinAddr: 0x163C0, symSize: 0x830 }
+  - { offset: 0x69859, size: 0x8, addend: 0x0, symName: '___92-[ANTPersistantStore updateDataWithTableName:setParametersDictionary:withField:havingValue:]_block_invoke', symObjAddr: 0x7370, symBinAddr: 0x16BF0, symSize: 0x220 }
+  - { offset: 0x69939, size: 0x8, addend: 0x0, symName: '___68-[ANTPersistantStore removeDataWithTableName:withField:havingValue:]_block_invoke', symObjAddr: 0x77B0, symBinAddr: 0x17030, symSize: 0x270 }
+  - { offset: 0x69A4D, size: 0x8, addend: 0x0, symName: '___42-[ANTPersistantStore removeTableWithName:]_block_invoke', symObjAddr: 0x7C80, symBinAddr: 0x17500, symSize: 0x270 }
+  - { offset: 0x69CFF, size: 0x8, addend: 0x0, symName: '+[ANTPersistantStore dbDirectoryPath]', symObjAddr: 0x0, symBinAddr: 0xFA80, symSize: 0xE0 }
+  - { offset: 0x69D56, size: 0x8, addend: 0x0, symName: '+[ANTPersistantStore createDBDirectory]', symObjAddr: 0xE0, symBinAddr: 0xFB60, symSize: 0xF0 }
+  - { offset: 0x69D9A, size: 0x8, addend: 0x0, symName: '+[ANTPersistantStore getDBPathForIdentifier:]', symObjAddr: 0x1D0, symBinAddr: 0xFC50, symSize: 0xA0 }
+  - { offset: 0x69DE2, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore createEventsTableWithTableName:]', symObjAddr: 0xC10, symBinAddr: 0x10640, symSize: 0x150 }
+  - { offset: 0x69E3E, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore createChunkMetaInfoTableWithTableName:]', symObjAddr: 0x1080, symBinAddr: 0x10A10, symSize: 0x150 }
+  - { offset: 0x69E9A, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore createStoryConfigTable]', symObjAddr: 0x1450, symBinAddr: 0x10DE0, symSize: 0xD0 }
+  - { offset: 0x69EE7, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x1790, symBinAddr: 0x11120, symSize: 0x30 }
+  - { offset: 0x69F0E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x17C0, symBinAddr: 0x11150, symSize: 0x30 }
+  - { offset: 0x69F2C, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore createStopConditionsTable]', symObjAddr: 0x17F0, symBinAddr: 0x11180, symSize: 0xD0 }
+  - { offset: 0x69F79, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore createAggregateEventsTable]', symObjAddr: 0x1B40, symBinAddr: 0x114D0, symSize: 0xD0 }
+  - { offset: 0x69FC6, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore createLifetimeEventsTable]', symObjAddr: 0x1E90, symBinAddr: 0x11820, symSize: 0xD0 }
+  - { offset: 0x6A013, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore retrieveNumberOfRecordsInTable:]', symObjAddr: 0x21E0, symBinAddr: 0x11B70, symSize: 0x150 }
+  - { offset: 0x6A06F, size: 0x8, addend: 0x0, symName: '___53-[ANTPersistantStore retrieveNumberOfRecordsInTable:]_block_invoke', symObjAddr: 0x2330, symBinAddr: 0x11CC0, symSize: 0xA0 }
+  - { offset: 0x6A0F0, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore retrieveDataWithTableName:inRangeFrom:to:filterByType:value:]', symObjAddr: 0x23D0, symBinAddr: 0x11D60, symSize: 0x2A0 }
+  - { offset: 0x6A183, size: 0x8, addend: 0x0, symName: '___82-[ANTPersistantStore retrieveDataWithTableName:inRangeFrom:to:filterByType:value:]_block_invoke', symObjAddr: 0x2670, symBinAddr: 0x12000, symSize: 0x200 }
+  - { offset: 0x6A264, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s, symObjAddr: 0x2870, symBinAddr: 0x12200, symSize: 0xA0 }
+  - { offset: 0x6A28B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x2910, symBinAddr: 0x122A0, symSize: 0x70 }
+  - { offset: 0x6A2A9, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore retrieveDataWithTableName:inRangeFrom:filterByType:value:]', symObjAddr: 0x2980, symBinAddr: 0x12310, symSize: 0x270 }
+  - { offset: 0x6A32D, size: 0x8, addend: 0x0, symName: '___79-[ANTPersistantStore retrieveDataWithTableName:inRangeFrom:filterByType:value:]_block_invoke', symObjAddr: 0x2BF0, symBinAddr: 0x12580, symSize: 0x200 }
+  - { offset: 0x6A3FC, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore retrieveDataWithTableName:forKey:havingValue:]', symObjAddr: 0x2DF0, symBinAddr: 0x12780, symSize: 0x240 }
+  - { offset: 0x6A471, size: 0x8, addend: 0x0, symName: '___67-[ANTPersistantStore retrieveDataWithTableName:forKey:havingValue:]_block_invoke', symObjAddr: 0x3030, symBinAddr: 0x129C0, symSize: 0x150 }
+  - { offset: 0x6A51F, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore retrieveLatestDataFromEventsTable:forKey:havingValue:]', symObjAddr: 0x3180, symBinAddr: 0x12B10, symSize: 0x240 }
+  - { offset: 0x6A594, size: 0x8, addend: 0x0, symName: '___75-[ANTPersistantStore retrieveLatestDataFromEventsTable:forKey:havingValue:]_block_invoke', symObjAddr: 0x33C0, symBinAddr: 0x12D50, symSize: 0x150 }
+  - { offset: 0x6A642, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore retrieveDataFromStoriesWithTableName:forParametersDictionary:]', symObjAddr: 0x3510, symBinAddr: 0x12EA0, symSize: 0x190 }
+  - { offset: 0x6A6A8, size: 0x8, addend: 0x0, symName: '___83-[ANTPersistantStore retrieveDataFromStoriesWithTableName:forParametersDictionary:]_block_invoke', symObjAddr: 0x36A0, symBinAddr: 0x13030, symSize: 0x400 }
+  - { offset: 0x6A760, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x3AA0, symBinAddr: 0x13430, symSize: 0x50 }
+  - { offset: 0x6A787, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x3AF0, symBinAddr: 0x13480, symSize: 0x30 }
+  - { offset: 0x6A7A5, size: 0x8, addend: 0x0, symName: '___83-[ANTPersistantStore retrieveDataFromStoriesWithTableName:forParametersDictionary:]_block_invoke.134', symObjAddr: 0x3B20, symBinAddr: 0x134B0, symSize: 0xC0 }
+  - { offset: 0x6A82C, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore retrieveDataForIdentifier:WithTableName:forParametersDictionary:]', symObjAddr: 0x3C80, symBinAddr: 0x13570, symSize: 0x240 }
+  - { offset: 0x6A8A6, size: 0x8, addend: 0x0, symName: '___86-[ANTPersistantStore retrieveDataForIdentifier:WithTableName:forParametersDictionary:]_block_invoke', symObjAddr: 0x3EC0, symBinAddr: 0x137B0, symSize: 0x3F0 }
+  - { offset: 0x6A98C, size: 0x8, addend: 0x0, symName: '___86-[ANTPersistantStore retrieveDataForIdentifier:WithTableName:forParametersDictionary:]_block_invoke_2', symObjAddr: 0x42B0, symBinAddr: 0x13BA0, symSize: 0xC0 }
+  - { offset: 0x6AA14, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore retrieveAllDataWithTableName:]', symObjAddr: 0x4370, symBinAddr: 0x13C60, symSize: 0x150 }
+  - { offset: 0x6AA6E, size: 0x8, addend: 0x0, symName: '___51-[ANTPersistantStore retrieveAllDataWithTableName:]_block_invoke', symObjAddr: 0x44C0, symBinAddr: 0x13DB0, symSize: 0x150 }
+  - { offset: 0x6AAFF, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore retrieveSetOfValuesFromTable:forKey:]', symObjAddr: 0x4610, symBinAddr: 0x13F00, symSize: 0x1C0 }
+  - { offset: 0x6AB69, size: 0x8, addend: 0x0, symName: '___58-[ANTPersistantStore retrieveSetOfValuesFromTable:forKey:]_block_invoke', symObjAddr: 0x47D0, symBinAddr: 0x140C0, symSize: 0x150 }
+  - { offset: 0x6AC0D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x4920, symBinAddr: 0x14210, symSize: 0x80 }
+  - { offset: 0x6AC34, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x49A0, symBinAddr: 0x14290, symSize: 0x60 }
+  - { offset: 0x6AC52, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore retrieveTableNames]', symObjAddr: 0x4A00, symBinAddr: 0x142F0, symSize: 0xF0 }
+  - { offset: 0x6AC9C, size: 0x8, addend: 0x0, symName: '___40-[ANTPersistantStore retrieveTableNames]_block_invoke', symObjAddr: 0x4AF0, symBinAddr: 0x143E0, symSize: 0x180 }
+  - { offset: 0x6AD39, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore insertDataWithTableName:parametersDictionary:]', symObjAddr: 0x5220, symBinAddr: 0x14AA0, symSize: 0x2A0 }
+  - { offset: 0x6ADB9, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48r, symObjAddr: 0x56E0, symBinAddr: 0x14F60, symSize: 0x80 }
+  - { offset: 0x6ADE0, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0x5760, symBinAddr: 0x14FE0, symSize: 0x60 }
+  - { offset: 0x6ADFE, size: 0x8, addend: 0x0, symName: '___78-[ANTPersistantStore updateDataWithTableName:withParameters:havingParameters:]_block_invoke', symObjAddr: 0x5EC0, symBinAddr: 0x15740, symSize: 0xC0 }
+  - { offset: 0x6AE86, size: 0x8, addend: 0x0, symName: '___78-[ANTPersistantStore updateDataWithTableName:withParameters:havingParameters:]_block_invoke_2', symObjAddr: 0x5F80, symBinAddr: 0x15800, symSize: 0xC0 }
+  - { offset: 0x6AF0E, size: 0x8, addend: 0x0, symName: '___81-[ANTPersistantStore updateAggregateEventsCountRecordWithCount:havingParameters:]_block_invoke', symObjAddr: 0x6860, symBinAddr: 0x160E0, symSize: 0xC0 }
+  - { offset: 0x6AF96, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore removeDataWithTableName:withField:havingValue:]', symObjAddr: 0x7590, symBinAddr: 0x16E10, symSize: 0x220 }
+  - { offset: 0x6B016, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56r, symObjAddr: 0x7A20, symBinAddr: 0x172A0, symSize: 0xA0 }
+  - { offset: 0x6B03D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0x7AC0, symBinAddr: 0x17340, symSize: 0x70 }
+  - { offset: 0x6B05B, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore removeTableWithName:]', symObjAddr: 0x7B30, symBinAddr: 0x173B0, symSize: 0x150 }
+  - { offset: 0x6B0BA, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore dealloc]', symObjAddr: 0x7EF0, symBinAddr: 0x17770, symSize: 0x50 }
+  - { offset: 0x6B0F0, size: 0x8, addend: 0x0, symName: '-[ANTPersistantStore .cxx_destruct]', symObjAddr: 0x7F40, symBinAddr: 0x177C0, symSize: 0x27 }
+  - { offset: 0x6C01C, size: 0x8, addend: 0x0, symName: '-[ANTClientEventSource logEvent:info:time:]', symObjAddr: 0x0, symBinAddr: 0x177F0, symSize: 0x348 }
+  - { offset: 0x6C042, size: 0x8, addend: 0x0, symName: '-[ANTClientEventSource logEvent:info:time:]', symObjAddr: 0x0, symBinAddr: 0x177F0, symSize: 0x348 }
+  - { offset: 0x6C1A5, size: 0x8, addend: 0x0, symName: '+[ANTController sharedController]', symObjAddr: 0x0, symBinAddr: 0x17B40, symSize: 0x60 }
+  - { offset: 0x6C1BD, size: 0x8, addend: 0x0, symName: '-[ANTController getDataFromURLPath:completionHandler:]', symObjAddr: 0x390, symBinAddr: 0x17ED0, symSize: 0x1B0 }
+  - { offset: 0x6C28B, size: 0x8, addend: 0x0, symName: '-[ANTController postDataToURL:withRequestBodyDictionary:headerFields:completionHandler:]', symObjAddr: 0x590, symBinAddr: 0x18080, symSize: 0x230 }
+  - { offset: 0x6C35A, size: 0x8, addend: 0x0, symName: '-[ANTController makeDeleteRequestToURLPath:headerFields:completionHandler:]', symObjAddr: 0x7C0, symBinAddr: 0x182B0, symSize: 0x1F0 }
+  - { offset: 0x6C419, size: 0x8, addend: 0x0, symName: '-[ANTController getDataFromURL:completionHandler:]', symObjAddr: 0x9B0, symBinAddr: 0x184A0, symSize: 0x1B0 }
+  - { offset: 0x6C4C8, size: 0x8, addend: 0x0, symName: '-[ANTController initialize]', symObjAddr: 0xB60, symBinAddr: 0x18650, symSize: 0x690 }
+  - { offset: 0x6C686, size: 0x8, addend: 0x0, symName: '-[ANTController initializeWithAnthraID:]', symObjAddr: 0x11F0, symBinAddr: 0x18CE0, symSize: 0x480 }
+  - { offset: 0x6C792, size: 0x8, addend: 0x0, symName: '___40-[ANTController initializeWithAnthraID:]_block_invoke_2', symObjAddr: 0x1A00, symBinAddr: 0x194F0, symSize: 0x1CC0 }
+  - { offset: 0x6CD2E, size: 0x8, addend: 0x0, symName: '___40-[ANTController initializeWithAnthraID:]_block_invoke.163', symObjAddr: 0x3770, symBinAddr: 0x1B1F0, symSize: 0x9C0 }
+  - { offset: 0x6CE80, size: 0x8, addend: 0x0, symName: '-[ANTController onEvent:]', symObjAddr: 0x4760, symBinAddr: 0x1C060, symSize: 0x2E0 }
+  - { offset: 0x6CF25, size: 0x8, addend: 0x0, symName: '-[ANTController onAppOpened]', symObjAddr: 0x4A40, symBinAddr: 0x1C340, symSize: 0x450 }
+  - { offset: 0x6D005, size: 0x8, addend: 0x0, symName: '-[ANTController dispatchEventFromEventQueue]', symObjAddr: 0x5910, symBinAddr: 0x1D210, symSize: 0x5A0 }
+  - { offset: 0x6D0F6, size: 0x8, addend: 0x0, symName: '-[ANTController setUserIdentifier:]', symObjAddr: 0x5EB0, symBinAddr: 0x1D7B0, symSize: 0x3D0 }
+  - { offset: 0x6D1BB, size: 0x8, addend: 0x0, symName: '___35-[ANTController setUserIdentifier:]_block_invoke', symObjAddr: 0x6280, symBinAddr: 0x1DB80, symSize: 0x170 }
+  - { offset: 0x6D273, size: 0x8, addend: 0x0, symName: '-[ANTController logScreenWithName:]', symObjAddr: 0x63F0, symBinAddr: 0x1DCF0, symSize: 0x440 }
+  - { offset: 0x6D38A, size: 0x8, addend: 0x0, symName: '___59-[ANTController logClientEventWithName:info:shouldFlatten:]_block_invoke', symObjAddr: 0x6F10, symBinAddr: 0x1E810, symSize: 0x230 }
+  - { offset: 0x6D480, size: 0x8, addend: 0x0, symName: '-[ANTController logClientEventWithName:info:shouldFlatten:]', symObjAddr: 0x6900, symBinAddr: 0x1E200, symSize: 0x610 }
+  - { offset: 0x6D580, size: 0x8, addend: 0x0, symName: '___68-[ANTController logAppEventWithName:info:shouldFlatten:isAggregate:]_block_invoke', symObjAddr: 0x7C60, symBinAddr: 0x1F480, symSize: 0x600 }
+  - { offset: 0x6D76D, size: 0x8, addend: 0x0, symName: '-[ANTController logAppEventWithName:info:shouldFlatten:isAggregate:]', symObjAddr: 0x7510, symBinAddr: 0x1ED30, symSize: 0x750 }
+  - { offset: 0x6D886, size: 0x8, addend: 0x0, symName: '-[ANTController logDeviceToken:]', symObjAddr: 0x8260, symBinAddr: 0x1FA80, symSize: 0x240 }
+  - { offset: 0x6D943, size: 0x8, addend: 0x0, symName: '-[ANTController verifyAndLogDeviceToken:]', symObjAddr: 0x84A0, symBinAddr: 0x1FCC0, symSize: 0x300 }
+  - { offset: 0x6DA49, size: 0x8, addend: 0x0, symName: '-[ANTController processUserPropertyChangeWithProperties:]', symObjAddr: 0x87A0, symBinAddr: 0x1FFC0, symSize: 0x320 }
+  - { offset: 0x6DAFF, size: 0x8, addend: 0x0, symName: '___35-[ANTController setUserCustomInfo:]_block_invoke', symObjAddr: 0x9180, symBinAddr: 0x209A0, symSize: 0x4F0 }
+  - { offset: 0x6DC4D, size: 0x8, addend: 0x0, symName: '-[ANTController setUserCustomInfo:]', symObjAddr: 0x8AC0, symBinAddr: 0x202E0, symSize: 0x6C0 }
+  - { offset: 0x6DD22, size: 0x8, addend: 0x0, symName: '___38-[ANTController setSessionCustomInfo:]_block_invoke', symObjAddr: 0x9F50, symBinAddr: 0x21770, symSize: 0x450 }
+  - { offset: 0x6DE58, size: 0x8, addend: 0x0, symName: '-[ANTController setSessionCustomInfo:]', symObjAddr: 0x9890, symBinAddr: 0x210B0, symSize: 0x6C0 }
+  - { offset: 0x6DF2D, size: 0x8, addend: 0x0, symName: '___44-[ANTController reportCustomError:withInfo:]_block_invoke', symObjAddr: 0xAB90, symBinAddr: 0x223B0, symSize: 0x1E0 }
+  - { offset: 0x6E029, size: 0x8, addend: 0x0, symName: '-[ANTController reportCustomError:withInfo:]', symObjAddr: 0xA5A0, symBinAddr: 0x21DC0, symSize: 0x5F0 }
+  - { offset: 0x6E118, size: 0x8, addend: 0x0, symName: '-[ANTController handleDeeplinkWithURLString:]', symObjAddr: 0xAEE0, symBinAddr: 0x22700, symSize: 0xDD0 }
+  - { offset: 0x6E405, size: 0x8, addend: 0x0, symName: '___45-[ANTController handleDeeplinkWithURLString:]_block_invoke_2', symObjAddr: 0xBFE0, symBinAddr: 0x23800, symSize: 0x890 }
+  - { offset: 0x6E5A1, size: 0x8, addend: 0x0, symName: '___45-[ANTController handleDeeplinkWithURLString:]_block_invoke.471', symObjAddr: 0xC870, symBinAddr: 0x24090, symSize: 0x220 }
+  - { offset: 0x6E661, size: 0x8, addend: 0x0, symName: '___45-[ANTController handleDeeplinkWithURLString:]_block_invoke', symObjAddr: 0xBCB0, symBinAddr: 0x234D0, symSize: 0x330 }
+  - { offset: 0x6E73F, size: 0x8, addend: 0x0, symName: '-[ANTController registerTestDeviceWithToken:withCompletion:]', symObjAddr: 0xCAF0, symBinAddr: 0x24310, symSize: 0x4E0 }
+  - { offset: 0x6E878, size: 0x8, addend: 0x0, symName: '___60-[ANTController registerTestDeviceWithToken:withCompletion:]_block_invoke', symObjAddr: 0xCFD0, symBinAddr: 0x247F0, symSize: 0x390 }
+  - { offset: 0x6E9EC, size: 0x8, addend: 0x0, symName: '-[ANTController setTestDeviceStatus:]', symObjAddr: 0xDB50, symBinAddr: 0x25370, symSize: 0x1C0 }
+  - { offset: 0x6EAB3, size: 0x8, addend: 0x0, symName: '-[ANTController loadTestDeviceStatus]', symObjAddr: 0xDD10, symBinAddr: 0x25530, symSize: 0x5A0 }
+  - { offset: 0x6EB86, size: 0x8, addend: 0x0, symName: '___37-[ANTController loadTestDeviceStatus]_block_invoke', symObjAddr: 0xE2B0, symBinAddr: 0x25AD0, symSize: 0x840 }
+  - { offset: 0x6EDD4, size: 0x8, addend: 0x0, symName: '___40-[ANTController testDeviceWebviewClosed]_block_invoke', symObjAddr: 0xEEA0, symBinAddr: 0x26620, symSize: 0x9B0 }
+  - { offset: 0x6F06B, size: 0x8, addend: 0x0, symName: '-[ANTController testDeviceWebviewClosed]', symObjAddr: 0xEBB0, symBinAddr: 0x26330, symSize: 0x2F0 }
+  - { offset: 0x6F117, size: 0x8, addend: 0x0, symName: '-[ANTController loadClientAndAggregateEventsFromConfig:]', symObjAddr: 0xF850, symBinAddr: 0x26FD0, symSize: 0x520 }
+  - { offset: 0x6F22E, size: 0x8, addend: 0x0, symName: '-[ANTController startSessionWithLaunchType:]', symObjAddr: 0xFF20, symBinAddr: 0x276A0, symSize: 0x6A0 }
+  - { offset: 0x6F393, size: 0x8, addend: 0x0, symName: '-[ANTController incrementLifetimeSessionCount]', symObjAddr: 0x106D0, symBinAddr: 0x27E50, symSize: 0x220 }
+  - { offset: 0x6F449, size: 0x8, addend: 0x0, symName: '-[ANTController updateRetentionDayCount]', symObjAddr: 0x10960, symBinAddr: 0x280E0, symSize: 0x560 }
+  - { offset: 0x6F5B1, size: 0x8, addend: 0x0, symName: '-[ANTController sendUserInfo]', symObjAddr: 0x10EC0, symBinAddr: 0x28640, symSize: 0x560 }
+  - { offset: 0x6F667, size: 0x8, addend: 0x0, symName: '___29-[ANTController sendUserInfo]_block_invoke', symObjAddr: 0x11420, symBinAddr: 0x28BA0, symSize: 0x3E0 }
+  - { offset: 0x6F78C, size: 0x8, addend: 0x0, symName: '-[ANTController dispatchEvent:]', symObjAddr: 0x118F0, symBinAddr: 0x29070, symSize: 0x3D0 }
+  - { offset: 0x6F892, size: 0x8, addend: 0x0, symName: '-[ANTController registerForEventWithType:listener:]', symObjAddr: 0x11CC0, symBinAddr: 0x29440, symSize: 0x190 }
+  - { offset: 0x6F948, size: 0x8, addend: 0x0, symName: '-[ANTController deregisterForEventWithType:listener:]', symObjAddr: 0x11E50, symBinAddr: 0x295D0, symSize: 0x190 }
+  - { offset: 0x6F9FE, size: 0x8, addend: 0x0, symName: '-[ANTController retrieveSessionInfoWithIdentifier:]', symObjAddr: 0x12740, symBinAddr: 0x29EC0, symSize: 0x1C0 }
+  - { offset: 0x6FAA8, size: 0x8, addend: 0x0, symName: '-[ANTController saveSessionInfoWithIndentifier:]', symObjAddr: 0x12900, symBinAddr: 0x2A080, symSize: 0x1C0 }
+  - { offset: 0x6FB4D, size: 0x8, addend: 0x0, symName: '-[ANTController saveUserInfo]', symObjAddr: 0x12AC0, symBinAddr: 0x2A240, symSize: 0x300 }
+  - { offset: 0x6FBF1, size: 0x8, addend: 0x0, symName: '-[ANTController saveLifetimeEvent:]', symObjAddr: 0x12DC0, symBinAddr: 0x2A540, symSize: 0x330 }
+  - { offset: 0x6FCF7, size: 0x8, addend: 0x0, symName: '-[ANTController saveEvent:]', symObjAddr: 0x130F0, symBinAddr: 0x2A870, symSize: 0x390 }
+  - { offset: 0x6FDFD, size: 0x8, addend: 0x0, symName: '-[ANTController saveEvent:inSession:]', symObjAddr: 0x13480, symBinAddr: 0x2AC00, symSize: 0x380 }
+  - { offset: 0x6FF14, size: 0x8, addend: 0x0, symName: '-[ANTController markFatalAndUpdateDuration:inSession:]', symObjAddr: 0x13DB0, symBinAddr: 0x2B530, symSize: 0x300 }
+  - { offset: 0x6FFEA, size: 0x8, addend: 0x0, symName: '-[ANTController getEventsBetween:endInterval:withIdentifier:eventType:]', symObjAddr: 0x140E0, symBinAddr: 0x2B860, symSize: 0x210 }
+  - { offset: 0x700C7, size: 0x8, addend: 0x0, symName: '-[ANTController numberOfEventsWithIdentifier:]', symObjAddr: 0x142F0, symBinAddr: 0x2BA70, symSize: 0x1B0 }
+  - { offset: 0x70171, size: 0x8, addend: 0x0, symName: '-[ANTController saveChunkMetaInfo:]', symObjAddr: 0x14BA0, symBinAddr: 0x2C320, symSize: 0x190 }
+  - { offset: 0x70216, size: 0x8, addend: 0x0, symName: '-[ANTController updateChunkMetaInfo:]', symObjAddr: 0x14D30, symBinAddr: 0x2C4B0, symSize: 0x190 }
+  - { offset: 0x702BB, size: 0x8, addend: 0x0, symName: '-[ANTController updateChunkMetaStatus:]', symObjAddr: 0x14EC0, symBinAddr: 0x2C640, symSize: 0x190 }
+  - { offset: 0x70360, size: 0x8, addend: 0x0, symName: '-[ANTController deleteChunkMetaInfo:]', symObjAddr: 0x15050, symBinAddr: 0x2C7D0, symSize: 0x190 }
+  - { offset: 0x70405, size: 0x8, addend: 0x0, symName: '-[ANTController processAggregateEventWithEvent:]', symObjAddr: 0x15210, symBinAddr: 0x2C990, symSize: 0x3F0 }
+  - { offset: 0x704D3, size: 0x8, addend: 0x0, symName: '-[ANTController deleteAggregateEventsWithSessionId:]', symObjAddr: 0x16370, symBinAddr: 0x2DAF0, symSize: 0x190 }
+  - { offset: 0x70578, size: 0x8, addend: 0x0, symName: '-[ANTController deleteSession:]', symObjAddr: 0x165D0, symBinAddr: 0x2DD50, symSize: 0x190 }
+  - { offset: 0x7061D, size: 0x8, addend: 0x0, symName: '-[ANTController deleteItemAtPath:]', symObjAddr: 0x16790, symBinAddr: 0x2DF10, symSize: 0x190 }
+  - { offset: 0x706C2, size: 0x8, addend: 0x0, symName: '___89-[ANTController retrieveImageAtPath:persistFileName:directoryName:withCompletionHandler:]_block_invoke', symObjAddr: 0x16BD0, symBinAddr: 0x2E350, symSize: 0x2D0 }
+  - { offset: 0x707EA, size: 0x8, addend: 0x0, symName: '-[ANTController terminateSDK]', symObjAddr: 0x17140, symBinAddr: 0x2E8C0, symSize: 0x270 }
+  - { offset: 0x708A0, size: 0x8, addend: 0x0, symName: '-[ANTController setAndSaveEnableSDKState:]', symObjAddr: 0x178F0, symBinAddr: 0x2F070, symSize: 0x2B0 }
+  - { offset: 0x70958, size: 0x8, addend: 0x0, symName: '-[ANTController getEnableSDKState]', symObjAddr: 0x17BA0, symBinAddr: 0x2F320, symSize: 0x5F0 }
+  - { offset: 0x70AB5, size: 0x8, addend: 0x0, symName: '-[ANTController handleDictionary::::]', symObjAddr: 0x18600, symBinAddr: 0x2FD80, symSize: 0xB70 }
+  - { offset: 0x70CD8, size: 0x8, addend: 0x0, symName: '-[ANTController handleArray::::]', symObjAddr: 0x19170, symBinAddr: 0x308F0, symSize: 0xBF0 }
+  - { offset: 0x70EBA, size: 0x8, addend: 0x0, symName: '-[ANTController stringify::::]', symObjAddr: 0x19D60, symBinAddr: 0x314E0, symSize: 0x590 }
+  - { offset: 0x7105C, size: 0x8, addend: 0x0, symName: '-[ANTController setupLoggerLevel]', symObjAddr: 0x1A2F0, symBinAddr: 0x31A70, symSize: 0x3C0 }
+  - { offset: 0x7116E, size: 0x8, addend: 0x0, symName: _sdkController, symObjAddr: 0xBADD8, symBinAddr: 0x8CA58, symSize: 0x0 }
+  - { offset: 0x716F2, size: 0x8, addend: 0x0, symName: '+[ANTController sharedController]', symObjAddr: 0x0, symBinAddr: 0x17B40, symSize: 0x60 }
+  - { offset: 0x7172B, size: 0x8, addend: 0x0, symName: '-[ANTController init]', symObjAddr: 0x60, symBinAddr: 0x17BA0, symSize: 0x330 }
+  - { offset: 0x71764, size: 0x8, addend: 0x0, symName: '___40-[ANTController initializeWithAnthraID:]_block_invoke', symObjAddr: 0x1670, symBinAddr: 0x19160, symSize: 0x390 }
+  - { offset: 0x71801, size: 0x8, addend: 0x0, symName: '___40-[ANTController initializeWithAnthraID:]_block_invoke.134', symObjAddr: 0x36C0, symBinAddr: 0x1B1B0, symSize: 0x40 }
+  - { offset: 0x7183D, size: 0x8, addend: 0x0, symName: '___40-[ANTController initializeWithAnthraID:]_block_invoke.186', symObjAddr: 0x4130, symBinAddr: 0x1BBB0, symSize: 0x220 }
+  - { offset: 0x718E2, size: 0x8, addend: 0x0, symName: '___40-[ANTController initializeWithAnthraID:]_block_invoke.215', symObjAddr: 0x43F0, symBinAddr: 0x1BDD0, symSize: 0x200 }
+  - { offset: 0x71974, size: 0x8, addend: 0x0, symName: '___40-[ANTController initializeWithAnthraID:]_block_invoke.234', symObjAddr: 0x45F0, symBinAddr: 0x1BFD0, symSize: 0x90 }
+  - { offset: 0x719E3, size: 0x8, addend: 0x0, symName: '-[ANTController onBackground]', symObjAddr: 0x4E90, symBinAddr: 0x1C790, symSize: 0x870 }
+  - { offset: 0x71B41, size: 0x8, addend: 0x0, symName: '-[ANTController checkEventForEventQueue:]', symObjAddr: 0x5700, symBinAddr: 0x1D000, symSize: 0xF0 }
+  - { offset: 0x71B8B, size: 0x8, addend: 0x0, symName: '-[ANTController addEventToEventQueue:]', symObjAddr: 0x57F0, symBinAddr: 0x1D0F0, symSize: 0x120 }
+  - { offset: 0x71BE1, size: 0x8, addend: 0x0, symName: '___35-[ANTController logScreenWithName:]_block_invoke', symObjAddr: 0x6830, symBinAddr: 0x1E130, symSize: 0x40 }
+  - { offset: 0x71C37, size: 0x8, addend: 0x0, symName: '-[ANTController logClientEventWithName:info:]', symObjAddr: 0x6870, symBinAddr: 0x1E170, symSize: 0x90 }
+  - { offset: 0x71C8D, size: 0x8, addend: 0x0, symName: '-[ANTController logInternalEventWithName:info:]', symObjAddr: 0x7220, symBinAddr: 0x1EA40, symSize: 0x180 }
+  - { offset: 0x71D03, size: 0x8, addend: 0x0, symName: '___47-[ANTController logInternalEventWithName:info:]_block_invoke', symObjAddr: 0x73A0, symBinAddr: 0x1EBC0, symSize: 0x40 }
+  - { offset: 0x71D6C, size: 0x8, addend: 0x0, symName: '-[ANTController logAppEventWithName:info:]', symObjAddr: 0x73E0, symBinAddr: 0x1EC00, symSize: 0x90 }
+  - { offset: 0x71DC2, size: 0x8, addend: 0x0, symName: '-[ANTController logAppEventWithName:info:isAggregate:]', symObjAddr: 0x7470, symBinAddr: 0x1EC90, symSize: 0xA0 }
+  - { offset: 0x71E28, size: 0x8, addend: 0x0, symName: '___35-[ANTController setUserCustomInfo:]_block_invoke_2', symObjAddr: 0x9670, symBinAddr: 0x20E90, symSize: 0x220 }
+  - { offset: 0x71ECD, size: 0x8, addend: 0x0, symName: '___38-[ANTController setSessionCustomInfo:]_block_invoke_2', symObjAddr: 0xA3A0, symBinAddr: 0x21BC0, symSize: 0x200 }
+  - { offset: 0x71F5F, size: 0x8, addend: 0x0, symName: '-[ANTController getDeviceID]', symObjAddr: 0xAD70, symBinAddr: 0x22590, symSize: 0x70 }
+  - { offset: 0x71F99, size: 0x8, addend: 0x0, symName: '-[ANTController getHardwareModel]', symObjAddr: 0xADE0, symBinAddr: 0x22600, symSize: 0x70 }
+  - { offset: 0x71FD3, size: 0x8, addend: 0x0, symName: '-[ANTController handleDeeplinkWithURL:]', symObjAddr: 0xAE50, symBinAddr: 0x22670, symSize: 0x90 }
+  - { offset: 0x72019, size: 0x8, addend: 0x0, symName: '-[ANTController screenRefreshed]', symObjAddr: 0xCA90, symBinAddr: 0x242B0, symSize: 0x60 }
+  - { offset: 0x7204F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0xD360, symBinAddr: 0x24B80, symSize: 0x80 }
+  - { offset: 0x72076, size: 0x8, addend: 0x0, symName: '-[ANTController showTestDeviceRegistrationWebViewWithToken:deviceID:model:andCompletionHandler:]', symObjAddr: 0xD3E0, symBinAddr: 0x24C00, symSize: 0x5F0 }
+  - { offset: 0x7213F, size: 0x8, addend: 0x0, symName: _CGRectMake, symObjAddr: 0xD9D0, symBinAddr: 0x251F0, symSize: 0x50 }
+  - { offset: 0x721AB, size: 0x8, addend: 0x0, symName: '-[ANTController markAsCordova]', symObjAddr: 0xDA20, symBinAddr: 0x25240, symSize: 0x20 }
+  - { offset: 0x721E1, size: 0x8, addend: 0x0, symName: '-[ANTController isCordova]', symObjAddr: 0xDA40, symBinAddr: 0x25260, symSize: 0x20 }
+  - { offset: 0x7221B, size: 0x8, addend: 0x0, symName: '-[ANTController markAsReactNative]', symObjAddr: 0xDA60, symBinAddr: 0x25280, symSize: 0x20 }
+  - { offset: 0x72251, size: 0x8, addend: 0x0, symName: '-[ANTController isReactNative]', symObjAddr: 0xDA80, symBinAddr: 0x252A0, symSize: 0x20 }
+  - { offset: 0x7228B, size: 0x8, addend: 0x0, symName: '-[ANTController markAsFlutter]', symObjAddr: 0xDAA0, symBinAddr: 0x252C0, symSize: 0x20 }
+  - { offset: 0x722C1, size: 0x8, addend: 0x0, symName: '-[ANTController isFlutter]', symObjAddr: 0xDAC0, symBinAddr: 0x252E0, symSize: 0x20 }
+  - { offset: 0x722FB, size: 0x8, addend: 0x0, symName: '-[ANTController markAsSwiftUI]', symObjAddr: 0xDAE0, symBinAddr: 0x25300, symSize: 0x50 }
+  - { offset: 0x72331, size: 0x8, addend: 0x0, symName: '-[ANTController isSwiftUI]', symObjAddr: 0xDB30, symBinAddr: 0x25350, symSize: 0x20 }
+  - { offset: 0x7236B, size: 0x8, addend: 0x0, symName: '-[ANTController isTestDevice]', symObjAddr: 0xEB90, symBinAddr: 0x26310, symSize: 0x20 }
+  - { offset: 0x723A5, size: 0x8, addend: 0x0, symName: '-[ANTController getClientEvents]', symObjAddr: 0xFD70, symBinAddr: 0x274F0, symSize: 0x30 }
+  - { offset: 0x723DF, size: 0x8, addend: 0x0, symName: '-[ANTController persistClientEvents:]', symObjAddr: 0xFDA0, symBinAddr: 0x27520, symSize: 0x60 }
+  - { offset: 0x72425, size: 0x8, addend: 0x0, symName: '-[ANTController retrieveClientEventsHash]', symObjAddr: 0xFE00, symBinAddr: 0x27580, symSize: 0x80 }
+  - { offset: 0x7246F, size: 0x8, addend: 0x0, symName: '-[ANTController persistClientEventsHash:]', symObjAddr: 0xFE80, symBinAddr: 0x27600, symSize: 0xA0 }
+  - { offset: 0x724C5, size: 0x8, addend: 0x0, symName: '___44-[ANTController startSessionWithLaunchType:]_block_invoke', symObjAddr: 0x105C0, symBinAddr: 0x27D40, symSize: 0x70 }
+  - { offset: 0x72508, size: 0x8, addend: 0x0, symName: '-[ANTController updateChunkEndTime]', symObjAddr: 0x10630, symBinAddr: 0x27DB0, symSize: 0x30 }
+  - { offset: 0x7253E, size: 0x8, addend: 0x0, symName: '-[ANTController getLifetimeSessionCount]', symObjAddr: 0x10660, symBinAddr: 0x27DE0, symSize: 0x70 }
+  - { offset: 0x72588, size: 0x8, addend: 0x0, symName: '-[ANTController getRetentionDay]', symObjAddr: 0x108F0, symBinAddr: 0x28070, symSize: 0x70 }
+  - { offset: 0x725D2, size: 0x8, addend: 0x0, symName: '-[ANTController filterUserProperties:]', symObjAddr: 0x11800, symBinAddr: 0x28F80, symSize: 0xF0 }
+  - { offset: 0x7262C, size: 0x8, addend: 0x0, symName: '-[ANTController registerIdentifer:withListener:]', symObjAddr: 0x11FE0, symBinAddr: 0x29760, symSize: 0x90 }
+  - { offset: 0x72682, size: 0x8, addend: 0x0, symName: '-[ANTController deRegisterIdentifer:withListener:]', symObjAddr: 0x12070, symBinAddr: 0x297F0, symSize: 0x90 }
+  - { offset: 0x726D8, size: 0x8, addend: 0x0, symName: '-[ANTController filterEventsProps:]', symObjAddr: 0x12100, symBinAddr: 0x29880, symSize: 0x640 }
+  - { offset: 0x72795, size: 0x8, addend: 0x0, symName: '-[ANTController saveFrequencyInfo:withIdentifier:]', symObjAddr: 0x13800, symBinAddr: 0x2AF80, symSize: 0x150 }
+  - { offset: 0x727FB, size: 0x8, addend: 0x0, symName: '-[ANTController retrieveFrequencyConfigWithIdentifier:]', symObjAddr: 0x13950, symBinAddr: 0x2B0D0, symSize: 0xB0 }
+  - { offset: 0x72855, size: 0x8, addend: 0x0, symName: '-[ANTController saveConditionConfig:withIdentifier:]', symObjAddr: 0x13A00, symBinAddr: 0x2B180, symSize: 0x150 }
+  - { offset: 0x728BB, size: 0x8, addend: 0x0, symName: '-[ANTController retrieveConditionConfigWithIdentifier:]', symObjAddr: 0x13B50, symBinAddr: 0x2B2D0, symSize: 0xD0 }
+  - { offset: 0x72915, size: 0x8, addend: 0x0, symName: '-[ANTController removeConditionConfigWithIdentifier:]', symObjAddr: 0x13C20, symBinAddr: 0x2B3A0, symSize: 0x100 }
+  - { offset: 0x7297B, size: 0x8, addend: 0x0, symName: '-[ANTController retrieveConditionConfig]', symObjAddr: 0x13D20, symBinAddr: 0x2B4A0, symSize: 0x30 }
+  - { offset: 0x729B5, size: 0x8, addend: 0x0, symName: '-[ANTController persistConditionConfig:]', symObjAddr: 0x13D50, symBinAddr: 0x2B4D0, symSize: 0x60 }
+  - { offset: 0x729FB, size: 0x8, addend: 0x0, symName: '-[ANTController getSessionId]', symObjAddr: 0x140B0, symBinAddr: 0x2B830, symSize: 0x30 }
+  - { offset: 0x72A35, size: 0x8, addend: 0x0, symName: '-[ANTController getLifetimeCountForEvents:]', symObjAddr: 0x144A0, symBinAddr: 0x2BC20, symSize: 0x220 }
+  - { offset: 0x72A95, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x146C0, symBinAddr: 0x2BE40, symSize: 0x50 }
+  - { offset: 0x72ABC, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x14710, symBinAddr: 0x2BE90, symSize: 0x30 }
+  - { offset: 0x72ADA, size: 0x8, addend: 0x0, symName: '___43-[ANTController getLifetimeCountForEvents:]_block_invoke', symObjAddr: 0x14740, symBinAddr: 0x2BEC0, symSize: 0x160 }
+  - { offset: 0x72BB4, size: 0x8, addend: 0x0, symName: '-[ANTController getLifetimeCountForEventWithName:]', symObjAddr: 0x148A0, symBinAddr: 0x2C020, symSize: 0xE0 }
+  - { offset: 0x72C1E, size: 0x8, addend: 0x0, symName: '-[ANTController getProperty:FromEventWithName:]', symObjAddr: 0x14980, symBinAddr: 0x2C100, symSize: 0x220 }
+  - { offset: 0x72CA9, size: 0x8, addend: 0x0, symName: '-[ANTController retrieveChunkMetaInfo]', symObjAddr: 0x151E0, symBinAddr: 0x2C960, symSize: 0x30 }
+  - { offset: 0x72CE3, size: 0x8, addend: 0x0, symName: '___48-[ANTController processAggregateEventWithEvent:]_block_invoke', symObjAddr: 0x15600, symBinAddr: 0x2CD80, symSize: 0xD0 }
+  - { offset: 0x72D69, size: 0x8, addend: 0x0, symName: '-[ANTController retrieveAggregateEventsWithSessionIdentifier:]', symObjAddr: 0x156D0, symBinAddr: 0x2CE50, symSize: 0xC10 }
+  - { offset: 0x72ECC, size: 0x8, addend: 0x0, symName: '___62-[ANTController retrieveAggregateEventsWithSessionIdentifier:]_block_invoke', symObjAddr: 0x162E0, symBinAddr: 0x2DA60, symSize: 0x90 }
+  - { offset: 0x72F3B, size: 0x8, addend: 0x0, symName: '-[ANTController retrieveDataFromStoriesWithTableName:]', symObjAddr: 0x16500, symBinAddr: 0x2DC80, symSize: 0xA0 }
+  - { offset: 0x72F85, size: 0x8, addend: 0x0, symName: '-[ANTController getSessions]', symObjAddr: 0x165A0, symBinAddr: 0x2DD20, symSize: 0x30 }
+  - { offset: 0x72FBF, size: 0x8, addend: 0x0, symName: '-[ANTController retrieveUser]', symObjAddr: 0x16760, symBinAddr: 0x2DEE0, symSize: 0x30 }
+  - { offset: 0x72FF9, size: 0x8, addend: 0x0, symName: '-[ANTController retrieveImageAtPath:persistFileName:directoryName:withCompletionHandler:]', symObjAddr: 0x16920, symBinAddr: 0x2E0A0, symSize: 0x2B0 }
+  - { offset: 0x7308F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64b, symObjAddr: 0x16EA0, symBinAddr: 0x2E620, symSize: 0xC0 }
+  - { offset: 0x730B6, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s, symObjAddr: 0x16F60, symBinAddr: 0x2E6E0, symSize: 0x90 }
+  - { offset: 0x730D4, size: 0x8, addend: 0x0, symName: '-[ANTController removeDirectoryForConfigId:]', symObjAddr: 0x16FF0, symBinAddr: 0x2E770, symSize: 0x60 }
+  - { offset: 0x7311A, size: 0x8, addend: 0x0, symName: '-[ANTController removeItemAtFilePath:]', symObjAddr: 0x17050, symBinAddr: 0x2E7D0, symSize: 0x60 }
+  - { offset: 0x73160, size: 0x8, addend: 0x0, symName: '-[ANTController registerForTimerNotificationWithInterval:closure:]', symObjAddr: 0x170B0, symBinAddr: 0x2E830, symSize: 0x90 }
+  - { offset: 0x731B6, size: 0x8, addend: 0x0, symName: '-[ANTController executeAfterDelay:block:]', symObjAddr: 0x173B0, symBinAddr: 0x2EB30, symSize: 0x80 }
+  - { offset: 0x7320C, size: 0x8, addend: 0x0, symName: '-[ANTController currentSDKTimeInMillis]', symObjAddr: 0x17430, symBinAddr: 0x2EBB0, symSize: 0x60 }
+  - { offset: 0x73246, size: 0x8, addend: 0x0, symName: '-[ANTController removeStopConditionsForConfigId:]', symObjAddr: 0x17490, symBinAddr: 0x2EC10, symSize: 0x60 }
+  - { offset: 0x7328C, size: 0x8, addend: 0x0, symName: '-[ANTController retrieveNudgeOrSurveyShownDetails:]', symObjAddr: 0x174F0, symBinAddr: 0x2EC70, symSize: 0x80 }
+  - { offset: 0x732D6, size: 0x8, addend: 0x0, symName: '-[ANTController persistNudgeOrSurveyShownDetails:forConfigId:]', symObjAddr: 0x17570, symBinAddr: 0x2ECF0, symSize: 0x90 }
+  - { offset: 0x7332C, size: 0x8, addend: 0x0, symName: '-[ANTController addKeyValueForConfigId:forKey:withValue:]', symObjAddr: 0x17600, symBinAddr: 0x2ED80, symSize: 0x1A0 }
+  - { offset: 0x733B2, size: 0x8, addend: 0x0, symName: '-[ANTController retrieveValueForConfigId:forKey:]', symObjAddr: 0x177A0, symBinAddr: 0x2EF20, symSize: 0xF0 }
+  - { offset: 0x7341C, size: 0x8, addend: 0x0, symName: '-[ANTController getCurrentScreenName]', symObjAddr: 0x17890, symBinAddr: 0x2F010, symSize: 0x30 }
+  - { offset: 0x73456, size: 0x8, addend: 0x0, symName: '-[ANTController getCurrentCustomScreenName]', symObjAddr: 0x178C0, symBinAddr: 0x2F040, symSize: 0x30 }
+  - { offset: 0x73490, size: 0x8, addend: 0x0, symName: '-[ANTController getFlatDictionary::]', symObjAddr: 0x18190, symBinAddr: 0x2F910, symSize: 0x470 }
+  - { offset: 0x73537, size: 0x8, addend: 0x0, symName: '-[ANTController registerForBidiEventsBus:WithKey:]', symObjAddr: 0x1A6B0, symBinAddr: 0x31E30, symSize: 0x90 }
+  - { offset: 0x7358D, size: 0x8, addend: 0x0, symName: '-[ANTController getBidiEventsBusWithKey:]', symObjAddr: 0x1A740, symBinAddr: 0x31EC0, symSize: 0x80 }
+  - { offset: 0x735D7, size: 0x8, addend: 0x0, symName: '-[ANTController insertDataIntoStories:]', symObjAddr: 0x1A7C0, symBinAddr: 0x31F40, symSize: 0x80 }
+  - { offset: 0x7361D, size: 0x8, addend: 0x0, symName: '-[ANTController removeStoriesConfigForConfigId:]', symObjAddr: 0x1A840, symBinAddr: 0x31FC0, symSize: 0x60 }
+  - { offset: 0x73663, size: 0x8, addend: 0x0, symName: '-[ANTController actionInProgress]', symObjAddr: 0x1A8A0, symBinAddr: 0x32020, symSize: 0x20 }
+  - { offset: 0x7369C, size: 0x8, addend: 0x0, symName: '-[ANTController setActionInProgress:]', symObjAddr: 0x1A8C0, symBinAddr: 0x32040, symSize: 0x30 }
+  - { offset: 0x736DE, size: 0x8, addend: 0x0, symName: '-[ANTController actionBeingShownInApp]', symObjAddr: 0x1A8F0, symBinAddr: 0x32070, symSize: 0x20 }
+  - { offset: 0x73717, size: 0x8, addend: 0x0, symName: '-[ANTController setActionBeingShownInApp:]', symObjAddr: 0x1A910, symBinAddr: 0x32090, symSize: 0x30 }
+  - { offset: 0x73759, size: 0x8, addend: 0x0, symName: '-[ANTController enableSDK]', symObjAddr: 0x1A940, symBinAddr: 0x320C0, symSize: 0x20 }
+  - { offset: 0x73792, size: 0x8, addend: 0x0, symName: '-[ANTController isSDKInitCalled]', symObjAddr: 0x1A960, symBinAddr: 0x320E0, symSize: 0x20 }
+  - { offset: 0x737CB, size: 0x8, addend: 0x0, symName: '-[ANTController isSDKInitCompleted]', symObjAddr: 0x1A980, symBinAddr: 0x32100, symSize: 0x20 }
+  - { offset: 0x73804, size: 0x8, addend: 0x0, symName: '-[ANTController applicationIdentifier]', symObjAddr: 0x1A9A0, symBinAddr: 0x32120, symSize: 0x30 }
+  - { offset: 0x7383D, size: 0x8, addend: 0x0, symName: '-[ANTController session]', symObjAddr: 0x1A9D0, symBinAddr: 0x32150, symSize: 0x30 }
+  - { offset: 0x73876, size: 0x8, addend: 0x0, symName: '-[ANTController user]', symObjAddr: 0x1AA00, symBinAddr: 0x32180, symSize: 0x30 }
+  - { offset: 0x738AF, size: 0x8, addend: 0x0, symName: '-[ANTController appInfo]', symObjAddr: 0x1AA30, symBinAddr: 0x321B0, symSize: 0x30 }
+  - { offset: 0x738E8, size: 0x8, addend: 0x0, symName: '-[ANTController deviceInfo]', symObjAddr: 0x1AA60, symBinAddr: 0x321E0, symSize: 0x30 }
+  - { offset: 0x73921, size: 0x8, addend: 0x0, symName: '-[ANTController sdkInfo]', symObjAddr: 0x1AA90, symBinAddr: 0x32210, symSize: 0x30 }
+  - { offset: 0x7395A, size: 0x8, addend: 0x0, symName: '-[ANTController .cxx_destruct]', symObjAddr: 0x1AAC0, symBinAddr: 0x32240, symSize: 0x220 }
+  - { offset: 0x74A53, size: 0x8, addend: 0x0, symName: '-[ANTChunkMetaInfo initWith:cid:start:end:reportingTimes:]', symObjAddr: 0x0, symBinAddr: 0x32460, symSize: 0x329 }
+  - { offset: 0x74A94, size: 0x8, addend: 0x0, symName: '-[ANTChunkMetaInfo initWith:cid:start:end:reportingTimes:]', symObjAddr: 0x0, symBinAddr: 0x32460, symSize: 0x329 }
+  - { offset: 0x74B9C, size: 0x8, addend: 0x0, symName: '+[ANTConfigManager defaultConfigDictionary]', symObjAddr: 0x0, symBinAddr: 0x32790, symSize: 0x840 }
+  - { offset: 0x74BAA, size: 0x8, addend: 0x0, symName: '___71-[ANTConfigManager getAndSaveLatestConfigurationWithCompletionHandler:]_block_invoke', symObjAddr: 0xCA0, symBinAddr: 0x33430, symSize: 0xE00 }
+  - { offset: 0x74F40, size: 0x8, addend: 0x0, symName: '-[ANTConfigManager readConfig:]', symObjAddr: 0x1C70, symBinAddr: 0x34370, symSize: 0x470 }
+  - { offset: 0x750CD, size: 0x8, addend: 0x0, symName: '+[ANTConfigManager defaultConfigDictionary]', symObjAddr: 0x0, symBinAddr: 0x32790, symSize: 0x840 }
+  - { offset: 0x75148, size: 0x8, addend: 0x0, symName: '-[ANTConfigManager init]', symObjAddr: 0x840, symBinAddr: 0x32FD0, symSize: 0x260 }
+  - { offset: 0x751AE, size: 0x8, addend: 0x0, symName: '-[ANTConfigManager getAndSaveLatestConfigurationWithCompletionHandler:]', symObjAddr: 0xAA0, symBinAddr: 0x33230, symSize: 0x200 }
+  - { offset: 0x75201, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x1AF0, symBinAddr: 0x34230, symSize: 0x60 }
+  - { offset: 0x75228, size: 0x8, addend: 0x0, symName: '-[ANTConfigManager isValidSDKConfiguration:]', symObjAddr: 0x1B90, symBinAddr: 0x34290, symSize: 0xE0 }
+  - { offset: 0x7528E, size: 0x8, addend: 0x0, symName: '-[ANTConfigManager configDetails]', symObjAddr: 0x20E0, symBinAddr: 0x347E0, symSize: 0x30 }
+  - { offset: 0x752C7, size: 0x8, addend: 0x0, symName: '-[ANTConfigManager .cxx_destruct]', symObjAddr: 0x2110, symBinAddr: 0x34810, symSize: 0x27 }
+  - { offset: 0x754D4, size: 0x8, addend: 0x0, symName: '-[ANTSystemEventsMonitor init]', symObjAddr: 0x0, symBinAddr: 0x34840, symSize: 0xB0 }
+  - { offset: 0x754E2, size: 0x8, addend: 0x0, symName: '-[ANTSystemEventsMonitor start]', symObjAddr: 0xB0, symBinAddr: 0x348F0, symSize: 0x210 }
+  - { offset: 0x75590, size: 0x8, addend: 0x0, symName: '-[ANTSystemEventsMonitor stop]', symObjAddr: 0x310, symBinAddr: 0x34B00, symSize: 0x200 }
+  - { offset: 0x75652, size: 0x8, addend: 0x0, symName: '-[ANTSystemEventsMonitor init]', symObjAddr: 0x0, symBinAddr: 0x34840, symSize: 0xB0 }
+  - { offset: 0x7568B, size: 0x8, addend: 0x0, symName: '-[ANTSystemEventsMonitor applicationDidBecomeActiveHandler:]', symObjAddr: 0x510, symBinAddr: 0x34D00, symSize: 0x70 }
+  - { offset: 0x756CF, size: 0x8, addend: 0x0, symName: '___60-[ANTSystemEventsMonitor applicationDidBecomeActiveHandler:]_block_invoke', symObjAddr: 0x580, symBinAddr: 0x34D70, symSize: 0x90 }
+  - { offset: 0x75717, size: 0x8, addend: 0x0, symName: '-[ANTSystemEventsMonitor applicationWillResignActiveHandler:]', symObjAddr: 0x610, symBinAddr: 0x34E00, symSize: 0x70 }
+  - { offset: 0x7575B, size: 0x8, addend: 0x0, symName: '___61-[ANTSystemEventsMonitor applicationWillResignActiveHandler:]_block_invoke', symObjAddr: 0x680, symBinAddr: 0x34E70, symSize: 0xD0 }
+  - { offset: 0x757A3, size: 0x8, addend: 0x0, symName: '-[ANTSystemEventsMonitor .cxx_destruct]', symObjAddr: 0x750, symBinAddr: 0x34F40, symSize: 0x27 }
+  - { offset: 0x75967, size: 0x8, addend: 0x0, symName: '+[ANTDataHandler suffixIdentifier:ToTableName:]', symObjAddr: 0x0, symBinAddr: 0x34F70, symSize: 0xC0 }
+  - { offset: 0x7597F, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler initWithIdentifier:]', symObjAddr: 0xC0, symBinAddr: 0x35030, symSize: 0x250 }
+  - { offset: 0x75A41, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler createNewSessionWithIdentifier:]', symObjAddr: 0x4B0, symBinAddr: 0x353D0, symSize: 0x220 }
+  - { offset: 0x75AFF, size: 0x8, addend: 0x0, symName: '___45-[ANTDataHandler saveAppInfo:withIdentifier:]_block_invoke', symObjAddr: 0x7E0, symBinAddr: 0x35700, symSize: 0x570 }
+  - { offset: 0x75C5C, size: 0x8, addend: 0x0, symName: '___33-[ANTDataHandler saveDeviceInfo:]_block_invoke', symObjAddr: 0xEA0, symBinAddr: 0x35D20, symSize: 0x280 }
+  - { offset: 0x75D25, size: 0x8, addend: 0x0, symName: '___45-[ANTDataHandler saveSDKInfo:withIdentifier:]_block_invoke', symObjAddr: 0x12A0, symBinAddr: 0x360B0, symSize: 0x570 }
+  - { offset: 0x75E82, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler saveSessionInfo:withIdentifier:]', symObjAddr: 0x1810, symBinAddr: 0x36620, symSize: 0x330 }
+  - { offset: 0x75F31, size: 0x8, addend: 0x0, symName: '___49-[ANTDataHandler saveSessionInfo:withIdentifier:]_block_invoke', symObjAddr: 0x1B40, symBinAddr: 0x36950, symSize: 0x570 }
+  - { offset: 0x7608E, size: 0x8, addend: 0x0, symName: '___31-[ANTDataHandler saveUserInfo:]_block_invoke', symObjAddr: 0x2160, symBinAddr: 0x36F70, symSize: 0x2A0 }
+  - { offset: 0x76167, size: 0x8, addend: 0x0, symName: '___41-[ANTDataHandler persistFrequencyConfig:]_block_invoke', symObjAddr: 0x24B0, symBinAddr: 0x372C0, symSize: 0x250 }
+  - { offset: 0x76240, size: 0x8, addend: 0x0, symName: '___41-[ANTDataHandler persistConditionConfig:]_block_invoke', symObjAddr: 0x27B0, symBinAddr: 0x375C0, symSize: 0x250 }
+  - { offset: 0x76319, size: 0x8, addend: 0x0, symName: '___38-[ANTDataHandler upsertLifetimeEvent:]_block_invoke', symObjAddr: 0x2DA0, symBinAddr: 0x37AD0, symSize: 0x5D0 }
+  - { offset: 0x764B0, size: 0x8, addend: 0x0, symName: '___45-[ANTDataHandler insertDataIntoStoriesTable:]_block_invoke', symObjAddr: 0x4100, symBinAddr: 0x38D50, symSize: 0x160 }
+  - { offset: 0x76588, size: 0x8, addend: 0x0, symName: '___47-[ANTDataHandler updateChunkMetaInfoTimestamp:]_block_invoke', symObjAddr: 0x5100, symBinAddr: 0x39C40, symSize: 0x350 }
+  - { offset: 0x766A2, size: 0x8, addend: 0x0, symName: '___32-[ANTDataHandler deleteSession:]_block_invoke', symObjAddr: 0x6C40, symBinAddr: 0x3B6E0, symSize: 0x1A0 }
+  - { offset: 0x7675A, size: 0x8, addend: 0x0, symName: '___35-[ANTDataHandler deleteItemAtPath:]_block_invoke', symObjAddr: 0x6E90, symBinAddr: 0x3B930, symSize: 0x2A0 }
+  - { offset: 0x7683D, size: 0x8, addend: 0x0, symName: '___43-[ANTDataHandler persistPIDMIDDict:atPath:]_block_invoke', symObjAddr: 0x72C0, symBinAddr: 0x3BD60, symSize: 0x250 }
+  - { offset: 0x76933, size: 0x8, addend: 0x0, symName: '___38-[ANTDataHandler retrieveImageAtPath:]_block_invoke', symObjAddr: 0x7690, symBinAddr: 0x3C130, symSize: 0x2C0 }
+  - { offset: 0x76A60, size: 0x8, addend: 0x0, symName: '___45-[ANTDataHandler removeDirectoryForConfigId:]_block_invoke', symObjAddr: 0x7A00, symBinAddr: 0x3C4A0, symSize: 0x310 }
+  - { offset: 0x76B52, size: 0x8, addend: 0x0, symName: '___58-[ANTDataHandler persistImage:withFileName:directoryName:]_block_invoke', symObjAddr: 0x7E70, symBinAddr: 0x3C910, symSize: 0x520 }
+  - { offset: 0x76CE4, size: 0x8, addend: 0x0, symName: '___65-[ANTDataHandler persistNudgeOrSurveyStopConditions:forConfigId:]_block_invoke', symObjAddr: 0x8780, symBinAddr: 0x3D220, symSize: 0x470 }
+  - { offset: 0x76E98, size: 0x8, addend: 0x0, symName: '___38-[ANTDataHandler persistClientEvents:]_block_invoke', symObjAddr: 0x8CE0, symBinAddr: 0x3D780, symSize: 0x250 }
+  - { offset: 0x76F7B, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler objectFromFileWithPath:]', symObjAddr: 0x8F30, symBinAddr: 0x3D9D0, symSize: 0x2E0 }
+  - { offset: 0x7703B, size: 0x8, addend: 0x0, symName: '___41-[ANTDataHandler objectFromFileWithPath:]_block_invoke', symObjAddr: 0x9210, symBinAddr: 0x3DCB0, symSize: 0x4E0 }
+  - { offset: 0x7725A, size: 0x8, addend: 0x0, symName: '+[ANTDataHandler suffixIdentifier:ToTableName:]', symObjAddr: 0x0, symBinAddr: 0x34F70, symSize: 0xC0 }
+  - { offset: 0x772B1, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler startWithCompletionHandler:]', symObjAddr: 0x360, symBinAddr: 0x35280, symSize: 0x150 }
+  - { offset: 0x77304, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler saveAppInfo:withIdentifier:]', symObjAddr: 0x6D0, symBinAddr: 0x355F0, symSize: 0x110 }
+  - { offset: 0x77357, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler saveDeviceInfo:]', symObjAddr: 0xDF0, symBinAddr: 0x35C70, symSize: 0xB0 }
+  - { offset: 0x7739B, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler saveSDKInfo:withIdentifier:]', symObjAddr: 0x1190, symBinAddr: 0x35FA0, symSize: 0x110 }
+  - { offset: 0x773EE, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler saveUserInfo:]', symObjAddr: 0x20B0, symBinAddr: 0x36EC0, symSize: 0xB0 }
+  - { offset: 0x77432, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler persistFrequencyConfig:]', symObjAddr: 0x2400, symBinAddr: 0x37210, symSize: 0xB0 }
+  - { offset: 0x77476, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler persistConditionConfig:]', symObjAddr: 0x2700, symBinAddr: 0x37510, symSize: 0xB0 }
+  - { offset: 0x774BA, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler saveEventInfo:withIdentifier:]', symObjAddr: 0x2A00, symBinAddr: 0x37810, symSize: 0x130 }
+  - { offset: 0x7750D, size: 0x8, addend: 0x0, symName: '___47-[ANTDataHandler saveEventInfo:withIdentifier:]_block_invoke', symObjAddr: 0x2B30, symBinAddr: 0x37940, symSize: 0xB0 }
+  - { offset: 0x7758F, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler upsertLifetimeEvent:]', symObjAddr: 0x2CC0, symBinAddr: 0x379F0, symSize: 0xE0 }
+  - { offset: 0x775D3, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler saveAggregateEventInfo:withIdentifier:]', symObjAddr: 0x3370, symBinAddr: 0x380A0, symSize: 0x110 }
+  - { offset: 0x77626, size: 0x8, addend: 0x0, symName: '___56-[ANTDataHandler saveAggregateEventInfo:withIdentifier:]_block_invoke', symObjAddr: 0x3480, symBinAddr: 0x381B0, symSize: 0x70 }
+  - { offset: 0x77678, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler retrieveLifetimeEventWithName:]', symObjAddr: 0x34F0, symBinAddr: 0x38220, symSize: 0xF0 }
+  - { offset: 0x776CF, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler retrieveEventInfoWithEventName:andSessionIdentifier:]', symObjAddr: 0x35E0, symBinAddr: 0x38310, symSize: 0x140 }
+  - { offset: 0x77744, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler retrieveAggregateEventWithParameters:]', symObjAddr: 0x3720, symBinAddr: 0x38450, symSize: 0x1E0 }
+  - { offset: 0x777A1, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x3900, symBinAddr: 0x38630, symSize: 0x50 }
+  - { offset: 0x777C8, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x3950, symBinAddr: 0x38680, symSize: 0x30 }
+  - { offset: 0x777E6, size: 0x8, addend: 0x0, symName: '___55-[ANTDataHandler retrieveAggregateEventWithParameters:]_block_invoke', symObjAddr: 0x3980, symBinAddr: 0x386B0, symSize: 0x70 }
+  - { offset: 0x77850, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler retrieveAggregateEventsWithSessionIdentifier:]', symObjAddr: 0x3AD0, symBinAddr: 0x38720, symSize: 0x1B0 }
+  - { offset: 0x778AD, size: 0x8, addend: 0x0, symName: '___63-[ANTDataHandler retrieveAggregateEventsWithSessionIdentifier:]_block_invoke', symObjAddr: 0x3C80, symBinAddr: 0x388D0, symSize: 0x70 }
+  - { offset: 0x77917, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler fetchAndIncrementCountForParameters:]', symObjAddr: 0x3CF0, symBinAddr: 0x38940, symSize: 0xE0 }
+  - { offset: 0x7795B, size: 0x8, addend: 0x0, symName: '___54-[ANTDataHandler fetchAndIncrementCountForParameters:]_block_invoke', symObjAddr: 0x3DD0, symBinAddr: 0x38A20, symSize: 0x250 }
+  - { offset: 0x77A02, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler insertDataIntoStoriesTable:]', symObjAddr: 0x4020, symBinAddr: 0x38C70, symSize: 0xE0 }
+  - { offset: 0x77A48, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler reteriveDataFromStoriesWithTableName:]', symObjAddr: 0x4260, symBinAddr: 0x38EB0, symSize: 0x1D0 }
+  - { offset: 0x77AA8, size: 0x8, addend: 0x0, symName: '___55-[ANTDataHandler reteriveDataFromStoriesWithTableName:]_block_invoke', symObjAddr: 0x4430, symBinAddr: 0x39080, symSize: 0x60 }
+  - { offset: 0x77B17, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler updateAggregateEventsCountRecordHavingParameters:]', symObjAddr: 0x4490, symBinAddr: 0x390E0, symSize: 0xE0 }
+  - { offset: 0x77B5D, size: 0x8, addend: 0x0, symName: '___67-[ANTDataHandler updateAggregateEventsCountRecordHavingParameters:]_block_invoke', symObjAddr: 0x4570, symBinAddr: 0x391C0, symSize: 0x180 }
+  - { offset: 0x77C08, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler deleteAggregateEventsWithSessionId:]', symObjAddr: 0x46F0, symBinAddr: 0x39340, symSize: 0xE0 }
+  - { offset: 0x77C4E, size: 0x8, addend: 0x0, symName: '___53-[ANTDataHandler deleteAggregateEventsWithSessionId:]_block_invoke', symObjAddr: 0x47D0, symBinAddr: 0x39420, symSize: 0x50 }
+  - { offset: 0x77CA4, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler getEventsBetween:endInterval:withIdentifier:eventType:]', symObjAddr: 0x4820, symBinAddr: 0x39470, symSize: 0x260 }
+  - { offset: 0x77D34, size: 0x8, addend: 0x0, symName: '___72-[ANTDataHandler getEventsBetween:endInterval:withIdentifier:eventType:]_block_invoke', symObjAddr: 0x4A80, symBinAddr: 0x396D0, symSize: 0xC0 }
+  - { offset: 0x77DFB, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler saveChunkMetaInfo:]', symObjAddr: 0x4C50, symBinAddr: 0x39790, symSize: 0xE0 }
+  - { offset: 0x77E41, size: 0x8, addend: 0x0, symName: '___36-[ANTDataHandler saveChunkMetaInfo:]_block_invoke', symObjAddr: 0x4D30, symBinAddr: 0x39870, symSize: 0x1D0 }
+  - { offset: 0x77EC6, size: 0x8, addend: 0x0, symName: '___36-[ANTDataHandler saveChunkMetaInfo:]_block_invoke_2', symObjAddr: 0x4F00, symBinAddr: 0x39A40, symSize: 0x120 }
+  - { offset: 0x77F35, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler updateChunkMetaInfoTimestamp:]', symObjAddr: 0x5020, symBinAddr: 0x39B60, symSize: 0xE0 }
+  - { offset: 0x77F7B, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler updateChunkMetaStatus:]', symObjAddr: 0x5450, symBinAddr: 0x39F90, symSize: 0xE0 }
+  - { offset: 0x77FC1, size: 0x8, addend: 0x0, symName: '___40-[ANTDataHandler updateChunkMetaStatus:]_block_invoke', symObjAddr: 0x5530, symBinAddr: 0x3A070, symSize: 0x130 }
+  - { offset: 0x78036, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler retrieveChunkMetaInfo]', symObjAddr: 0x5660, symBinAddr: 0x3A1A0, symSize: 0x240 }
+  - { offset: 0x78096, size: 0x8, addend: 0x0, symName: '___39-[ANTDataHandler retrieveChunkMetaInfo]_block_invoke', symObjAddr: 0x58A0, symBinAddr: 0x3A3E0, symSize: 0x60 }
+  - { offset: 0x780F2, size: 0x8, addend: 0x0, symName: '___39-[ANTDataHandler retrieveChunkMetaInfo]_block_invoke.173', symObjAddr: 0x59A0, symBinAddr: 0x3A440, symSize: 0x320 }
+  - { offset: 0x781B0, size: 0x8, addend: 0x0, symName: '___39-[ANTDataHandler retrieveChunkMetaInfo]_block_invoke_2', symObjAddr: 0x5CC0, symBinAddr: 0x3A760, symSize: 0x180 }
+  - { offset: 0x78238, size: 0x8, addend: 0x0, symName: '___39-[ANTDataHandler retrieveChunkMetaInfo]_block_invoke.176', symObjAddr: 0x5E40, symBinAddr: 0x3A8E0, symSize: 0x90 }
+  - { offset: 0x782A7, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler deleteChunkMetaInfo:]', symObjAddr: 0x5ED0, symBinAddr: 0x3A970, symSize: 0xE0 }
+  - { offset: 0x782ED, size: 0x8, addend: 0x0, symName: '___38-[ANTDataHandler deleteChunkMetaInfo:]_block_invoke', symObjAddr: 0x5FB0, symBinAddr: 0x3AA50, symSize: 0x80 }
+  - { offset: 0x78343, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler numberOfEventsWithIdentifier:]', symObjAddr: 0x6030, symBinAddr: 0x3AAD0, symSize: 0x140 }
+  - { offset: 0x783A2, size: 0x8, addend: 0x0, symName: '___47-[ANTDataHandler numberOfEventsWithIdentifier:]_block_invoke', symObjAddr: 0x6170, symBinAddr: 0x3AC10, symSize: 0x90 }
+  - { offset: 0x78430, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler getEventsInfo]', symObjAddr: 0x6200, symBinAddr: 0x3ACA0, symSize: 0x40 }
+  - { offset: 0x7846A, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler retrieveUser]', symObjAddr: 0x6240, symBinAddr: 0x3ACE0, symSize: 0x1D0 }
+  - { offset: 0x784CA, size: 0x8, addend: 0x0, symName: '___30-[ANTDataHandler retrieveUser]_block_invoke', symObjAddr: 0x6410, symBinAddr: 0x3AEB0, symSize: 0x60 }
+  - { offset: 0x78526, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler retrieveFrequencyConfig]', symObjAddr: 0x6470, symBinAddr: 0x3AF10, symSize: 0x40 }
+  - { offset: 0x78560, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler retrieveConditionConfig]', symObjAddr: 0x64B0, symBinAddr: 0x3AF50, symSize: 0x40 }
+  - { offset: 0x7859A, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler retrieveSessionInfoWithIdentifier:]', symObjAddr: 0x64F0, symBinAddr: 0x3AF90, symSize: 0x110 }
+  - { offset: 0x78604, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler getSessions]', symObjAddr: 0x6600, symBinAddr: 0x3B0A0, symSize: 0x500 }
+  - { offset: 0x7867F, size: 0x8, addend: 0x0, symName: '___29-[ANTDataHandler getSessions]_block_invoke', symObjAddr: 0x6B00, symBinAddr: 0x3B5A0, symSize: 0x60 }
+  - { offset: 0x786DB, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler deleteSession:]', symObjAddr: 0x6B60, symBinAddr: 0x3B600, symSize: 0xE0 }
+  - { offset: 0x78721, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler deleteItemAtPath:]', symObjAddr: 0x6DE0, symBinAddr: 0x3B880, symSize: 0xB0 }
+  - { offset: 0x78767, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler stop]', symObjAddr: 0x7130, symBinAddr: 0x3BBD0, symSize: 0x10 }
+  - { offset: 0x7879D, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler getPIDMIDDictAtPath:]', symObjAddr: 0x7140, symBinAddr: 0x3BBE0, symSize: 0x70 }
+  - { offset: 0x787E7, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler persistPIDMIDDict:atPath:]', symObjAddr: 0x71B0, symBinAddr: 0x3BC50, symSize: 0x110 }
+  - { offset: 0x7883D, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler retrieveImageAtPath:]', symObjAddr: 0x7510, symBinAddr: 0x3BFB0, symSize: 0x180 }
+  - { offset: 0x7889D, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler removeDirectoryForConfigId:]', symObjAddr: 0x7950, symBinAddr: 0x3C3F0, symSize: 0xB0 }
+  - { offset: 0x788E3, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler persistImage:withFileName:directoryName:]', symObjAddr: 0x7D10, symBinAddr: 0x3C7B0, symSize: 0x160 }
+  - { offset: 0x78949, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler removeStopConditionsForConfigId:]', symObjAddr: 0x8390, symBinAddr: 0x3CE30, symSize: 0xE0 }
+  - { offset: 0x7898F, size: 0x8, addend: 0x0, symName: '___50-[ANTDataHandler removeStopConditionsForConfigId:]_block_invoke', symObjAddr: 0x8470, symBinAddr: 0x3CF10, symSize: 0x60 }
+  - { offset: 0x789E5, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler retrieveNudgeOrSurveyStopConditionsForConfigId:]', symObjAddr: 0x84D0, symBinAddr: 0x3CF70, symSize: 0x170 }
+  - { offset: 0x78A3F, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler persistNudgeOrSurveyStopConditions:forConfigId:]', symObjAddr: 0x8640, symBinAddr: 0x3D0E0, symSize: 0x140 }
+  - { offset: 0x78A95, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler getClientEvents]', symObjAddr: 0x8BF0, symBinAddr: 0x3D690, symSize: 0x40 }
+  - { offset: 0x78ACF, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler persistClientEvents:]', symObjAddr: 0x8C30, symBinAddr: 0x3D6D0, symSize: 0xB0 }
+  - { offset: 0x78B15, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler removeStoriesConfigForConfigId:]', symObjAddr: 0x96F0, symBinAddr: 0x3E190, symSize: 0xE0 }
+  - { offset: 0x78B5B, size: 0x8, addend: 0x0, symName: '___49-[ANTDataHandler removeStoriesConfigForConfigId:]_block_invoke', symObjAddr: 0x97D0, symBinAddr: 0x3E270, symSize: 0x50 }
+  - { offset: 0x78BB1, size: 0x8, addend: 0x0, symName: '-[ANTDataHandler .cxx_destruct]', symObjAddr: 0x9820, symBinAddr: 0x3E2C0, symSize: 0x4D }
+  - { offset: 0x7A238, size: 0x8, addend: 0x0, symName: '+[ANTTimer sharedTimer]', symObjAddr: 0x0, symBinAddr: 0x3E310, symSize: 0x60 }
+  - { offset: 0x7A246, size: 0x8, addend: 0x0, symName: '-[ANTTimer registerForTimerNotificationWithInterval:closure:]', symObjAddr: 0x60, symBinAddr: 0x3E370, symSize: 0x290 }
+  - { offset: 0x7A335, size: 0x8, addend: 0x0, symName: _timer, symObjAddr: 0xB7F8, symBinAddr: 0x8CA60, symSize: 0x0 }
+  - { offset: 0x7A38A, size: 0x8, addend: 0x0, symName: '+[ANTTimer sharedTimer]', symObjAddr: 0x0, symBinAddr: 0x3E310, symSize: 0x60 }
+  - { offset: 0x7A3D1, size: 0x8, addend: 0x0, symName: '___61-[ANTTimer registerForTimerNotificationWithInterval:closure:]_block_invoke', symObjAddr: 0x2F0, symBinAddr: 0x3E600, symSize: 0x50 }
+  - { offset: 0x7A41F, size: 0x8, addend: 0x0, symName: '-[ANTTimer registerForTimerNotificationWithTimeInterval:target:selector:userInfo:repeats:]', symObjAddr: 0x3F0, symBinAddr: 0x3E650, symSize: 0x1D0 }
+  - { offset: 0x7A4B4, size: 0x8, addend: 0x0, symName: '___90-[ANTTimer registerForTimerNotificationWithTimeInterval:target:selector:userInfo:repeats:]_block_invoke', symObjAddr: 0x5C0, symBinAddr: 0x3E820, symSize: 0x50 }
+  - { offset: 0x7A538, size: 0x8, addend: 0x0, symName: '-[ANTTimer currentTime]', symObjAddr: 0x6B0, symBinAddr: 0x3E870, symSize: 0x70 }
+  - { offset: 0x7A571, size: 0x8, addend: 0x0, symName: '-[ANTTimer currentTimeInMillis]', symObjAddr: 0x720, symBinAddr: 0x3E8E0, symSize: 0xA0 }
+  - { offset: 0x7A5AA, size: 0x8, addend: 0x0, symName: '-[ANTTimer SDKStartTime]', symObjAddr: 0x7C0, symBinAddr: 0x3E980, symSize: 0x30 }
+  - { offset: 0x7A5E3, size: 0x8, addend: 0x0, symName: '-[ANTTimer setSDKStartTime:]', symObjAddr: 0x7F0, symBinAddr: 0x3E9B0, symSize: 0x30 }
+  - { offset: 0x7A625, size: 0x8, addend: 0x0, symName: '-[ANTTimer .cxx_destruct]', symObjAddr: 0x820, symBinAddr: 0x3E9E0, symSize: 0x27 }
+  - { offset: 0x7A8D2, size: 0x8, addend: 0x0, symName: '-[ANTNavigationEvent initWithViewControllerId:]', symObjAddr: 0x0, symBinAddr: 0x3EA10, symSize: 0x1D0 }
+  - { offset: 0x7A93B, size: 0x8, addend: 0x0, symName: '-[ANTNavigationEvent initWithViewControllerId:]', symObjAddr: 0x0, symBinAddr: 0x3EA10, symSize: 0x1D0 }
+  - { offset: 0x7A9A1, size: 0x8, addend: 0x0, symName: '-[ANTNavigationEvent initWithNavigationId:andName:]', symObjAddr: 0x1D0, symBinAddr: 0x3EBE0, symSize: 0x1B0 }
+  - { offset: 0x7AA16, size: 0x8, addend: 0x0, symName: '-[APXCENavEvent initWithViewControllerId:]', symObjAddr: 0x380, symBinAddr: 0x3ED90, symSize: 0x190 }
+  - { offset: 0x7AA7C, size: 0x8, addend: 0x0, symName: '-[APXCENavEvent initWithNavigationId:andName:]', symObjAddr: 0x510, symBinAddr: 0x3EF20, symSize: 0x1AD }
+  - { offset: 0x7AB5D, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabaseQueue databaseQueueWithPath:]', symObjAddr: 0x0, symBinAddr: 0x3F0D0, symSize: 0xA0 }
+  - { offset: 0x7AB6B, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue initWithPath:flags:]', symObjAddr: 0x170, symBinAddr: 0x3F240, symSize: 0x370 }
+  - { offset: 0x7AC69, size: 0x8, addend: 0x0, symName: _kDispatchQueueSpecificKey, symObjAddr: 0x1D88, symBinAddr: 0x7BB40, symSize: 0x0 }
+  - { offset: 0x7AC7E, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue database]', symObjAddr: 0x7D0, symBinAddr: 0x3F7E0, symSize: 0x220 }
+  - { offset: 0x7AD31, size: 0x8, addend: 0x0, symName: '___33-[FMAPXDatabaseQueue inDatabase:]_block_invoke', symObjAddr: 0xB40, symBinAddr: 0x3FB50, symSize: 0x190 }
+  - { offset: 0x7AE0C, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue inSavePoint:]', symObjAddr: 0x1080, symBinAddr: 0x3FFF0, symSize: 0x1C0 }
+  - { offset: 0x7AE36, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x13E98, symBinAddr: 0x8CA68, symSize: 0x0 }
+  - { offset: 0x7B029, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabaseQueue databaseQueueWithPath:]', symObjAddr: 0x0, symBinAddr: 0x3F0D0, symSize: 0xA0 }
+  - { offset: 0x7B080, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabaseQueue databaseQueueWithPath:flags:]', symObjAddr: 0xA0, symBinAddr: 0x3F170, symSize: 0xA0 }
+  - { offset: 0x7B0E6, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabaseQueue databaseClass]', symObjAddr: 0x140, symBinAddr: 0x3F210, symSize: 0x30 }
+  - { offset: 0x7B11F, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue initWithPath:]', symObjAddr: 0x530, symBinAddr: 0x3F5B0, symSize: 0x90 }
+  - { offset: 0x7B167, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue init]', symObjAddr: 0x5C0, symBinAddr: 0x3F640, symSize: 0x60 }
+  - { offset: 0x7B1A0, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue dealloc]', symObjAddr: 0x620, symBinAddr: 0x3F6A0, symSize: 0x60 }
+  - { offset: 0x7B1D5, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue close]', symObjAddr: 0x680, symBinAddr: 0x3F700, symSize: 0x90 }
+  - { offset: 0x7B20A, size: 0x8, addend: 0x0, symName: '___27-[FMAPXDatabaseQueue close]_block_invoke', symObjAddr: 0x710, symBinAddr: 0x3F790, symSize: 0x50 }
+  - { offset: 0x7B24A, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue inDatabase:]', symObjAddr: 0x9F0, symBinAddr: 0x3FA00, symSize: 0x150 }
+  - { offset: 0x7B29D, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue beginTransaction:withBlock:]', symObjAddr: 0xD70, symBinAddr: 0x3FCE0, symSize: 0xF0 }
+  - { offset: 0x7B2F0, size: 0x8, addend: 0x0, symName: '___49-[FMAPXDatabaseQueue beginTransaction:withBlock:]_block_invoke', symObjAddr: 0xE60, symBinAddr: 0x3FDD0, symSize: 0x160 }
+  - { offset: 0x7B372, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue inDeferredTransaction:]', symObjAddr: 0xFC0, symBinAddr: 0x3FF30, symSize: 0x60 }
+  - { offset: 0x7B3B6, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue inTransaction:]', symObjAddr: 0x1020, symBinAddr: 0x3FF90, symSize: 0x60 }
+  - { offset: 0x7B3FA, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x1240, symBinAddr: 0x401B0, symSize: 0x50 }
+  - { offset: 0x7B421, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x1290, symBinAddr: 0x40200, symSize: 0x30 }
+  - { offset: 0x7B43F, size: 0x8, addend: 0x0, symName: '___34-[FMAPXDatabaseQueue inSavePoint:]_block_invoke', symObjAddr: 0x12C0, symBinAddr: 0x40230, symSize: 0x220 }
+  - { offset: 0x7B4D6, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48r, symObjAddr: 0x14E0, symBinAddr: 0x40450, symSize: 0x80 }
+  - { offset: 0x7B4FD, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue path]', symObjAddr: 0x15C0, symBinAddr: 0x404D0, symSize: 0x30 }
+  - { offset: 0x7B536, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue setPath:]', symObjAddr: 0x15F0, symBinAddr: 0x40500, symSize: 0x30 }
+  - { offset: 0x7B578, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue openFlags]', symObjAddr: 0x1620, symBinAddr: 0x40530, symSize: 0x20 }
+  - { offset: 0x7B5B1, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabaseQueue .cxx_destruct]', symObjAddr: 0x1640, symBinAddr: 0x40550, symSize: 0x4D }
+  - { offset: 0x7B973, size: 0x8, addend: 0x0, symName: '-[ANTAppEventSource logEvent:info:time:]', symObjAddr: 0x0, symBinAddr: 0x405A0, symSize: 0x2C0 }
+  - { offset: 0x7B981, size: 0x8, addend: 0x0, symName: '-[ANTAppEventSource logEvent:info:time:]', symObjAddr: 0x0, symBinAddr: 0x405A0, symSize: 0x2C0 }
+  - { offset: 0x7BB66, size: 0x8, addend: 0x0, symName: '-[UIViewController(APXExtension) apxName]', symObjAddr: 0x0, symBinAddr: 0x40860, symSize: 0xF0 }
+  - { offset: 0x7BB74, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor start]', symObjAddr: 0x1A0, symBinAddr: 0x40A00, symSize: 0x350 }
+  - { offset: 0x7BC47, size: 0x8, addend: 0x0, symName: '___42-[ANTNavigationMonitor handleFirstScreen:]_block_invoke', symObjAddr: 0x780, symBinAddr: 0x40F20, symSize: 0x300 }
+  - { offset: 0x7BD1E, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor navigationChangeNotification:]', symObjAddr: 0xB20, symBinAddr: 0x41220, symSize: 0x230 }
+  - { offset: 0x7BDBD, size: 0x8, addend: 0x0, symName: '___53-[ANTNavigationMonitor navigationChangeNotification:]_block_invoke', symObjAddr: 0xD50, symBinAddr: 0x41450, symSize: 0x250 }
+  - { offset: 0x7BEA3, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor navigationWillChangeNotification:]', symObjAddr: 0xFA0, symBinAddr: 0x416A0, symSize: 0x230 }
+  - { offset: 0x7BF42, size: 0x8, addend: 0x0, symName: '___57-[ANTNavigationMonitor navigationWillChangeNotification:]_block_invoke', symObjAddr: 0x11D0, symBinAddr: 0x418D0, symSize: 0x400 }
+  - { offset: 0x7C04F, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor handleNavigationChangeToViewController:]', symObjAddr: 0x15D0, symBinAddr: 0x41CD0, symSize: 0x530 }
+  - { offset: 0x7C177, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor stop]', symObjAddr: 0x2460, symBinAddr: 0x42B60, symSize: 0x220 }
+  - { offset: 0x7C20B, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor getCurrentScreenName]', symObjAddr: 0x2680, symBinAddr: 0x42D80, symSize: 0x1B0 }
+  - { offset: 0x7C3A8, size: 0x8, addend: 0x0, symName: '-[UIViewController(APXExtension) apxName]', symObjAddr: 0x0, symBinAddr: 0x40860, symSize: 0xF0 }
+  - { offset: 0x7C3E1, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor init]', symObjAddr: 0xF0, symBinAddr: 0x40950, symSize: 0xB0 }
+  - { offset: 0x7C428, size: 0x8, addend: 0x0, symName: '___29-[ANTNavigationMonitor start]_block_invoke', symObjAddr: 0x540, symBinAddr: 0x40D50, symSize: 0xD0 }
+  - { offset: 0x7C486, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor handleFirstScreen:]', symObjAddr: 0x680, symBinAddr: 0x40E20, symSize: 0x100 }
+  - { offset: 0x7C4CA, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor logScreenWithName:]', symObjAddr: 0x1B00, symBinAddr: 0x42200, symSize: 0xE0 }
+  - { offset: 0x7C50E, size: 0x8, addend: 0x0, symName: '___42-[ANTNavigationMonitor logScreenWithName:]_block_invoke', symObjAddr: 0x1BE0, symBinAddr: 0x422E0, symSize: 0x3A0 }
+  - { offset: 0x7C58D, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor onEvent:]', symObjAddr: 0x1F80, symBinAddr: 0x42680, symSize: 0xE0 }
+  - { offset: 0x7C5D1, size: 0x8, addend: 0x0, symName: '___32-[ANTNavigationMonitor onEvent:]_block_invoke', symObjAddr: 0x2060, symBinAddr: 0x42760, symSize: 0x160 }
+  - { offset: 0x7C623, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor onForeground]', symObjAddr: 0x21C0, symBinAddr: 0x428C0, symSize: 0x170 }
+  - { offset: 0x7C687, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor onBackground]', symObjAddr: 0x2330, symBinAddr: 0x42A30, symSize: 0x130 }
+  - { offset: 0x7C6DC, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor getCurrentCustomScreenName]', symObjAddr: 0x2830, symBinAddr: 0x42F30, symSize: 0x20 }
+  - { offset: 0x7C716, size: 0x8, addend: 0x0, symName: '-[ANTNavigationMonitor .cxx_destruct]', symObjAddr: 0x2850, symBinAddr: 0x42F50, symSize: 0x91 }
+  - { offset: 0x7CABA, size: 0x8, addend: 0x0, symName: '+[ANTUtilities isJailbroken]', symObjAddr: 0x0, symBinAddr: 0x42FF0, symSize: 0x20 }
+  - { offset: 0x7CAD4, size: 0x8, addend: 0x0, symName: _kAPXDateFormatter, symObjAddr: 0x766E0, symBinAddr: 0x8CA70, symSize: 0x0 }
+  - { offset: 0x7CB1D, size: 0x8, addend: 0x0, symName: _kAPXDateFormatString, symObjAddr: 0x15520, symBinAddr: 0x7BBD8, symSize: 0x0 }
+  - { offset: 0x7CB31, size: 0x8, addend: 0x0, symName: '+[ANTUtilities saveHash:ForModule:]', symObjAddr: 0xAE0, symBinAddr: 0x43AD0, symSize: 0x530 }
+  - { offset: 0x7CCD7, size: 0x8, addend: 0x0, symName: '+[ANTUtilities saveConfig:atPath:]', symObjAddr: 0x1150, symBinAddr: 0x440F0, symSize: 0x2C0 }
+  - { offset: 0x7CDAB, size: 0x8, addend: 0x0, symName: '+[ANTUtilities readConfigAtRelativePath:]', symObjAddr: 0x1410, symBinAddr: 0x443B0, symSize: 0x6C0 }
+  - { offset: 0x7CF79, size: 0x8, addend: 0x0, symName: '+[ANTUtilities readConfig:]', symObjAddr: 0x1AD0, symBinAddr: 0x44A70, symSize: 0x470 }
+  - { offset: 0x7D0C0, size: 0x8, addend: 0x0, symName: '+[ANTUtilities jsonDataFromNSDictionary:]', symObjAddr: 0x1F40, symBinAddr: 0x44EE0, symSize: 0x3F0 }
+  - { offset: 0x7D1E0, size: 0x8, addend: 0x0, symName: '+[ANTUtilities dictionaryFromNSData:]', symObjAddr: 0x2330, symBinAddr: 0x452D0, symSize: 0x280 }
+  - { offset: 0x7D2A3, size: 0x8, addend: 0x0, symName: '+[ANTUtilities dictionaryFromJsonString:]', symObjAddr: 0x25B0, symBinAddr: 0x45550, symSize: 0x2C0 }
+  - { offset: 0x7D366, size: 0x8, addend: 0x0, symName: '+[ANTUtilities jsonStringFromNSDictionary:]', symObjAddr: 0x2870, symBinAddr: 0x45810, symSize: 0x490 }
+  - { offset: 0x7D49D, size: 0x8, addend: 0x0, symName: '+[ANTUtilities arrayFromJsonString:]', symObjAddr: 0x2D00, symBinAddr: 0x45CA0, symSize: 0x2C0 }
+  - { offset: 0x7D568, size: 0x8, addend: 0x0, symName: '+[ANTUtilities jsonStringFromNSArray:]', symObjAddr: 0x2FC0, symBinAddr: 0x45F60, symSize: 0x490 }
+  - { offset: 0x7D6B1, size: 0x8, addend: 0x0, symName: '___56+[ANTUtilities dictionaryByRemovingNullsAndEmptyValues:]_block_invoke', symObjAddr: 0x5F80, symBinAddr: 0x48EB0, symSize: 0x460 }
+  - { offset: 0x7D7CD, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getViewWithIdentifier:searchType:inView:]', symObjAddr: 0x66A0, symBinAddr: 0x495D0, symSize: 0x970 }
+  - { offset: 0x7DA36, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getViewWithFindConfig:inView:]', symObjAddr: 0x71A0, symBinAddr: 0x4A0D0, symSize: 0xC90 }
+  - { offset: 0x7DCBC, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getViewWithTAG:inView:]', symObjAddr: 0x9390, symBinAddr: 0x4C2C0, symSize: 0x1200 }
+  - { offset: 0x7E083, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getNativeIDForView:]', symObjAddr: 0xC570, symBinAddr: 0x4F4A0, symSize: 0x680 }
+  - { offset: 0x7E263, size: 0x8, addend: 0x0, symName: '+[ANTUtilities logAPXViewWithRoot:separator:]', symObjAddr: 0xE0D0, symBinAddr: 0x51000, symSize: 0x450 }
+  - { offset: 0x7E333, size: 0x8, addend: 0x0, symName: '+[ANTUtilities logViewWithRoot:separator:]', symObjAddr: 0xE520, symBinAddr: 0x51450, symSize: 0x450 }
+  - { offset: 0x7E403, size: 0x8, addend: 0x0, symName: '+[ANTUtilities isViewRect:insideWindowRect:windowThreshold:]', symObjAddr: 0xF380, symBinAddr: 0x522B0, symSize: 0x550 }
+  - { offset: 0x7E4EF, size: 0x8, addend: 0x0, symName: '+[ANTUtilities dictionaryByRemovingEntryWithPID:fromConfig:]', symObjAddr: 0x10770, symBinAddr: 0x536A0, symSize: 0x640 }
+  - { offset: 0x7E626, size: 0x8, addend: 0x0, symName: '+[ANTUtilities logAppEventWithCampaignDiagnosticsForConfig:title:reason:]', symObjAddr: 0x11440, symBinAddr: 0x54370, symSize: 0x12B0 }
+  - { offset: 0x7E8ED, size: 0x8, addend: 0x0, symName: '+[ANTUtilities isJailbroken]', symObjAddr: 0x0, symBinAddr: 0x42FF0, symSize: 0x20 }
+  - { offset: 0x7E926, size: 0x8, addend: 0x0, symName: '+[ANTUtilities initializeDateFormatter]', symObjAddr: 0x20, symBinAddr: 0x43010, symSize: 0xB0 }
+  - { offset: 0x7E96A, size: 0x8, addend: 0x0, symName: '+[ANTUtilities installationDate]', symObjAddr: 0xD0, symBinAddr: 0x430C0, symSize: 0x170 }
+  - { offset: 0x7E9DF, size: 0x8, addend: 0x0, symName: '+[ANTUtilities deviceName]', symObjAddr: 0x240, symBinAddr: 0x43230, symSize: 0x90 }
+  - { offset: 0x7EA2A, size: 0x8, addend: 0x0, symName: '+[ANTUtilities addTwoDictionaries:and:]', symObjAddr: 0x2D0, symBinAddr: 0x432C0, symSize: 0xE0 }
+  - { offset: 0x7EA90, size: 0x8, addend: 0x0, symName: '+[ANTUtilities dateFromAPXDateString:]', symObjAddr: 0x3B0, symBinAddr: 0x433A0, symSize: 0xB0 }
+  - { offset: 0x7EAE7, size: 0x8, addend: 0x0, symName: '+[ANTUtilities dateAPXStringFromNSDate:]', symObjAddr: 0x460, symBinAddr: 0x43450, symSize: 0xB0 }
+  - { offset: 0x7EB3E, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getStringFromDate:]', symObjAddr: 0x510, symBinAddr: 0x43500, symSize: 0xE0 }
+  - { offset: 0x7EBA4, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getDateFromString:]', symObjAddr: 0x5F0, symBinAddr: 0x435E0, symSize: 0xE0 }
+  - { offset: 0x7EC0A, size: 0x8, addend: 0x0, symName: '+[ANTUtilities timeIntervalFromAPXDateString:]', symObjAddr: 0x6D0, symBinAddr: 0x436C0, symSize: 0x90 }
+  - { offset: 0x7EC52, size: 0x8, addend: 0x0, symName: '+[ANTUtilities dateAPXStringFromTimeInterval:]', symObjAddr: 0x760, symBinAddr: 0x43750, symSize: 0x90 }
+  - { offset: 0x7EC9A, size: 0x8, addend: 0x0, symName: '+[ANTUtilities isFirstSession]', symObjAddr: 0x7F0, symBinAddr: 0x437E0, symSize: 0x2F0 }
+  - { offset: 0x7ED11, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getHashForModule:]', symObjAddr: 0x1060, symBinAddr: 0x44000, symSize: 0xF0 }
+  - { offset: 0x7ED77, size: 0x8, addend: 0x0, symName: '+[ANTUtilities isValidObject:]', symObjAddr: 0x3450, symBinAddr: 0x463F0, symSize: 0xD0 }
+  - { offset: 0x7EDC1, size: 0x8, addend: 0x0, symName: '+[ANTUtilities topViewController:]', symObjAddr: 0x3520, symBinAddr: 0x464C0, symSize: 0x330 }
+  - { offset: 0x7EE68, size: 0x8, addend: 0x0, symName: '+[ANTUtilities isNumericString:]', symObjAddr: 0x3850, symBinAddr: 0x467F0, symSize: 0xE0 }
+  - { offset: 0x7EEC2, size: 0x8, addend: 0x0, symName: '+[ANTUtilities isValidString:]', symObjAddr: 0x3930, symBinAddr: 0x468D0, symSize: 0x90 }
+  - { offset: 0x7EF0C, size: 0x8, addend: 0x0, symName: '+[ANTUtilities isInvalidString:]', symObjAddr: 0x39C0, symBinAddr: 0x46960, symSize: 0x70 }
+  - { offset: 0x7EF56, size: 0x8, addend: 0x0, symName: '+[ANTUtilities validStringForString:]', symObjAddr: 0x3A30, symBinAddr: 0x469D0, symSize: 0x90 }
+  - { offset: 0x7EFA0, size: 0x8, addend: 0x0, symName: '+[ANTUtilities fontWithName:size:]', symObjAddr: 0x3AC0, symBinAddr: 0x46A60, symSize: 0x120 }
+  - { offset: 0x7F00A, size: 0x8, addend: 0x0, symName: '+[ANTUtilities fontWithName:size:adaptiveText:]', symObjAddr: 0x3BE0, symBinAddr: 0x46B80, symSize: 0x110 }
+  - { offset: 0x7F084, size: 0x8, addend: 0x0, symName: '+[ANTUtilities fontWithName:size:style:adaptiveText:]', symObjAddr: 0x3CF0, symBinAddr: 0x46C90, symSize: 0x170 }
+  - { offset: 0x7F10E, size: 0x8, addend: 0x0, symName: '+[ANTUtilities fontWithName:size:style:weight:adaptiveText:]', symObjAddr: 0x3E60, symBinAddr: 0x46E00, symSize: 0x1B0 }
+  - { offset: 0x7F1A9, size: 0x8, addend: 0x0, symName: '+[ANTUtilities fontWithName:size:style:]', symObjAddr: 0x4010, symBinAddr: 0x46FB0, symSize: 0xB60 }
+  - { offset: 0x7F23A, size: 0x8, addend: 0x0, symName: '+[ANTUtilities fontWithName:size:style:weight:]', symObjAddr: 0x4B70, symBinAddr: 0x47B10, symSize: 0xB90 }
+  - { offset: 0x7F2DC, size: 0x8, addend: 0x0, symName: '+[ANTUtilities alignmentForString:]', symObjAddr: 0x5700, symBinAddr: 0x486A0, symSize: 0x140 }
+  - { offset: 0x7F326, size: 0x8, addend: 0x0, symName: '+[ANTUtilities validArrayForArray:]', symObjAddr: 0x5840, symBinAddr: 0x487E0, symSize: 0x170 }
+  - { offset: 0x7F380, size: 0x8, addend: 0x0, symName: '___35+[ANTUtilities validArrayForArray:]_block_invoke', symObjAddr: 0x59B0, symBinAddr: 0x48950, symSize: 0x260 }
+  - { offset: 0x7F44B, size: 0x8, addend: 0x0, symName: '+[ANTUtilities isValidDictionary:]', symObjAddr: 0x5C80, symBinAddr: 0x48BB0, symSize: 0x110 }
+  - { offset: 0x7F495, size: 0x8, addend: 0x0, symName: '+[ANTUtilities isInvalidDictionary:]', symObjAddr: 0x5D90, symBinAddr: 0x48CC0, symSize: 0x70 }
+  - { offset: 0x7F4DF, size: 0x8, addend: 0x0, symName: '+[ANTUtilities dictionaryByRemovingNullsAndEmptyValues:]', symObjAddr: 0x5E00, symBinAddr: 0x48D30, symSize: 0x180 }
+  - { offset: 0x7F548, size: 0x8, addend: 0x0, symName: '+[ANTUtilities keyWindow]', symObjAddr: 0x63E0, symBinAddr: 0x49310, symSize: 0x2A0 }
+  - { offset: 0x7F5B5, size: 0x8, addend: 0x0, symName: '+[ANTUtilities ignoredViews]', symObjAddr: 0x6680, symBinAddr: 0x495B0, symSize: 0x20 }
+  - { offset: 0x7F5EF, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getViewWithIdentifier:searchType:]', symObjAddr: 0x7010, symBinAddr: 0x49F40, symSize: 0xE0 }
+  - { offset: 0x7F659, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getViewWithFindConfig:]', symObjAddr: 0x70F0, symBinAddr: 0x4A020, symSize: 0xB0 }
+  - { offset: 0x7F6B3, size: 0x8, addend: 0x0, symName: '+[ANTUtilities validateView:usingCriteria:andFindConfig:]', symObjAddr: 0x7E30, symBinAddr: 0x4AD60, symSize: 0x530 }
+  - { offset: 0x7F794, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getViewWithContent:inView:]', symObjAddr: 0x8360, symBinAddr: 0x4B290, symSize: 0x5C0 }
+  - { offset: 0x7F90A, size: 0x8, addend: 0x0, symName: '+[ANTUtilities validateText:withEval:]', symObjAddr: 0x8920, symBinAddr: 0x4B850, symSize: 0x690 }
+  - { offset: 0x7FA9D, size: 0x8, addend: 0x0, symName: '+[ANTUtilities compareString:withString:usingOperator:]', symObjAddr: 0x8FB0, symBinAddr: 0x4BEE0, symSize: 0x200 }
+  - { offset: 0x7FB07, size: 0x8, addend: 0x0, symName: '+[ANTUtilities compareValue:withValue:usingOperator:]', symObjAddr: 0x91B0, symBinAddr: 0x4C0E0, symSize: 0x1E0 }
+  - { offset: 0x7FB71, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getViewWithAccessibilityIdentifier:inView:]', symObjAddr: 0xA590, symBinAddr: 0x4D4C0, symSize: 0x380 }
+  - { offset: 0x7FBFF, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getNavBarItemViewWithTag:inNavBarController:]', symObjAddr: 0xA910, symBinAddr: 0x4D840, symSize: 0xEF0 }
+  - { offset: 0x7FE02, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getTabBarItemViewWithTag:inTabBarController:]', symObjAddr: 0xB800, symBinAddr: 0x4E730, symSize: 0x740 }
+  - { offset: 0x7FF56, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getViewWithPath:inView:]', symObjAddr: 0xBF40, symBinAddr: 0x4EE70, symSize: 0x270 }
+  - { offset: 0x7FFF0, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getReactNativeViewWithNativeID:inView:]', symObjAddr: 0xC1B0, symBinAddr: 0x4F0E0, symSize: 0x3C0 }
+  - { offset: 0x800A0, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getViewWithIdentifier:inView:]', symObjAddr: 0xCBF0, symBinAddr: 0x4FB20, symSize: 0xCA0 }
+  - { offset: 0x80234, size: 0x8, addend: 0x0, symName: '+[ANTUtilities constructCustomViewHierarchyForView:withRoot:ignoringViews:withAuxiliaryTableView:andCollectionView:]', symObjAddr: 0xD890, symBinAddr: 0x507C0, symSize: 0x840 }
+  - { offset: 0x8037E, size: 0x8, addend: 0x0, symName: '+[ANTUtilities sortSubViewsWithRootView:]', symObjAddr: 0xE970, symBinAddr: 0x518A0, symSize: 0x2B0 }
+  - { offset: 0x803DF, size: 0x8, addend: 0x0, symName: '___41+[ANTUtilities sortSubViewsWithRootView:]_block_invoke', symObjAddr: 0xEC20, symBinAddr: 0x51B50, symSize: 0x670 }
+  - { offset: 0x804D2, size: 0x8, addend: 0x0, symName: _CGPointMake, symObjAddr: 0xF290, symBinAddr: 0x521C0, symSize: 0x30 }
+  - { offset: 0x8051E, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getNativeIDFromIndentifier:]', symObjAddr: 0xF2C0, symBinAddr: 0x521F0, symSize: 0xC0 }
+  - { offset: 0x80568, size: 0x8, addend: 0x0, symName: '+[ANTUtilities colorFromHexString:]', symObjAddr: 0xF8D0, symBinAddr: 0x52800, symSize: 0x230 }
+  - { offset: 0x80614, size: 0x8, addend: 0x0, symName: '+[ANTUtilities rangeForCount:]', symObjAddr: 0xFB00, symBinAddr: 0x52A30, symSize: 0x1A0 }
+  - { offset: 0x806BC, size: 0x8, addend: 0x0, symName: '+[ANTUtilities stringWithDeviceToken:]', symObjAddr: 0xFCA0, symBinAddr: 0x52BD0, symSize: 0x130 }
+  - { offset: 0x80745, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getPIDMIDDictFromString:]', symObjAddr: 0xFDD0, symBinAddr: 0x52D00, symSize: 0x370 }
+  - { offset: 0x8081D, size: 0x8, addend: 0x0, symName: '+[ANTUtilities iDKeyDictionaryForConfigs:]', symObjAddr: 0x10140, symBinAddr: 0x53070, symSize: 0x300 }
+  - { offset: 0x808B3, size: 0x8, addend: 0x0, symName: '+[ANTUtilities doesConfig:containsPID:]', symObjAddr: 0x10440, symBinAddr: 0x53370, symSize: 0x330 }
+  - { offset: 0x80949, size: 0x8, addend: 0x0, symName: '+[ANTUtilities removeConditionConfigFromConfig:]', symObjAddr: 0x10DB0, symBinAddr: 0x53CE0, symSize: 0x3A0 }
+  - { offset: 0x80A0E, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getAllPIDsInConfig:]', symObjAddr: 0x11150, symBinAddr: 0x54080, symSize: 0x2F0 }
+  - { offset: 0x80AA4, size: 0x8, addend: 0x0, symName: '+[ANTUtilities getVariantCodeForConfig:]', symObjAddr: 0x126F0, symBinAddr: 0x55620, symSize: 0x1B0 }
+  - { offset: 0x80B3D, size: 0x8, addend: 0x0, symName: '+[ANTUtilities calculateArea:]', symObjAddr: 0x128A0, symBinAddr: 0x557D0, symSize: 0x1A0 }
+  - { offset: 0x80BA7, size: 0x8, addend: 0x0, symName: '+[ANTUtilities sortArrayBasedOnArea:]', symObjAddr: 0x12A40, symBinAddr: 0x55970, symSize: 0xB0 }
+  - { offset: 0x80BF1, size: 0x8, addend: 0x0, symName: '___37+[ANTUtilities sortArrayBasedOnArea:]_block_invoke', symObjAddr: 0x12AF0, symBinAddr: 0x55A20, symSize: 0x170 }
+  - { offset: 0x80C87, size: 0x8, addend: 0x0, symName: '+[ANTUtilities isUrlSchemePresent:]', symObjAddr: 0x12C60, symBinAddr: 0x55B90, symSize: 0x5BA }
+  - { offset: 0x8115A, size: 0x8, addend: 0x0, symName: '-[APXPluginLoader loadPlugins:withConfigurration:]', symObjAddr: 0x0, symBinAddr: 0x56150, symSize: 0x7F0 }
+  - { offset: 0x81168, size: 0x8, addend: 0x0, symName: '-[APXPluginLoader loadPlugins:withConfigurration:]', symObjAddr: 0x0, symBinAddr: 0x56150, symSize: 0x7F0 }
+  - { offset: 0x8137E, size: 0x8, addend: 0x0, symName: '-[APXPluginLoader loadPluginWithName:withConfigurration:]', symObjAddr: 0x840, symBinAddr: 0x56940, symSize: 0x950 }
+  - { offset: 0x81612, size: 0x8, addend: 0x0, symName: '-[APXPluginLoader .cxx_destruct]', symObjAddr: 0x1190, symBinAddr: 0x57290, symSize: 0x27 }
+  - { offset: 0x81702, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler init]', symObjAddr: 0x0, symBinAddr: 0x572C0, symSize: 0x110 }
+  - { offset: 0x81710, size: 0x8, addend: 0x0, symName: '___32-[ANTEventHandler enqueueEvent:]_block_invoke', symObjAddr: 0xCD0, symBinAddr: 0x57E10, symSize: 0x12D0 }
+  - { offset: 0x81BD8, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler init]', symObjAddr: 0x0, symBinAddr: 0x572C0, symSize: 0x110 }
+  - { offset: 0x81C11, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler registerForEventType:listener:]', symObjAddr: 0x110, symBinAddr: 0x573D0, symSize: 0xF0 }
+  - { offset: 0x81C64, size: 0x8, addend: 0x0, symName: '___49-[ANTEventHandler registerForEventType:listener:]_block_invoke', symObjAddr: 0x200, symBinAddr: 0x574C0, symSize: 0x190 }
+  - { offset: 0x81D04, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler deregisterForEventType:listener:]', symObjAddr: 0x430, symBinAddr: 0x57650, symSize: 0xF0 }
+  - { offset: 0x81D57, size: 0x8, addend: 0x0, symName: '___51-[ANTEventHandler deregisterForEventType:listener:]_block_invoke', symObjAddr: 0x520, symBinAddr: 0x57740, symSize: 0x170 }
+  - { offset: 0x81DD9, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler registerIdentifer:withListener:]', symObjAddr: 0x690, symBinAddr: 0x578B0, symSize: 0x130 }
+  - { offset: 0x81E2C, size: 0x8, addend: 0x0, symName: '___50-[ANTEventHandler registerIdentifer:withListener:]_block_invoke', symObjAddr: 0x7C0, symBinAddr: 0x579E0, symSize: 0x150 }
+  - { offset: 0x81EAE, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler deRegisterIdentifer:withListener:]', symObjAddr: 0x9F0, symBinAddr: 0x57B30, symSize: 0x130 }
+  - { offset: 0x81F01, size: 0x8, addend: 0x0, symName: '___52-[ANTEventHandler deRegisterIdentifer:withListener:]_block_invoke', symObjAddr: 0xB20, symBinAddr: 0x57C60, symSize: 0xD0 }
+  - { offset: 0x81F65, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler enqueueEvent:]', symObjAddr: 0xBF0, symBinAddr: 0x57D30, symSize: 0xE0 }
+  - { offset: 0x81FA9, size: 0x8, addend: 0x0, symName: '___32-[ANTEventHandler enqueueEvent:]_block_invoke.60', symObjAddr: 0x1FF0, symBinAddr: 0x590E0, symSize: 0x30 }
+  - { offset: 0x81FF7, size: 0x8, addend: 0x0, symName: '___32-[ANTEventHandler enqueueEvent:]_block_invoke.65', symObjAddr: 0x2020, symBinAddr: 0x59110, symSize: 0x30 }
+  - { offset: 0x82045, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler eventsToBeIgnored]', symObjAddr: 0x2050, symBinAddr: 0x59140, symSize: 0x30 }
+  - { offset: 0x8207E, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler setEventsToBeIgnored:]', symObjAddr: 0x2080, symBinAddr: 0x59170, symSize: 0x30 }
+  - { offset: 0x820C0, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler clientEvents]', symObjAddr: 0x20B0, symBinAddr: 0x591A0, symSize: 0x30 }
+  - { offset: 0x820F9, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler setClientEvents:]', symObjAddr: 0x20E0, symBinAddr: 0x591D0, symSize: 0x30 }
+  - { offset: 0x8213B, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler appEvents]', symObjAddr: 0x2110, symBinAddr: 0x59200, symSize: 0x30 }
+  - { offset: 0x82174, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler setAppEvents:]', symObjAddr: 0x2140, symBinAddr: 0x59230, symSize: 0x30 }
+  - { offset: 0x821B6, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler aggregateEvents]', symObjAddr: 0x2170, symBinAddr: 0x59260, symSize: 0x30 }
+  - { offset: 0x821EF, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler setAggregateEvents:]', symObjAddr: 0x21A0, symBinAddr: 0x59290, symSize: 0x30 }
+  - { offset: 0x82231, size: 0x8, addend: 0x0, symName: '-[ANTEventHandler .cxx_destruct]', symObjAddr: 0x21D0, symBinAddr: 0x592C0, symSize: 0x91 }
+  - { offset: 0x82671, size: 0x8, addend: 0x0, symName: '+[ANTSystemEvent stringFromSystemType:]', symObjAddr: 0x0, symBinAddr: 0x59360, symSize: 0xA0 }
+  - { offset: 0x82791, size: 0x8, addend: 0x0, symName: '+[ANTSystemEvent stringFromSystemType:]', symObjAddr: 0x0, symBinAddr: 0x59360, symSize: 0xA0 }
+  - { offset: 0x827E8, size: 0x8, addend: 0x0, symName: '+[ANTSystemEvent systemTypeFromString:]', symObjAddr: 0xA0, symBinAddr: 0x59400, symSize: 0x80 }
+  - { offset: 0x8283F, size: 0x8, addend: 0x0, symName: '-[ANTSystemEvent initWithType:subType:]', symObjAddr: 0x120, symBinAddr: 0x59480, symSize: 0xC6 }
+  - { offset: 0x82926, size: 0x8, addend: 0x0, symName: '-[ANTDeviceInfo initWithId:]', symObjAddr: 0x0, symBinAddr: 0x59550, symSize: 0x540 }
+  - { offset: 0x829A8, size: 0x8, addend: 0x0, symName: '-[ANTDeviceInfo initWithId:]', symObjAddr: 0x0, symBinAddr: 0x59550, symSize: 0x540 }
+  - { offset: 0x82ABE, size: 0x8, addend: 0x0, symName: '-[ANTDeviceInfo getDeviceID]', symObjAddr: 0x540, symBinAddr: 0x59A90, symSize: 0x30 }
+  - { offset: 0x82AF7, size: 0x8, addend: 0x0, symName: '-[ANTDeviceInfo getHardwareModel]', symObjAddr: 0x570, symBinAddr: 0x59AC0, symSize: 0x80 }
+  - { offset: 0x82B3F, size: 0x8, addend: 0x0, symName: '-[ANTDeviceInfo getIDFA]', symObjAddr: 0x5F0, symBinAddr: 0x59B40, symSize: 0x120 }
+  - { offset: 0x82BE1, size: 0x8, addend: 0x0, symName: '-[ANTDeviceInfo logDeviceToken:]', symObjAddr: 0x710, symBinAddr: 0x59C60, symSize: 0x5E }
+  - { offset: 0x82C9F, size: 0x8, addend: 0x0, symName: '+[ANTChunk CMID:cid:]', symObjAddr: 0x0, symBinAddr: 0x59CC0, symSize: 0x110 }
+  - { offset: 0x82CF2, size: 0x8, addend: 0x0, symName: '+[ANTChunk CMID:cid:]', symObjAddr: 0x0, symBinAddr: 0x59CC0, symSize: 0x110 }
+  - { offset: 0x82D49, size: 0x8, addend: 0x0, symName: '-[ANTChunk isStorable]', symObjAddr: 0x110, symBinAddr: 0x59DD0, symSize: 0x20 }
+  - { offset: 0x82D82, size: 0x8, addend: 0x0, symName: '-[ANTChunk initWithIndex:sessionId:]', symObjAddr: 0x130, symBinAddr: 0x59DF0, symSize: 0x200 }
+  - { offset: 0x82DF7, size: 0x8, addend: 0x0, symName: '-[ANTChunk setChunkAttribute:forKey:]', symObjAddr: 0x330, symBinAddr: 0x59FF0, symSize: 0x90 }
+  - { offset: 0x82E4A, size: 0x8, addend: 0x0, symName: '-[ANTChunk chunkAttributes]', symObjAddr: 0x3C0, symBinAddr: 0x5A080, symSize: 0x40 }
+  - { offset: 0x82E83, size: 0x8, addend: 0x0, symName: '-[ANTChunk .cxx_destruct]', symObjAddr: 0x400, symBinAddr: 0x5A0C0, symSize: 0x2A }
+  - { offset: 0x82F62, size: 0x8, addend: 0x0, symName: '-[ANTUser initWithId:]', symObjAddr: 0x0, symBinAddr: 0x5A0F0, symSize: 0xA0 }
+  - { offset: 0x82FA3, size: 0x8, addend: 0x0, symName: '-[ANTUser initWithId:]', symObjAddr: 0x0, symBinAddr: 0x5A0F0, symSize: 0xA0 }
+  - { offset: 0x82FEB, size: 0x8, addend: 0x0, symName: '-[ANTUser setUserAttribute:forKey:]', symObjAddr: 0xA0, symBinAddr: 0x5A190, symSize: 0xC0 }
+  - { offset: 0x8303E, size: 0x8, addend: 0x0, symName: '-[ANTUser userAttributes]', symObjAddr: 0x160, symBinAddr: 0x5A250, symSize: 0x27 }
+  - { offset: 0x83115, size: 0x8, addend: 0x0, symName: '-[ANTSDKInfo initWithId:]', symObjAddr: 0x0, symBinAddr: 0x5A280, symSize: 0x2CF }
+  - { offset: 0x83156, size: 0x8, addend: 0x0, symName: '-[ANTSDKInfo initWithId:]', symObjAddr: 0x0, symBinAddr: 0x5A280, symSize: 0x2CF }
+  - { offset: 0x83247, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabase databaseWithPath:]', symObjAddr: 0x0, symBinAddr: 0x5A550, symSize: 0x70 }
+  - { offset: 0x83268, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabase FMDBVersion]', symObjAddr: 0x320, symBinAddr: 0x5A870, symSize: 0xA0 }
+  - { offset: 0x83292, size: 0x8, addend: 0x0, symName: _FMDBVersion.once, symObjAddr: 0x4EB28, symBinAddr: 0x8CA78, symSize: 0x0 }
+  - { offset: 0x832A8, size: 0x8, addend: 0x0, symName: _FMDBVersion.FMDBVersionVal, symObjAddr: 0x4EB30, symBinAddr: 0x8CA80, symSize: 0x0 }
+  - { offset: 0x83303, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase open]', symObjAddr: 0x610, symBinAddr: 0x5AB60, symSize: 0x1F0 }
+  - { offset: 0x833B3, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase openWithFlags:]', symObjAddr: 0x850, symBinAddr: 0x5AD50, symSize: 0x200 }
+  - { offset: 0x83467, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase close]', symObjAddr: 0xA50, symBinAddr: 0x5AF50, symSize: 0x390 }
+  - { offset: 0x835A6, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase busyRetryTimeout]', symObjAddr: 0x1100, symBinAddr: 0x5B600, symSize: 0x130 }
+  - { offset: 0x8363E, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase setBusyRetryTimeout:]', symObjAddr: 0x1230, symBinAddr: 0x5B730, symSize: 0x130 }
+  - { offset: 0x836E3, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase warnInUse]', symObjAddr: 0x20D0, symBinAddr: 0x5C5D0, symSize: 0x160 }
+  - { offset: 0x83777, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase databaseExists]', symObjAddr: 0x2230, symBinAddr: 0x5C730, symSize: 0x190 }
+  - { offset: 0x83810, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeQuery:withArgumentsInArray:orDictionary:orVAList:]', symObjAddr: 0x3F10, symBinAddr: 0x5E410, symSize: 0x1680 }
+  - { offset: 0x83CAF, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeUpdate:error:withArgumentsInArray:orDictionary:orVAList:]', symObjAddr: 0x59E0, symBinAddr: 0x5FEE0, symSize: 0x22E0 }
+  - { offset: 0x84445, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeStatements:withResultBlock:]', symObjAddr: 0x83B0, symBinAddr: 0x628B0, symSize: 0x280 }
+  - { offset: 0x84521, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase inSavePoint:]', symObjAddr: 0x8DE0, symBinAddr: 0x632E0, symSize: 0x190 }
+  - { offset: 0x8454D, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x4EB38, symBinAddr: 0x8CA88, symSize: 0x0 }
+  - { offset: 0x845B9, size: 0x8, addend: 0x0, symName: _FMDBDatabaseBusyHandler, symObjAddr: 0xE60, symBinAddr: 0x5B360, symSize: 0x280 }
+  - { offset: 0x848A8, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabase databaseWithPath:]', symObjAddr: 0x0, symBinAddr: 0x5A550, symSize: 0x70 }
+  - { offset: 0x848F0, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase init]', symObjAddr: 0x70, symBinAddr: 0x5A5C0, symSize: 0x60 }
+  - { offset: 0x84929, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase initWithPath:]', symObjAddr: 0xD0, symBinAddr: 0x5A620, symSize: 0x170 }
+  - { offset: 0x84971, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase finalize]', symObjAddr: 0x240, symBinAddr: 0x5A790, symSize: 0x50 }
+  - { offset: 0x849A6, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase dealloc]', symObjAddr: 0x290, symBinAddr: 0x5A7E0, symSize: 0x50 }
+  - { offset: 0x849DB, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase databasePath]', symObjAddr: 0x2E0, symBinAddr: 0x5A830, symSize: 0x20 }
+  - { offset: 0x84A14, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabase FMDBUserVersion]', symObjAddr: 0x300, symBinAddr: 0x5A850, symSize: 0x20 }
+  - { offset: 0x84A7A, size: 0x8, addend: 0x0, symName: '___28+[FMAPXDatabase FMDBVersion]_block_invoke', symObjAddr: 0x3C0, symBinAddr: 0x5A910, symSize: 0x130 }
+  - { offset: 0x84AF6, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabase sqliteLibVersion]', symObjAddr: 0x4F0, symBinAddr: 0x5AA40, symSize: 0x50 }
+  - { offset: 0x84B2F, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabase isSQLiteThreadSafe]', symObjAddr: 0x540, symBinAddr: 0x5AA90, symSize: 0x30 }
+  - { offset: 0x84B68, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase sqliteHandle]', symObjAddr: 0x570, symBinAddr: 0x5AAC0, symSize: 0x20 }
+  - { offset: 0x84BA1, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase sqlitePath]', symObjAddr: 0x590, symBinAddr: 0x5AAE0, symSize: 0x80 }
+  - { offset: 0x84BDA, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase setMaxBusyRetryTimeInterval:]', symObjAddr: 0xDE0, symBinAddr: 0x5B2E0, symSize: 0x80 }
+  - { offset: 0x84C1E, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase maxBusyRetryTimeInterval]', symObjAddr: 0x10E0, symBinAddr: 0x5B5E0, symSize: 0x20 }
+  - { offset: 0x84C58, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase hasOpenResultSets]', symObjAddr: 0x1360, symBinAddr: 0x5B860, symSize: 0x40 }
+  - { offset: 0x84C92, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase closeOpenResultSets]', symObjAddr: 0x13A0, symBinAddr: 0x5B8A0, symSize: 0x260 }
+  - { offset: 0x84D13, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase resultSetDidClose:]', symObjAddr: 0x1600, symBinAddr: 0x5BB00, symSize: 0x90 }
+  - { offset: 0x84D69, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase clearCachedStatements]', symObjAddr: 0x1690, symBinAddr: 0x5BB90, symSize: 0x200 }
+  - { offset: 0x84DB9, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase cachedStatementForQuery:]', symObjAddr: 0x1890, symBinAddr: 0x5BD90, symSize: 0xE0 }
+  - { offset: 0x84E13, size: 0x8, addend: 0x0, symName: '___41-[FMAPXDatabase cachedStatementForQuery:]_block_invoke', symObjAddr: 0x1970, symBinAddr: 0x5BE70, symSize: 0x80 }
+  - { offset: 0x84E63, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase setCachedStatement:forQuery:]', symObjAddr: 0x19F0, symBinAddr: 0x5BEF0, symSize: 0x130 }
+  - { offset: 0x84EC9, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase rekey:]', symObjAddr: 0x1B20, symBinAddr: 0x5C020, symSize: 0xE0 }
+  - { offset: 0x84F23, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase rekeyWithData:]', symObjAddr: 0x1C00, symBinAddr: 0x5C100, symSize: 0x50 }
+  - { offset: 0x84F6D, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase setKey:]', symObjAddr: 0x1C50, symBinAddr: 0x5C150, symSize: 0xE0 }
+  - { offset: 0x84FC7, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase setKeyWithData:]', symObjAddr: 0x1D30, symBinAddr: 0x5C230, symSize: 0x50 }
+  - { offset: 0x85011, size: 0x8, addend: 0x0, symName: '+[FMAPXDatabase storeableDateFormat:]', symObjAddr: 0x1D80, symBinAddr: 0x5C280, symSize: 0x140 }
+  - { offset: 0x8506B, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase hasDateFormatter]', symObjAddr: 0x1EC0, symBinAddr: 0x5C3C0, symSize: 0x20 }
+  - { offset: 0x850A5, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase setDateFormat:]', symObjAddr: 0x1EE0, symBinAddr: 0x5C3E0, symSize: 0x50 }
+  - { offset: 0x850EB, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase dateFromString:]', symObjAddr: 0x1F30, symBinAddr: 0x5C430, symSize: 0x80 }
+  - { offset: 0x85135, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase stringFromDate:]', symObjAddr: 0x1FB0, symBinAddr: 0x5C4B0, symSize: 0x80 }
+  - { offset: 0x8517F, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase goodConnection]', symObjAddr: 0x2030, symBinAddr: 0x5C530, symSize: 0xA0 }
+  - { offset: 0x851C9, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase lastErrorMessage]', symObjAddr: 0x23C0, symBinAddr: 0x5C8C0, symSize: 0x50 }
+  - { offset: 0x85203, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase hadError]', symObjAddr: 0x2410, symBinAddr: 0x5C910, symSize: 0x50 }
+  - { offset: 0x8524D, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase lastErrorCode]', symObjAddr: 0x2460, symBinAddr: 0x5C960, symSize: 0x30 }
+  - { offset: 0x85287, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase errorWithMessage:]', symObjAddr: 0x2490, symBinAddr: 0x5C990, symSize: 0xE0 }
+  - { offset: 0x852E1, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase lastError]', symObjAddr: 0x2570, symBinAddr: 0x5CA70, symSize: 0x80 }
+  - { offset: 0x8531B, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase lastInsertRowId]', symObjAddr: 0x25F0, symBinAddr: 0x5CAF0, symSize: 0x70 }
+  - { offset: 0x85365, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase changes]', symObjAddr: 0x2660, symBinAddr: 0x5CB60, symSize: 0x70 }
+  - { offset: 0x853AF, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase bindObject:toColumn:inStatement:]', symObjAddr: 0x26D0, symBinAddr: 0x5CBD0, symSize: 0x980 }
+  - { offset: 0x85434, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase extractSQL:argumentsList:intoString:arguments:]', symObjAddr: 0x3050, symBinAddr: 0x5D550, symSize: 0xE10 }
+  - { offset: 0x8554C, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeQuery:withParameterDictionary:]', symObjAddr: 0x3E60, symBinAddr: 0x5E360, symSize: 0xB0 }
+  - { offset: 0x855A6, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeQuery:]', symObjAddr: 0x5590, symBinAddr: 0x5FA90, symSize: 0x150 }
+  - { offset: 0x85611, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeQueryWithFormat:]', symObjAddr: 0x56E0, symBinAddr: 0x5FBE0, symSize: 0x1C0 }
+  - { offset: 0x8568D, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeQuery:withArgumentsInArray:]', symObjAddr: 0x58A0, symBinAddr: 0x5FDA0, symSize: 0xB0 }
+  - { offset: 0x856E7, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeQuery:withVAList:]', symObjAddr: 0x5950, symBinAddr: 0x5FE50, symSize: 0x90 }
+  - { offset: 0x85741, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeUpdate:]', symObjAddr: 0x7CC0, symBinAddr: 0x621C0, symSize: 0x130 }
+  - { offset: 0x857AC, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeUpdate:withArgumentsInArray:]', symObjAddr: 0x7DF0, symBinAddr: 0x622F0, symSize: 0xA0 }
+  - { offset: 0x85806, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeUpdate:withParameterDictionary:]', symObjAddr: 0x7E90, symBinAddr: 0x62390, symSize: 0xA0 }
+  - { offset: 0x85860, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeUpdate:withVAList:]', symObjAddr: 0x7F30, symBinAddr: 0x62430, symSize: 0x80 }
+  - { offset: 0x858BA, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeUpdateWithFormat:]', symObjAddr: 0x7FB0, symBinAddr: 0x624B0, symSize: 0x1C0 }
+  - { offset: 0x85936, size: 0x8, addend: 0x0, symName: _FMAPXDBExecuteBulkSQLCallback, symObjAddr: 0x8170, symBinAddr: 0x62670, symSize: 0x1D0 }
+  - { offset: 0x85A02, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeStatements:]', symObjAddr: 0x8340, symBinAddr: 0x62840, symSize: 0x70 }
+  - { offset: 0x85A4C, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase executeUpdate:withErrorAndBindings:]', symObjAddr: 0x8630, symBinAddr: 0x62B30, symSize: 0x140 }
+  - { offset: 0x85AC8, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase update:withErrorAndBindings:]', symObjAddr: 0x8770, symBinAddr: 0x62C70, symSize: 0x140 }
+  - { offset: 0x85B44, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase rollback]', symObjAddr: 0x88B0, symBinAddr: 0x62DB0, symSize: 0x50 }
+  - { offset: 0x85B8E, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase commit]', symObjAddr: 0x8900, symBinAddr: 0x62E00, symSize: 0x50 }
+  - { offset: 0x85BD8, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase beginDeferredTransaction]', symObjAddr: 0x8950, symBinAddr: 0x62E50, symSize: 0x50 }
+  - { offset: 0x85C22, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase beginTransaction]', symObjAddr: 0x89A0, symBinAddr: 0x62EA0, symSize: 0x50 }
+  - { offset: 0x85C6C, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase inTransaction]', symObjAddr: 0x89F0, symBinAddr: 0x62EF0, symSize: 0x20 }
+  - { offset: 0x85CA6, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase startSavePointWithName:error:]', symObjAddr: 0x8A10, symBinAddr: 0x62F10, symSize: 0x120 }
+  - { offset: 0x85D10, size: 0x8, addend: 0x0, symName: _FMDBEscapeSavePointName, symObjAddr: 0x8B30, symBinAddr: 0x63030, symSize: 0x70 }
+  - { offset: 0x85D3C, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase releaseSavePointWithName:error:]', symObjAddr: 0x8BA0, symBinAddr: 0x630A0, symSize: 0x120 }
+  - { offset: 0x85DB6, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase rollbackToSavePointWithName:error:]', symObjAddr: 0x8CC0, symBinAddr: 0x631C0, symSize: 0x120 }
+  - { offset: 0x85E30, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase shouldCacheStatements]', symObjAddr: 0x8F70, symBinAddr: 0x63470, symSize: 0x20 }
+  - { offset: 0x85E6A, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase setShouldCacheStatements:]', symObjAddr: 0x8F90, symBinAddr: 0x63490, symSize: 0xB0 }
+  - { offset: 0x85EB0, size: 0x8, addend: 0x0, symName: _FMAPXDBBlockSQLiteCallBackFunction, symObjAddr: 0x9040, symBinAddr: 0x63540, symSize: 0x50 }
+  - { offset: 0x85F08, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase makeFunctionNamed:maximumArguments:withBlock:]', symObjAddr: 0x9090, symBinAddr: 0x63590, symSize: 0x140 }
+  - { offset: 0x85F7E, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase cachedStatements]', symObjAddr: 0x91D0, symBinAddr: 0x636D0, symSize: 0x30 }
+  - { offset: 0x85FB7, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase setCachedStatements:]', symObjAddr: 0x9200, symBinAddr: 0x63700, symSize: 0x30 }
+  - { offset: 0x85FF9, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase logsErrors]', symObjAddr: 0x9230, symBinAddr: 0x63730, symSize: 0x20 }
+  - { offset: 0x86032, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase setLogsErrors:]', symObjAddr: 0x9250, symBinAddr: 0x63750, symSize: 0x20 }
+  - { offset: 0x86074, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase crashOnErrors]', symObjAddr: 0x9270, symBinAddr: 0x63770, symSize: 0x20 }
+  - { offset: 0x860AD, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase setCrashOnErrors:]', symObjAddr: 0x9290, symBinAddr: 0x63790, symSize: 0x20 }
+  - { offset: 0x860EF, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase checkedOut]', symObjAddr: 0x92B0, symBinAddr: 0x637B0, symSize: 0x20 }
+  - { offset: 0x86128, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase setCheckedOut:]', symObjAddr: 0x92D0, symBinAddr: 0x637D0, symSize: 0x20 }
+  - { offset: 0x8616A, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase traceExecution]', symObjAddr: 0x92F0, symBinAddr: 0x637F0, symSize: 0x20 }
+  - { offset: 0x861A3, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase setTraceExecution:]', symObjAddr: 0x9310, symBinAddr: 0x63810, symSize: 0x20 }
+  - { offset: 0x861E5, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase db]', symObjAddr: 0x9330, symBinAddr: 0x63830, symSize: 0x20 }
+  - { offset: 0x8621E, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase setDb:]', symObjAddr: 0x9350, symBinAddr: 0x63850, symSize: 0x20 }
+  - { offset: 0x86260, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase .cxx_destruct]', symObjAddr: 0x9370, symBinAddr: 0x63870, symSize: 0x70 }
+  - { offset: 0x86295, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement finalize]', symObjAddr: 0x93E0, symBinAddr: 0x638E0, symSize: 0x50 }
+  - { offset: 0x862CB, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement dealloc]', symObjAddr: 0x9430, symBinAddr: 0x63930, symSize: 0x50 }
+  - { offset: 0x86301, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement close]', symObjAddr: 0x9480, symBinAddr: 0x63980, symSize: 0x50 }
+  - { offset: 0x86337, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement reset]', symObjAddr: 0x94D0, symBinAddr: 0x639D0, symSize: 0x40 }
+  - { offset: 0x8636D, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement description]', symObjAddr: 0x9510, symBinAddr: 0x63A10, symSize: 0xA0 }
+  - { offset: 0x863A7, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement statement]', symObjAddr: 0x95B0, symBinAddr: 0x63AB0, symSize: 0x20 }
+  - { offset: 0x863E1, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement setStatement:]', symObjAddr: 0x95D0, symBinAddr: 0x63AD0, symSize: 0x20 }
+  - { offset: 0x86424, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement query]', symObjAddr: 0x95F0, symBinAddr: 0x63AF0, symSize: 0x30 }
+  - { offset: 0x8645E, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement setQuery:]', symObjAddr: 0x9620, symBinAddr: 0x63B20, symSize: 0x30 }
+  - { offset: 0x864A1, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement useCount]', symObjAddr: 0x9650, symBinAddr: 0x63B50, symSize: 0x20 }
+  - { offset: 0x864DB, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement setUseCount:]', symObjAddr: 0x9670, symBinAddr: 0x63B70, symSize: 0x20 }
+  - { offset: 0x8651E, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement inUse]', symObjAddr: 0x9690, symBinAddr: 0x63B90, symSize: 0x20 }
+  - { offset: 0x86558, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement setInUse:]', symObjAddr: 0x96B0, symBinAddr: 0x63BB0, symSize: 0x20 }
+  - { offset: 0x8659B, size: 0x8, addend: 0x0, symName: '-[FMAPXStatement .cxx_destruct]', symObjAddr: 0x96D0, symBinAddr: 0x63BD0, symSize: 0x27 }
+  - { offset: 0x869F4, size: 0x8, addend: 0x0, symName: '-[ANTInternalEventSource logEvent:info:time:]', symObjAddr: 0x0, symBinAddr: 0x63C00, symSize: 0x10D }
+  - { offset: 0x86A13, size: 0x8, addend: 0x0, symName: '-[ANTInternalEventSource logEvent:info:time:]', symObjAddr: 0x0, symBinAddr: 0x63C00, symSize: 0x10D }
+  - { offset: 0x86B49, size: 0x8, addend: 0x0, symName: '-[ANTAppInfo initWithId:]', symObjAddr: 0x0, symBinAddr: 0x63D10, symSize: 0x730 }
+  - { offset: 0x86BA4, size: 0x8, addend: 0x0, symName: '-[ANTAppInfo initWithId:]', symObjAddr: 0x0, symBinAddr: 0x63D10, symSize: 0x730 }
+  - { offset: 0x86C7A, size: 0x8, addend: 0x0, symName: '-[ANTAppInfo appVersion]', symObjAddr: 0x730, symBinAddr: 0x64440, symSize: 0x30 }
+  - { offset: 0x86CB3, size: 0x8, addend: 0x0, symName: '-[ANTAppInfo .cxx_destruct]', symObjAddr: 0x760, symBinAddr: 0x64470, symSize: 0x2A }
+  - { offset: 0x86D9E, size: 0x8, addend: 0x0, symName: _kANTSdkConfigLocation, symObjAddr: 0x1120, symBinAddr: 0x7BD30, symSize: 0x0 }
+  - { offset: 0x86DBE, size: 0x8, addend: 0x0, symName: _kANTSDKFrequencyConfig, symObjAddr: 0x1128, symBinAddr: 0x7BD38, symSize: 0x0 }
+  - { offset: 0x86DD4, size: 0x8, addend: 0x0, symName: _kANTSDKConditionConfig, symObjAddr: 0x1130, symBinAddr: 0x7BD40, symSize: 0x0 }
+  - { offset: 0x86DEA, size: 0x8, addend: 0x0, symName: _kANTSDKEnableStatusConfig, symObjAddr: 0x1138, symBinAddr: 0x7BD48, symSize: 0x0 }
+  - { offset: 0x86E00, size: 0x8, addend: 0x0, symName: _kANTSDKFootprintFile, symObjAddr: 0x1140, symBinAddr: 0x7BD50, symSize: 0x0 }
+  - { offset: 0x86E16, size: 0x8, addend: 0x0, symName: _kANTStopConditions, symObjAddr: 0x1148, symBinAddr: 0x7BD58, symSize: 0x0 }
+  - { offset: 0x86E2C, size: 0x8, addend: 0x0, symName: _kANTConfigIdKey, symObjAddr: 0x1150, symBinAddr: 0x7BD60, symSize: 0x0 }
+  - { offset: 0x86E42, size: 0x8, addend: 0x0, symName: _kANTSdkDatabaseName, symObjAddr: 0x1158, symBinAddr: 0x7BD68, symSize: 0x0 }
+  - { offset: 0x86E58, size: 0x8, addend: 0x0, symName: _kANTServerBaseURL, symObjAddr: 0x1160, symBinAddr: 0x7BD70, symSize: 0x0 }
+  - { offset: 0x86E6E, size: 0x8, addend: 0x0, symName: _kANTSDKEnableURL, symObjAddr: 0x1168, symBinAddr: 0x7BD78, symSize: 0x0 }
+  - { offset: 0x86E84, size: 0x8, addend: 0x0, symName: _kANTSDKConfigURL, symObjAddr: 0x1170, symBinAddr: 0x7BD80, symSize: 0x0 }
+  - { offset: 0x86E9A, size: 0x8, addend: 0x0, symName: _kANTSDKUserInfoURL, symObjAddr: 0x1178, symBinAddr: 0x7BD88, symSize: 0x0 }
+  - { offset: 0x86EB0, size: 0x8, addend: 0x0, symName: _kANTSDKChunkURL, symObjAddr: 0x1180, symBinAddr: 0x7BD90, symSize: 0x0 }
+  - { offset: 0x86EC6, size: 0x8, addend: 0x0, symName: _kANTSDKVersion, symObjAddr: 0x13A0, symBinAddr: 0x6CE70, symSize: 0x0 }
+  - { offset: 0x86EF6, size: 0x8, addend: 0x0, symName: _kANTSDKTargetSerialQueue, symObjAddr: 0x13A8, symBinAddr: 0x8C948, symSize: 0x0 }
+  - { offset: 0x86F16, size: 0x8, addend: 0x0, symName: _kANTChunkManagerSerialQueue, symObjAddr: 0x13B0, symBinAddr: 0x8C950, symSize: 0x0 }
+  - { offset: 0x86F2C, size: 0x8, addend: 0x0, symName: _kANTDataMonitoringQueue, symObjAddr: 0x13B8, symBinAddr: 0x8C958, symSize: 0x0 }
+  - { offset: 0x86F42, size: 0x8, addend: 0x0, symName: _kANTSysEventsConcurrentQueue, symObjAddr: 0x13C0, symBinAddr: 0x8C960, symSize: 0x0 }
+  - { offset: 0x86F58, size: 0x8, addend: 0x0, symName: _kANTEventHandlerQueue, symObjAddr: 0x13C8, symBinAddr: 0x8C968, symSize: 0x0 }
+  - { offset: 0x86F6E, size: 0x8, addend: 0x0, symName: _kANTNavEventHandlerQueue, symObjAddr: 0x13D0, symBinAddr: 0x8C970, symSize: 0x0 }
+  - { offset: 0x86F84, size: 0x8, addend: 0x0, symName: _kANTEventsBuffer, symObjAddr: 0x1188, symBinAddr: 0x7BD98, symSize: 0x0 }
+  - { offset: 0x86F9A, size: 0x8, addend: 0x0, symName: _kANTUserDB, symObjAddr: 0x1190, symBinAddr: 0x7BDA0, symSize: 0x0 }
+  - { offset: 0x86FB0, size: 0x8, addend: 0x0, symName: _kANTEvents, symObjAddr: 0x1198, symBinAddr: 0x7BDA8, symSize: 0x0 }
+  - { offset: 0x86FC6, size: 0x8, addend: 0x0, symName: _kANTAggEvents, symObjAddr: 0x11A0, symBinAddr: 0x7BDB0, symSize: 0x0 }
+  - { offset: 0x86FDC, size: 0x8, addend: 0x0, symName: _kANTChunkMetaInfo, symObjAddr: 0x11A8, symBinAddr: 0x7BDB8, symSize: 0x0 }
+  - { offset: 0x86FF2, size: 0x8, addend: 0x0, symName: _kANTLifetimeEvents, symObjAddr: 0x11B0, symBinAddr: 0x7BDC0, symSize: 0x0 }
+  - { offset: 0x87008, size: 0x8, addend: 0x0, symName: _kANTLifetimeEventName, symObjAddr: 0x11B8, symBinAddr: 0x7BDC8, symSize: 0x0 }
+  - { offset: 0x8701E, size: 0x8, addend: 0x0, symName: _kANTLifetimeCount, symObjAddr: 0x11C0, symBinAddr: 0x7BDD0, symSize: 0x0 }
+  - { offset: 0x87034, size: 0x8, addend: 0x0, symName: _kANTApplicationInfoKey, symObjAddr: 0x11C8, symBinAddr: 0x7BDD8, symSize: 0x0 }
+  - { offset: 0x8704A, size: 0x8, addend: 0x0, symName: _kANTSessionInfoKey, symObjAddr: 0x11D0, symBinAddr: 0x7BDE0, symSize: 0x0 }
+  - { offset: 0x87060, size: 0x8, addend: 0x0, symName: _kANTSDKInfoKey, symObjAddr: 0x11D8, symBinAddr: 0x7BDE8, symSize: 0x0 }
+  - { offset: 0x87076, size: 0x8, addend: 0x0, symName: _kANTSDKVersionKey, symObjAddr: 0x11E0, symBinAddr: 0x7BDF0, symSize: 0x0 }
+  - { offset: 0x8708C, size: 0x8, addend: 0x0, symName: _kANTDeviceInfoKey, symObjAddr: 0x11E8, symBinAddr: 0x7BDF8, symSize: 0x0 }
+  - { offset: 0x870A2, size: 0x8, addend: 0x0, symName: _kANTChunkMetaKey, symObjAddr: 0x11F0, symBinAddr: 0x7BE00, symSize: 0x0 }
+  - { offset: 0x870B8, size: 0x8, addend: 0x0, symName: _kANTChunkDetailsKey, symObjAddr: 0x11F8, symBinAddr: 0x7BE08, symSize: 0x0 }
+  - { offset: 0x870CE, size: 0x8, addend: 0x0, symName: _kANTUserAttrsKey, symObjAddr: 0x1200, symBinAddr: 0x7BE10, symSize: 0x0 }
+  - { offset: 0x870E4, size: 0x8, addend: 0x0, symName: _kANTSessionAttrsKey, symObjAddr: 0x1208, symBinAddr: 0x7BE18, symSize: 0x0 }
+  - { offset: 0x870FA, size: 0x8, addend: 0x0, symName: _kANTChunkAttrsKey, symObjAddr: 0x1210, symBinAddr: 0x7BE20, symSize: 0x0 }
+  - { offset: 0x87110, size: 0x8, addend: 0x0, symName: _kANTAppEventsKey, symObjAddr: 0x1218, symBinAddr: 0x7BE28, symSize: 0x0 }
+  - { offset: 0x87126, size: 0x8, addend: 0x0, symName: _kANTClientEventsKey, symObjAddr: 0x1220, symBinAddr: 0x7BE30, symSize: 0x0 }
+  - { offset: 0x8713C, size: 0x8, addend: 0x0, symName: _kANTAggEventsKey, symObjAddr: 0x1228, symBinAddr: 0x7BE38, symSize: 0x0 }
+  - { offset: 0x87152, size: 0x8, addend: 0x0, symName: _kANTNavigationEventsKey, symObjAddr: 0x1230, symBinAddr: 0x7BE40, symSize: 0x0 }
+  - { offset: 0x87168, size: 0x8, addend: 0x0, symName: _kANTScreenEventsKey, symObjAddr: 0x1238, symBinAddr: 0x7BE48, symSize: 0x0 }
+  - { offset: 0x8717E, size: 0x8, addend: 0x0, symName: _kANTSystemEventsKey, symObjAddr: 0x1240, symBinAddr: 0x7BE50, symSize: 0x0 }
+  - { offset: 0x87194, size: 0x8, addend: 0x0, symName: _kANTUserEventsKey, symObjAddr: 0x1248, symBinAddr: 0x7BE58, symSize: 0x0 }
+  - { offset: 0x871AA, size: 0x8, addend: 0x0, symName: _kANTIncidentsKey, symObjAddr: 0x1250, symBinAddr: 0x7BE60, symSize: 0x0 }
+  - { offset: 0x871C0, size: 0x8, addend: 0x0, symName: _kANTAppInfoMappingKey, symObjAddr: 0x1258, symBinAddr: 0x7BE68, symSize: 0x0 }
+  - { offset: 0x871D6, size: 0x8, addend: 0x0, symName: _kANTDeviceInfoMappingKey, symObjAddr: 0x1260, symBinAddr: 0x7BE70, symSize: 0x0 }
+  - { offset: 0x871EC, size: 0x8, addend: 0x0, symName: _kANTSDKInfoMappingKey, symObjAddr: 0x1268, symBinAddr: 0x7BE78, symSize: 0x0 }
+  - { offset: 0x87202, size: 0x8, addend: 0x0, symName: _kANTSessionInfoMappingKey, symObjAddr: 0x1270, symBinAddr: 0x7BE80, symSize: 0x0 }
+  - { offset: 0x87218, size: 0x8, addend: 0x0, symName: _kANTChunkInfoMappingKey, symObjAddr: 0x1278, symBinAddr: 0x7BE88, symSize: 0x0 }
+  - { offset: 0x8722E, size: 0x8, addend: 0x0, symName: _kANTUserInfoMappingKey, symObjAddr: 0x1280, symBinAddr: 0x7BE90, symSize: 0x0 }
+  - { offset: 0x87244, size: 0x8, addend: 0x0, symName: _kANTAppEventMappingKey, symObjAddr: 0x1288, symBinAddr: 0x7BE98, symSize: 0x0 }
+  - { offset: 0x8725A, size: 0x8, addend: 0x0, symName: _kANTNavigationEventMappingKey, symObjAddr: 0x1290, symBinAddr: 0x7BEA0, symSize: 0x0 }
+  - { offset: 0x87270, size: 0x8, addend: 0x0, symName: _kANTCENavigationEventMappingKey, symObjAddr: 0x1298, symBinAddr: 0x7BEA8, symSize: 0x0 }
+  - { offset: 0x87286, size: 0x8, addend: 0x0, symName: _kANTSystemEventMappingKey, symObjAddr: 0x12A0, symBinAddr: 0x7BEB0, symSize: 0x0 }
+  - { offset: 0x8729C, size: 0x8, addend: 0x0, symName: _kANTUserEventMappingKey, symObjAddr: 0x12A8, symBinAddr: 0x7BEB8, symSize: 0x0 }
+  - { offset: 0x872B2, size: 0x8, addend: 0x0, symName: _kANTObservationEventMappingKey, symObjAddr: 0x12B0, symBinAddr: 0x7BEC0, symSize: 0x0 }
+  - { offset: 0x872C8, size: 0x8, addend: 0x0, symName: _kANTForeground, symObjAddr: 0x12B8, symBinAddr: 0x7BEC8, symSize: 0x0 }
+  - { offset: 0x872DE, size: 0x8, addend: 0x0, symName: _kANTBackground, symObjAddr: 0x12C0, symBinAddr: 0x7BED0, symSize: 0x0 }
+  - { offset: 0x872F4, size: 0x8, addend: 0x0, symName: _kANTAppOpened, symObjAddr: 0x12C8, symBinAddr: 0x7BED8, symSize: 0x0 }
+  - { offset: 0x8730A, size: 0x8, addend: 0x0, symName: _kANTEnableKey, symObjAddr: 0x12D0, symBinAddr: 0x7BEE0, symSize: 0x0 }
+  - { offset: 0x87320, size: 0x8, addend: 0x0, symName: _kANTAggName, symObjAddr: 0x12D8, symBinAddr: 0x7BEE8, symSize: 0x0 }
+  - { offset: 0x87336, size: 0x8, addend: 0x0, symName: _kANTAttrKey, symObjAddr: 0x12E0, symBinAddr: 0x7BEF0, symSize: 0x0 }
+  - { offset: 0x8734C, size: 0x8, addend: 0x0, symName: _kANTAttrValue, symObjAddr: 0x12E8, symBinAddr: 0x7BEF8, symSize: 0x0 }
+  - { offset: 0x87362, size: 0x8, addend: 0x0, symName: _kANTAggCount, symObjAddr: 0x12F0, symBinAddr: 0x7BF00, symSize: 0x0 }
+  - { offset: 0x87378, size: 0x8, addend: 0x0, symName: _kANTClientEventValidateURL, symObjAddr: 0x12F8, symBinAddr: 0x7BF08, symSize: 0x0 }
+  - { offset: 0x8738E, size: 0x8, addend: 0x0, symName: _kANTClientEventsURL, symObjAddr: 0x1300, symBinAddr: 0x7BF10, symSize: 0x0 }
+  - { offset: 0x873A4, size: 0x8, addend: 0x0, symName: _kANTClientEventsHash, symObjAddr: 0x1308, symBinAddr: 0x7BF18, symSize: 0x0 }
+  - { offset: 0x873BA, size: 0x8, addend: 0x0, symName: _kANTClientEventsPath, symObjAddr: 0x1310, symBinAddr: 0x7BF20, symSize: 0x0 }
+  - { offset: 0x873D0, size: 0x8, addend: 0x0, symName: _kANTTestDeviceValidateURL, symObjAddr: 0x1318, symBinAddr: 0x7BF28, symSize: 0x0 }
+  - { offset: 0x873E6, size: 0x8, addend: 0x0, symName: _kANTTestDeviceWebPageURL, symObjAddr: 0x1320, symBinAddr: 0x7BF30, symSize: 0x0 }
+  - { offset: 0x873FC, size: 0x8, addend: 0x0, symName: _kANTTestDeviceStatus, symObjAddr: 0x1328, symBinAddr: 0x7BF38, symSize: 0x0 }
+  - { offset: 0x87412, size: 0x8, addend: 0x0, symName: _kANTIsTestDevice, symObjAddr: 0x1330, symBinAddr: 0x7BF40, symSize: 0x0 }
+  - { offset: 0x87428, size: 0x8, addend: 0x0, symName: _kANTSSELayoutNewURL, symObjAddr: 0x1338, symBinAddr: 0x7BF48, symSize: 0x0 }
+  - { offset: 0x8743E, size: 0x8, addend: 0x0, symName: _kANTLayoutQueryParams, symObjAddr: 0x1340, symBinAddr: 0x7BF50, symSize: 0x0 }
+  - { offset: 0x87454, size: 0x8, addend: 0x0, symName: _kANTSDKConfigEnabledKey, symObjAddr: 0x1348, symBinAddr: 0x7BF58, symSize: 0x0 }
+  - { offset: 0x8746A, size: 0x8, addend: 0x0, symName: _kANTSDKConfigHashKey, symObjAddr: 0x1350, symBinAddr: 0x7BF60, symSize: 0x0 }
+  - { offset: 0x87480, size: 0x8, addend: 0x0, symName: _kANTPrefSDKHashKey, symObjAddr: 0x1358, symBinAddr: 0x7BF68, symSize: 0x0 }
+  - { offset: 0x87496, size: 0x8, addend: 0x0, symName: _kANTLTCountKey, symObjAddr: 0x1360, symBinAddr: 0x7BF70, symSize: 0x0 }
+  - { offset: 0x874AC, size: 0x8, addend: 0x0, symName: _kANTLTCountSlotKey, symObjAddr: 0x1368, symBinAddr: 0x7BF78, symSize: 0x0 }
+  - { offset: 0x874C2, size: 0x8, addend: 0x0, symName: _kANTStatusKey, symObjAddr: 0x1370, symBinAddr: 0x7BF80, symSize: 0x0 }
+  - { offset: 0x874D8, size: 0x8, addend: 0x0, symName: _kANTFootprintKey, symObjAddr: 0x1378, symBinAddr: 0x7BF88, symSize: 0x0 }
+  - { offset: 0x874EE, size: 0x8, addend: 0x0, symName: _kANTDeviceToken, symObjAddr: 0x1380, symBinAddr: 0x7BF90, symSize: 0x0 }
+  - { offset: 0x87504, size: 0x8, addend: 0x0, symName: _kANTRetentionDay, symObjAddr: 0x1388, symBinAddr: 0x7BF98, symSize: 0x0 }
+  - { offset: 0x8751A, size: 0x8, addend: 0x0, symName: _kANTRetentionDayCount, symObjAddr: 0x1390, symBinAddr: 0x7BFA0, symSize: 0x0 }
+  - { offset: 0x87530, size: 0x8, addend: 0x0, symName: _kANTPrefix, symObjAddr: 0x1398, symBinAddr: 0x7BFA8, symSize: 0x0 }
+  - { offset: 0x87576, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) stringForQuery:]', symObjAddr: 0x0, symBinAddr: 0x644A0, symSize: 0x1D0 }
+  - { offset: 0x875B6, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) stringForQuery:]', symObjAddr: 0x0, symBinAddr: 0x644A0, symSize: 0x1D0 }
+  - { offset: 0x8762E, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) intForQuery:]', symObjAddr: 0x1D0, symBinAddr: 0x64670, symSize: 0x1B0 }
+  - { offset: 0x876A6, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) longForQuery:]', symObjAddr: 0x380, symBinAddr: 0x64820, symSize: 0x1C0 }
+  - { offset: 0x8771E, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) boolForQuery:]', symObjAddr: 0x540, symBinAddr: 0x649E0, symSize: 0x1B0 }
+  - { offset: 0x87796, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) doubleForQuery:]', symObjAddr: 0x6F0, symBinAddr: 0x64B90, symSize: 0x1C0 }
+  - { offset: 0x8780E, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) dataForQuery:]', symObjAddr: 0x8B0, symBinAddr: 0x64D50, symSize: 0x1D0 }
+  - { offset: 0x87886, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) dateForQuery:]', symObjAddr: 0xA80, symBinAddr: 0x64F20, symSize: 0x1D0 }
+  - { offset: 0x878FE, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) tableExists:]', symObjAddr: 0xC50, symBinAddr: 0x650F0, symSize: 0xE0 }
+  - { offset: 0x87964, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) getSchema]', symObjAddr: 0xD30, symBinAddr: 0x651D0, symSize: 0x70 }
+  - { offset: 0x879AC, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) getTableSchema:]', symObjAddr: 0xDA0, symBinAddr: 0x65240, symSize: 0xF0 }
+  - { offset: 0x87A03, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) columnExists:inTableWithName:]', symObjAddr: 0xE90, symBinAddr: 0x65330, symSize: 0x1A0 }
+  - { offset: 0x87A78, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) applicationID]', symObjAddr: 0x1030, symBinAddr: 0x654D0, symSize: 0xA0 }
+  - { offset: 0x87ACF, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) setApplicationID:]', symObjAddr: 0x10D0, symBinAddr: 0x65570, symSize: 0xB0 }
+  - { offset: 0x87B31, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) userVersion]', symObjAddr: 0x1180, symBinAddr: 0x65620, symSize: 0xA0 }
+  - { offset: 0x87B88, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) setUserVersion:]', symObjAddr: 0x1220, symBinAddr: 0x656C0, symSize: 0xB0 }
+  - { offset: 0x87BEA, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) columnExists:columnName:]', symObjAddr: 0x12D0, symBinAddr: 0x65770, symSize: 0x90 }
+  - { offset: 0x87C41, size: 0x8, addend: 0x0, symName: '-[FMAPXDatabase(FMDatabaseAdditions) validateSQL:error:]', symObjAddr: 0x1360, symBinAddr: 0x65800, symSize: 0x1A6 }
+  - { offset: 0x87F32, size: 0x8, addend: 0x0, symName: '-[ANTInfo initWithId:]', symObjAddr: 0x0, symBinAddr: 0x659B0, symSize: 0xC0 }
+  - { offset: 0x87F40, size: 0x8, addend: 0x0, symName: '-[ANTInfo setInfo:forKey:]', symObjAddr: 0xC0, symBinAddr: 0x65A70, symSize: 0x3E0 }
+  - { offset: 0x88025, size: 0x8, addend: 0x0, symName: '-[ANTInfo setCustomInfo:forKey:]', symObjAddr: 0x4F0, symBinAddr: 0x65E50, symSize: 0x520 }
+  - { offset: 0x880FB, size: 0x8, addend: 0x0, symName: '-[ANTInfo removeCustomInfoForKey:]', symObjAddr: 0xA10, symBinAddr: 0x66370, symSize: 0x470 }
+  - { offset: 0x88219, size: 0x8, addend: 0x0, symName: '-[ANTInfo initWithId:]', symObjAddr: 0x0, symBinAddr: 0x659B0, symSize: 0xC0 }
+  - { offset: 0x88261, size: 0x8, addend: 0x0, symName: '-[ANTInfo setCustomInfo:]', symObjAddr: 0xE80, symBinAddr: 0x667E0, symSize: 0x110 }
+  - { offset: 0x882BB, size: 0x8, addend: 0x0, symName: '-[ANTInfo setAdditionalInfo:]', symObjAddr: 0xF90, symBinAddr: 0x668F0, symSize: 0x80 }
+  - { offset: 0x882FF, size: 0x8, addend: 0x0, symName: '-[ANTInfo getAdditionalInfo]', symObjAddr: 0x1010, symBinAddr: 0x66970, symSize: 0x70 }
+  - { offset: 0x88338, size: 0x8, addend: 0x0, symName: '-[ANTInfo customInfo]', symObjAddr: 0x1080, symBinAddr: 0x669E0, symSize: 0xF0 }
+  - { offset: 0x88371, size: 0x8, addend: 0x0, symName: '-[ANTInfo isStorable]', symObjAddr: 0x1170, symBinAddr: 0x66AD0, symSize: 0x20 }
+  - { offset: 0x883AA, size: 0x8, addend: 0x0, symName: '-[ANTInfo jsonDictModified]', symObjAddr: 0x1190, symBinAddr: 0x66AF0, symSize: 0x1A0 }
+  - { offset: 0x88402, size: 0x8, addend: 0x0, symName: '___27-[ANTInfo jsonDictModified]_block_invoke', symObjAddr: 0x1330, symBinAddr: 0x66C90, symSize: 0xD0 }
+  - { offset: 0x8849F, size: 0x8, addend: 0x0, symName: '-[ANTInfo jsonDictModifiedforInstanceWithName:]', symObjAddr: 0x14A0, symBinAddr: 0x66D60, symSize: 0x1E0 }
+  - { offset: 0x88506, size: 0x8, addend: 0x0, symName: '___47-[ANTInfo jsonDictModifiedforInstanceWithName:]_block_invoke', symObjAddr: 0x1680, symBinAddr: 0x66F40, symSize: 0xD0 }
+  - { offset: 0x8859F, size: 0x8, addend: 0x0, symName: '+[ANTInfo objectFromJsonDict:]', symObjAddr: 0x1750, symBinAddr: 0x67010, symSize: 0x170 }
+  - { offset: 0x885F6, size: 0x8, addend: 0x0, symName: '___30+[ANTInfo objectFromJsonDict:]_block_invoke', symObjAddr: 0x18C0, symBinAddr: 0x67180, symSize: 0x190 }
+  - { offset: 0x8869B, size: 0x8, addend: 0x0, symName: '-[ANTInfo jsonDict]', symObjAddr: 0x1AC0, symBinAddr: 0x67310, symSize: 0x140 }
+  - { offset: 0x886E3, size: 0x8, addend: 0x0, symName: '+[ANTInfo objectFromDictionary:]', symObjAddr: 0x1C00, symBinAddr: 0x67450, symSize: 0x1A0 }
+  - { offset: 0x88740, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x1DA0, symBinAddr: 0x675F0, symSize: 0x50 }
+  - { offset: 0x88767, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x1DF0, symBinAddr: 0x67640, symSize: 0x30 }
+  - { offset: 0x88785, size: 0x8, addend: 0x0, symName: '___32+[ANTInfo objectFromDictionary:]_block_invoke', symObjAddr: 0x1E20, symBinAddr: 0x67670, symSize: 0x160 }
+  - { offset: 0x8880A, size: 0x8, addend: 0x0, symName: '-[ANTInfo identifier]', symObjAddr: 0x1FE0, symBinAddr: 0x677D0, symSize: 0x30 }
+  - { offset: 0x88843, size: 0x8, addend: 0x0, symName: '-[ANTInfo setIdentifier:]', symObjAddr: 0x2010, symBinAddr: 0x67800, symSize: 0x30 }
+  - { offset: 0x88885, size: 0x8, addend: 0x0, symName: '-[ANTInfo .cxx_destruct]', symObjAddr: 0x2040, symBinAddr: 0x67830, symSize: 0x3C }
+  - { offset: 0x88BBF, size: 0x8, addend: 0x0, symName: '-[UIView(APXExtension) applyGradientWithColors:frame:startPoint:endPoint:maskPath:]', symObjAddr: 0x0, symBinAddr: 0x67870, symSize: 0x440 }
+  - { offset: 0x88BD2, size: 0x8, addend: 0x0, symName: '-[UIView(APXExtension) applyGradientWithColors:frame:startPoint:endPoint:maskPath:]', symObjAddr: 0x0, symBinAddr: 0x67870, symSize: 0x440 }
+  - { offset: 0x88C91, size: 0x8, addend: 0x0, symName: '___83-[UIView(APXExtension) applyGradientWithColors:frame:startPoint:endPoint:maskPath:]_block_invoke', symObjAddr: 0x440, symBinAddr: 0x67CB0, symSize: 0x90 }
+  - { offset: 0x88E41, size: 0x8, addend: 0x0, symName: '-[APXTDWebView initWithFrame:configuration:completionHandler:]', symObjAddr: 0x0, symBinAddr: 0x67D40, symSize: 0x180 }
+  - { offset: 0x88E4F, size: 0x8, addend: 0x0, symName: '-[APXTDWebView webView:decidePolicyForNavigationAction:decisionHandler:]', symObjAddr: 0x220, symBinAddr: 0x67F60, symSize: 0x920 }
+  - { offset: 0x89160, size: 0x8, addend: 0x0, symName: '-[APXTDWebView initWithFrame:configuration:completionHandler:]', symObjAddr: 0x0, symBinAddr: 0x67D40, symSize: 0x180 }
+  - { offset: 0x891C6, size: 0x8, addend: 0x0, symName: '-[APXTDWebView loadURL:]', symObjAddr: 0x180, symBinAddr: 0x67EC0, symSize: 0xA0 }
+  - { offset: 0x8921D, size: 0x8, addend: 0x0, symName: '-[APXTDWebView .cxx_destruct]', symObjAddr: 0xB90, symBinAddr: 0x68880, symSize: 0x2A }
+  - { offset: 0x89350, size: 0x8, addend: 0x0, symName: '+[ANTEvent stringFromType:]', symObjAddr: 0x0, symBinAddr: 0x688B0, symSize: 0x2F0 }
+  - { offset: 0x8935E, size: 0x8, addend: 0x0, symName: '+[ANTEvent typeFromString:]', symObjAddr: 0x2F0, symBinAddr: 0x68BA0, symSize: 0x5F0 }
+  - { offset: 0x895B3, size: 0x8, addend: 0x0, symName: '+[ANTEvent stringFromType:]', symObjAddr: 0x0, symBinAddr: 0x688B0, symSize: 0x2F0 }
+  - { offset: 0x8960A, size: 0x8, addend: 0x0, symName: '-[ANTEvent initWithType:]', symObjAddr: 0x930, symBinAddr: 0x69190, symSize: 0x120 }
+  - { offset: 0x89652, size: 0x8, addend: 0x0, symName: '-[ANTEvent createdTime]', symObjAddr: 0xA50, symBinAddr: 0x692B0, symSize: 0x20 }
+  - { offset: 0x8968B, size: 0x8, addend: 0x0, symName: '-[ANTEvent setCreatedTime:]', symObjAddr: 0xA70, symBinAddr: 0x692D0, symSize: 0x30 }
+  - { offset: 0x896CF, size: 0x8, addend: 0x0, symName: '-[ANTEvent eventType]', symObjAddr: 0xAA0, symBinAddr: 0x69300, symSize: 0x20 }
+  - { offset: 0x89708, size: 0x8, addend: 0x0, symName: '-[ANTEvent setEventType:]', symObjAddr: 0xAC0, symBinAddr: 0x69320, symSize: 0x30 }
+  - { offset: 0x8974C, size: 0x8, addend: 0x0, symName: '-[ANTEvent jsonDictModified]', symObjAddr: 0xAF0, symBinAddr: 0x69350, symSize: 0x210 }
+  - { offset: 0x897A3, size: 0x8, addend: 0x0, symName: '-[ANTEvent jsonDictModifiedforInstanceWithName:]', symObjAddr: 0xD00, symBinAddr: 0x69560, symSize: 0x240 }
+  - { offset: 0x89809, size: 0x8, addend: 0x0, symName: '+[ANTEvent objectFromJsonDict:]', symObjAddr: 0xF40, symBinAddr: 0x697A0, symSize: 0x1B0 }
+  - { offset: 0x8986F, size: 0x8, addend: 0x0, symName: '-[ANTEvent jsonDict]', symObjAddr: 0x10F0, symBinAddr: 0x69950, symSize: 0x170 }
+  - { offset: 0x898B7, size: 0x8, addend: 0x0, symName: '-[ANTSessionEvent init]', symObjAddr: 0x1260, symBinAddr: 0x69AC0, symSize: 0x80 }
+  - { offset: 0x898F1, size: 0x8, addend: 0x0, symName: '-[ANTSessionEvent isStorable]', symObjAddr: 0x12E0, symBinAddr: 0x69B40, symSize: 0x20 }
+  - { offset: 0x8992B, size: 0x8, addend: 0x0, symName: '-[ANTChunkEvent init]', symObjAddr: 0x1300, symBinAddr: 0x69B60, symSize: 0x80 }
+  - { offset: 0x89965, size: 0x8, addend: 0x0, symName: '-[ANTChunkEvent isStorable]', symObjAddr: 0x1380, symBinAddr: 0x69BE0, symSize: 0x20 }
+  - { offset: 0x8999F, size: 0x8, addend: 0x0, symName: '-[ANTClientEvent init]', symObjAddr: 0x13A0, symBinAddr: 0x69C00, symSize: 0x80 }
+  - { offset: 0x899D9, size: 0x8, addend: 0x0, symName: '-[ANTInternalEvent init]', symObjAddr: 0x1420, symBinAddr: 0x69C80, symSize: 0x80 }
+  - { offset: 0x89A13, size: 0x8, addend: 0x0, symName: '-[ANTInternalEvent isStorable]', symObjAddr: 0x14A0, symBinAddr: 0x69D00, symSize: 0x20 }
+  - { offset: 0x89A4D, size: 0x8, addend: 0x0, symName: '-[ANTAggregateEvent init]', symObjAddr: 0x14C0, symBinAddr: 0x69D20, symSize: 0x80 }
+  - { offset: 0x89A87, size: 0x8, addend: 0x0, symName: '-[ANTAggregateEvent isStorable]', symObjAddr: 0x1540, symBinAddr: 0x69DA0, symSize: 0x15 }
+  - { offset: 0x89BAE, size: 0x8, addend: 0x0, symName: '+[ANTLogger setLogLevel:]', symObjAddr: 0x0, symBinAddr: 0x69DC0, symSize: 0x1D }
+  - { offset: 0x89BC8, size: 0x8, addend: 0x0, symName: _LOG_LEVEL, symObjAddr: 0x30A8, symBinAddr: 0x8CA90, symSize: 0x0 }
+  - { offset: 0x89C10, size: 0x8, addend: 0x0, symName: '+[ANTLogger setLogLevel:]', symObjAddr: 0x0, symBinAddr: 0x69DC0, symSize: 0x1D }
+  - { offset: 0x89CBB, size: 0x8, addend: 0x0, symName: '+[FMAPXResultSet resultSetWithStatement:usingParentDatabase:]', symObjAddr: 0x0, symBinAddr: 0x69DE0, symSize: 0x100 }
+  - { offset: 0x89CC9, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet resultDict]', symObjAddr: 0x560, symBinAddr: 0x6A340, symSize: 0x2D0 }
+  - { offset: 0x89DEA, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet resultDictionary]', symObjAddr: 0x880, symBinAddr: 0x6A610, symSize: 0x2C0 }
+  - { offset: 0x89EFC, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet nextWithError:]', symObjAddr: 0xB70, symBinAddr: 0x6A900, symSize: 0x880 }
+  - { offset: 0x8A0ED, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet columnIndexForName:]', symObjAddr: 0x1430, symBinAddr: 0x6B1C0, symSize: 0x270 }
+  - { offset: 0x8A3CD, size: 0x8, addend: 0x0, symName: '+[FMAPXResultSet resultSetWithStatement:usingParentDatabase:]', symObjAddr: 0x0, symBinAddr: 0x69DE0, symSize: 0x100 }
+  - { offset: 0x8A433, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet finalize]', symObjAddr: 0x100, symBinAddr: 0x69EE0, symSize: 0x50 }
+  - { offset: 0x8A468, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet dealloc]', symObjAddr: 0x150, symBinAddr: 0x69F30, symSize: 0x70 }
+  - { offset: 0x8A49D, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet close]', symObjAddr: 0x1C0, symBinAddr: 0x69FA0, symSize: 0x70 }
+  - { offset: 0x8A4D2, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet columnCount]', symObjAddr: 0x230, symBinAddr: 0x6A010, symSize: 0x40 }
+  - { offset: 0x8A50B, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet columnNameToIndexMap]', symObjAddr: 0x270, symBinAddr: 0x6A050, symSize: 0x180 }
+  - { offset: 0x8A571, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet kvcMagic:]', symObjAddr: 0x3F0, symBinAddr: 0x6A1D0, symSize: 0x170 }
+  - { offset: 0x8A60F, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet next]', symObjAddr: 0xB40, symBinAddr: 0x6A8D0, symSize: 0x30 }
+  - { offset: 0x8A648, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet hasAnotherRow]', symObjAddr: 0x13F0, symBinAddr: 0x6B180, symSize: 0x40 }
+  - { offset: 0x8A681, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet intForColumn:]', symObjAddr: 0x16A0, symBinAddr: 0x6B430, symSize: 0x80 }
+  - { offset: 0x8A6C9, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet intForColumnIndex:]', symObjAddr: 0x1720, symBinAddr: 0x6B4B0, symSize: 0x40 }
+  - { offset: 0x8A711, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet longForColumn:]', symObjAddr: 0x1760, symBinAddr: 0x6B4F0, symSize: 0x80 }
+  - { offset: 0x8A759, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet longForColumnIndex:]', symObjAddr: 0x17E0, symBinAddr: 0x6B570, symSize: 0x40 }
+  - { offset: 0x8A7A1, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet longLongIntForColumn:]', symObjAddr: 0x1820, symBinAddr: 0x6B5B0, symSize: 0x80 }
+  - { offset: 0x8A7E9, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet longLongIntForColumnIndex:]', symObjAddr: 0x18A0, symBinAddr: 0x6B630, symSize: 0x40 }
+  - { offset: 0x8A831, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet unsignedLongLongIntForColumn:]', symObjAddr: 0x18E0, symBinAddr: 0x6B670, symSize: 0x80 }
+  - { offset: 0x8A879, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet unsignedLongLongIntForColumnIndex:]', symObjAddr: 0x1960, symBinAddr: 0x6B6F0, symSize: 0x30 }
+  - { offset: 0x8A8C1, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet boolForColumn:]', symObjAddr: 0x1990, symBinAddr: 0x6B720, symSize: 0x80 }
+  - { offset: 0x8A90B, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet boolForColumnIndex:]', symObjAddr: 0x1A10, symBinAddr: 0x6B7A0, symSize: 0x40 }
+  - { offset: 0x8A955, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet doubleForColumn:]', symObjAddr: 0x1A50, symBinAddr: 0x6B7E0, symSize: 0x80 }
+  - { offset: 0x8A99F, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet doubleForColumnIndex:]', symObjAddr: 0x1AD0, symBinAddr: 0x6B860, symSize: 0x40 }
+  - { offset: 0x8A9E9, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet stringForColumnIndex:]', symObjAddr: 0x1B10, symBinAddr: 0x6B8A0, symSize: 0xB0 }
+  - { offset: 0x8AA43, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet stringForColumn:]', symObjAddr: 0x1BC0, symBinAddr: 0x6B950, symSize: 0x90 }
+  - { offset: 0x8AA8D, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet dateForColumn:]', symObjAddr: 0x1C50, symBinAddr: 0x6B9E0, symSize: 0x90 }
+  - { offset: 0x8AAD7, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet dateForColumnIndex:]', symObjAddr: 0x1CE0, symBinAddr: 0x6BA70, symSize: 0x170 }
+  - { offset: 0x8AB21, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet dataForColumn:]', symObjAddr: 0x1E50, symBinAddr: 0x6BBE0, symSize: 0x90 }
+  - { offset: 0x8AB6B, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet dataForColumnIndex:]', symObjAddr: 0x1EE0, symBinAddr: 0x6BC70, symSize: 0xE0 }
+  - { offset: 0x8ABD5, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet dataNoCopyForColumn:]', symObjAddr: 0x1FC0, symBinAddr: 0x6BD50, symSize: 0x90 }
+  - { offset: 0x8AC1F, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet dataNoCopyForColumnIndex:]', symObjAddr: 0x2050, symBinAddr: 0x6BDE0, symSize: 0xF0 }
+  - { offset: 0x8AC99, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet columnIndexIsNull:]', symObjAddr: 0x2140, symBinAddr: 0x6BED0, symSize: 0x50 }
+  - { offset: 0x8ACE3, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet columnIsNull:]', symObjAddr: 0x2190, symBinAddr: 0x6BF20, symSize: 0x80 }
+  - { offset: 0x8AD2D, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet UTF8StringForColumnIndex:]', symObjAddr: 0x2210, symBinAddr: 0x6BFA0, symSize: 0x80 }
+  - { offset: 0x8AD77, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet UTF8StringForColumnName:]', symObjAddr: 0x2290, symBinAddr: 0x6C020, symSize: 0x80 }
+  - { offset: 0x8ADC1, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet objectForColumnIndex:]', symObjAddr: 0x2310, symBinAddr: 0x6C0A0, symSize: 0x1A0 }
+  - { offset: 0x8AE2B, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet objectForColumnName:]', symObjAddr: 0x24B0, symBinAddr: 0x6C240, symSize: 0x90 }
+  - { offset: 0x8AE75, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet columnNameForIndex:]', symObjAddr: 0x2540, symBinAddr: 0x6C2D0, symSize: 0x60 }
+  - { offset: 0x8AEBF, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet setParentDB:]', symObjAddr: 0x25A0, symBinAddr: 0x6C330, symSize: 0x50 }
+  - { offset: 0x8AF05, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet objectAtIndexedSubscript:]', symObjAddr: 0x25F0, symBinAddr: 0x6C380, symSize: 0x30 }
+  - { offset: 0x8AF4F, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet objectForKeyedSubscript:]', symObjAddr: 0x2620, symBinAddr: 0x6C3B0, symSize: 0x70 }
+  - { offset: 0x8AF99, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet query]', symObjAddr: 0x2690, symBinAddr: 0x6C420, symSize: 0x30 }
+  - { offset: 0x8AFD2, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet setQuery:]', symObjAddr: 0x26C0, symBinAddr: 0x6C450, symSize: 0x30 }
+  - { offset: 0x8B014, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet statement]', symObjAddr: 0x26F0, symBinAddr: 0x6C480, symSize: 0x30 }
+  - { offset: 0x8B04D, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet setStatement:]', symObjAddr: 0x2720, symBinAddr: 0x6C4B0, symSize: 0x30 }
+  - { offset: 0x8B08F, size: 0x8, addend: 0x0, symName: '-[FMAPXResultSet .cxx_destruct]', symObjAddr: 0x2750, symBinAddr: 0x6C4E0, symSize: 0x5E }
+  - { offset: 0x8B1A9, size: 0x8, addend: 0x0, symName: '-[APXObservationSource logEvent:info:time:]', symObjAddr: 0x0, symBinAddr: 0x6C540, symSize: 0x220 }
+  - { offset: 0x8B213, size: 0x8, addend: 0x0, symName: '-[APXObservationSource logEvent:info:time:]', symObjAddr: 0x0, symBinAddr: 0x6C540, symSize: 0x220 }
+  - { offset: 0x8B284, size: 0x8, addend: 0x0, symName: '___43-[APXObservationSource logEvent:info:time:]_block_invoke', symObjAddr: 0x220, symBinAddr: 0x6C760, symSize: 0x90 }
+...

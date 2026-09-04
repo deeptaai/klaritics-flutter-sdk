@@ -1,4 +1,4 @@
-package com.apxor.flutter;
+package com.anthra.flutter;
 
 import static com.apxor.androidsdk.core.Constants.ADDITIONAL_INFO;
 import static com.apxor.androidsdk.core.Constants.INTERNAL_EVENTS;
@@ -34,7 +34,7 @@ import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
 
-public class ApxorFlutterPlugin implements FlutterPlugin, MethodCallHandler, EventListener {
+public class AnthraFlutterPlugin implements FlutterPlugin, MethodCallHandler, EventListener {
 
   private static final HashMap<String, Object> EMPTY_MAP = new HashMap<>();
 
@@ -53,11 +53,11 @@ public class ApxorFlutterPlugin implements FlutterPlugin, MethodCallHandler, Eve
 
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-    channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "plugins.flutter.io/apxor_flutter");
+    channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "plugins.flutter.io/anthra_flutter");
     channel.setMethodCallHandler(this);
     commandChannel = new BasicMessageChannel<>(
             flutterPluginBinding.getBinaryMessenger(),
-            "plugins.flutter.io/apxor_commands",
+            "plugins.flutter.io/anthra_commands",
             JSONMessageCodec.INSTANCE
     );
     registerEmbedView(flutterPluginBinding);
@@ -129,7 +129,7 @@ public class ApxorFlutterPlugin implements FlutterPlugin, MethodCallHandler, Eve
   private void registerEmbedView(@NonNull FlutterPluginBinding flutterPluginBinding) {
         flutterPluginBinding
         .getPlatformViewRegistry()
-        .registerViewFactory("com.apxor.flutter/ApxorEmbedView", new ApxorEmbedViewFactory(
+        .registerViewFactory("com.anthra.flutter/AnthraEmbedView", new AnthraEmbedViewFactory(
                 flutterPluginBinding.getBinaryMessenger()));
   }
 
@@ -183,7 +183,7 @@ public class ApxorFlutterPlugin implements FlutterPlugin, MethodCallHandler, Eve
         } else if (call.method.equals("avf")) {
           handleAVF(call, result);
         } else {
-          result.error("Apxor", "Unknown method " + call.method, null);
+          result.error("Anthra", "Unknown method " + call.method, null);
         }
     }
   }
@@ -279,7 +279,7 @@ public class ApxorFlutterPlugin implements FlutterPlugin, MethodCallHandler, Eve
       }
       result.success(null);
     } catch (Exception e) {
-      result.error("Apxor", "Failed to parse attributes in log" + name +"Event. " + e.getMessage(), null);
+      result.error("Anthra", "Failed to parse attributes in log" + name +"Event. " + e.getMessage(), null);
     }
   }
 
@@ -352,7 +352,7 @@ public class ApxorFlutterPlugin implements FlutterPlugin, MethodCallHandler, Eve
 
         @Override
         public void onFailure() {
-          mainThread.post(() -> result.error("Apxor", "Failed to get attributes", null));
+          mainThread.post(() -> result.error("Anthra", "Failed to get attributes", null));
         }
       });
     }

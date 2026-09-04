@@ -1,0 +1,23 @@
+framework module AnthraSDK {
+    header "AnthraSDK.h"
+    header "ANTChunkMetaInfo.h"
+    header "ANTSession.h"
+    header "ANTUtilities.h"
+    header "CommonProtocols.h"
+    header "ANTChunk.h"
+    header "ANTSDKInfo.h"
+    header "ANTEvent.h"
+    header "ANTController.h"
+    header "ANTPostman.h"
+    header "APXTypes.h"
+    header "ANTInfo.h"
+    header "ANTObservationEvent.h"
+    header "AnthraPlugin.h"
+    header "ANTDeviceInfo.h"
+    header "ANTUser.h"
+    header "ANTAppInfo.h"
+    header "ANTLogger.h"
+    header "APXView.h"
+    header "ANTBidiDelegate.h"
+    export *
+}

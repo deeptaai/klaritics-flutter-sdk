@@ -1,7 +1,6 @@
-package com.apxor.flutter;
+package com.anthra.flutter;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,26 +17,26 @@ import com.apxor.androidsdk.core.ce.ExecutionListener;
 
 import org.json.JSONObject;
 
-class ApxorEmbedView implements PlatformView {
+class AnthraEmbedView implements PlatformView {
     private ApxorWidget apxorView;
     private int tag = -1;
     private BasicMessageChannel<Object> viewChannel;
 
-    ApxorEmbedView(@NonNull Context context, int id, @Nullable Map<String, Object> creationParams, final BinaryMessenger binaryMessenger) {
+    AnthraEmbedView(@NonNull Context context, int id, @Nullable Map<String, Object> creationParams, final BinaryMessenger binaryMessenger) {
         try {
             tag = (int) creationParams.get("id");
             viewChannel = new BasicMessageChannel<>(
             binaryMessenger,
-            "plugins.flutter.io/apxor_view_"+this.tag,
+            "plugins.flutter.io/anthra_view_"+this.tag,
             JSONMessageCodec.INSTANCE
             );
         } catch (Exception e) {
-            Logger.debug("Apxor","Flutter value key is not valid "+e.getMessage());
+            Logger.debug("Anthra","Flutter value key is not valid "+e.getMessage());
         }
         apxorView = new ApxorWidget(context,tag,"flutter",new ExecutionListener() {
             @Override
             public void onAfterExecute(Object result, boolean hasError) {
-                Logger.debug("Apxor","Received dimensions from native "+result+""+hasError);
+                Logger.debug("Anthra","Received dimensions from native "+result+""+hasError);
                 if(result != null && viewChannel != null) {
                     if(result instanceof JSONObject) {
                         viewChannel.send(result);

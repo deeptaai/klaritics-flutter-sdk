@@ -10,7 +10,7 @@ Add the `klaritics_flutter` dependency in `pubspec.yaml`
 
 ```yaml
 dependencies:
-  klaritics_flutter: ^3.0.0
+  klaritics_flutter: ^1.0.0
 ```
 
 Import it in your Dart code:

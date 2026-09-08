@@ -1,5 +1,5 @@
-name: anthra_flutter_example
-description: Demonstrates how to use the anthra_flutter plugin.
+name: klaritics_flutter_example
+description: Demonstrates how to use the klaritics_flutter plugin.
 
 publish_to: "none"
 
@@ -8,7 +8,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  anthra_flutter:
+  klaritics_flutter:
     path: ../
   adaptive_navigation: ^0.0.3
   collection: ^1.15.0

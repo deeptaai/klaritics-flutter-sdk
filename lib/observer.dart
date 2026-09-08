@@ -1,4 +1,4 @@
-import 'package:anthra_flutter/anthra_flutter.dart';
+import 'package:klaritics_flutter/klaritics_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -25,10 +25,10 @@ String? defaultNameExtractor(Route route) {
   return null;
 }
 
-class AnthraNavigationObserver extends NavigatorObserver {
+class KlariticsNavigationObserver extends NavigatorObserver {
   final ScreenNameExtractor nameExtractor;
 
-  AnthraNavigationObserver({
+  KlariticsNavigationObserver({
     this.nameExtractor = defaultNameExtractor,
   });
 
@@ -54,7 +54,7 @@ class AnthraNavigationObserver extends NavigatorObserver {
     if (route != null && route is PageRoute) {
       String? name = nameExtractor(route);
       if (name != null && route.navigator?.context != null) {
-        AnthraFlutter.internalTrackScreen(name, route.navigator!.context, true);
+        KlariticsFlutter.internalTrackScreen(name, route.navigator!.context, true);
       }
     }
   }

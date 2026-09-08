@@ -1,6 +1,6 @@
-name: anthra_flutter
-description: Flutter SDK wrapper for Anthra  SDKs. See anthra.com /  for native documentation.
-version: 2.0.0
+name: klaritics_flutter
+description: Flutter SDK wrapper for Klaritics SDKs. See klaritics.com for native documentation.
+version: 1.0.0
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
@@ -24,11 +24,11 @@ flutter:
   plugin:
     platforms:
       web:
-        pluginClass: FlutterAnthraWeb
-        fileName: anthra_flutter.dart
+        pluginClass: FlutterKlariticsWeb
+        fileName: klaritics_flutter.dart
 
       android:
-        package: com.anthra.flutter
-        pluginClass: AnthraFlutterPlugin
+        package: com.deeptaai.klaritics.flutter
+        pluginClass: KlariticsFlutterPlugin
       ios:
-        pluginClass: AnthraFlutterPlugin
+        pluginClass: KlariticsFlutterPlugin

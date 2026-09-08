@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.anthra.flutter.example">
+    package="com.deeptaai.klaritics.flutter.example">
 
     <queries>
         <intent>
@@ -39,6 +39,7 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
-       <meta-data android:name="APXOR_APP_ID" android:value="YOUR_APP_ID" />
+        <!-- Klaritics is initialized programmatically via Klaritics.setup(...) in MainActivity
+             (the Klaritics Android SDK does not read an app id from a manifest meta-data). -->
     </application>
 </manifest>

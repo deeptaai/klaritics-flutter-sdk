@@ -1,4 +1,4 @@
-group 'com.anthra.flutter'
+group 'com.deeptaai.klaritics.flutter'
 version '1.0'
 
 buildscript {
@@ -17,7 +17,7 @@ rootProject.allprojects {
         google()
         mavenCentral()
         maven {
-            url "https://repo.apxor.com/artifactory/list/libs-release-android/"
+            url "https://asia-south1-maven.pkg.dev/org-infra-471907/klaritics-android-sdk"
         }
     }
 }
@@ -28,7 +28,7 @@ android {
     // Conditional for compatibility with AGP <4.2.
     if (project.hasProperty('android')) {
         if (project.android.hasProperty("namespace")) {
-            namespace 'com.anthra.flutter'
+            namespace 'com.deeptaai.klaritics.flutter'
         }
     }
     compileSdkVersion 31
@@ -44,8 +44,5 @@ android {
 }
 
 dependencies {
-    compileOnly "com.apxor.androidx:apxor-android-sdk-core:3.0.9@aar"
-    compileOnly "com.apxor.androidx:apxor-android-sdk-qe:1.7.4@aar"
-    compileOnly "com.apxor.androidx:apxor-android-sdk-rtm:2.4.6@aar"
-    compileOnly "com.apxor.androidx:wysiwyg:1.5.5@aar"
+    compileOnly "com.deeptaai.klaritics:klaritics-android-sdk:1.0.0"
 }

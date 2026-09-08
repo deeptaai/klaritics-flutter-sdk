@@ -20,6 +20,10 @@ doc/api/
 *.js.deps
 *.js.map
 
+# Swift Package Manager (iOS plugin)
+.build/
+ios/klaritics_flutter/Package.resolved
+
 # Miscellaneous
 *.class
 *.log

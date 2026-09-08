@@ -2,7 +2,7 @@
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
-import 'package:anthra_flutter/anthra_flutter.dart';
+import 'package:klaritics_flutter/klaritics_flutter.dart';
 import 'package:flutter/material.dart';
 
 import '../data.dart';
@@ -27,8 +27,8 @@ class _BooksScreenState extends State<BooksScreen>
     super.initState();
     _tabController = TabController(length: 3, vsync: this)
       ..addListener(_handleTabIndexChanged);
-    AnthraFlutter.setTabController(_tabController);
-    AnthraFlutter.logAppEvent("BooksTabOpened");
+    KlariticsFlutter.setTabController(_tabController);
+    KlariticsFlutter.logAppEvent("BooksTabOpened");
   }
 
   @override
@@ -104,16 +104,16 @@ class _BooksScreenState extends State<BooksScreen>
   void _handleTabIndexChanged() {
     switch (_tabController.index) {
       case 1:
-        AnthraFlutter.logAppEvent("NewBooksTabClicked");
+        KlariticsFlutter.logAppEvent("NewBooksTabClicked");
         _routeState.go('/books/new');
         break;
       case 2:
-        AnthraFlutter.logAppEvent("AllBooksTabClicked");
+        KlariticsFlutter.logAppEvent("AllBooksTabClicked");
         _routeState.go('/books/all');
         break;
       case 0:
       default:
-        AnthraFlutter.logAppEvent("PopularBooksTabClicked");
+        KlariticsFlutter.logAppEvent("PopularBooksTabClicked");
         _routeState.go('/books/popular');
         break;
     }

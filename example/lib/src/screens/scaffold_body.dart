@@ -10,7 +10,7 @@ import '../widgets/fade_transition_page.dart';
 import 'authors.dart';
 import 'books.dart';
 import 'scaffold.dart';
-import 'package:anthra_flutter/observer.dart';
+import 'package:klaritics_flutter/observer.dart';
 
 /// Displays the contents of the body of [BookstoreScaffold]
 class BookstoreScaffoldBody extends StatelessWidget {
@@ -28,7 +28,7 @@ class BookstoreScaffoldBody extends StatelessWidget {
     // need to be customized.
     return Navigator(
       key: navigatorKey,
-      observers: [AnthraNavigationObserver()],
+      observers: [KlariticsNavigationObserver()],
       onPopPage: (route, dynamic result) => route.didPop(result),
       pages: [
         if (currentRoute.pathTemplate.startsWith('/authors'))

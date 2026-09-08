@@ -1,121 +1,95 @@
-# Anthra Flutter SDK
+# Klaritics Flutter SDK
 
 > **Note: Flutter SDK supported version is `>= 3.0.1`**
 
-Flutter wrapper for **Anthra**,
+Flutter wrapper for **Klaritics**.
 
 ## Integration
 
-Add `anthra_flutter` dependency in `pubspec.yaml`
+Add the `klaritics_flutter` dependency in `pubspec.yaml`
 
+```yaml
+dependencies:
+  klaritics_flutter: ^3.0.0
+```
+
+Import it in your Dart code:
+
+```dart
+import 'package:klaritics_flutter/klaritics_flutter.dart';
+```
+
+### Initialize
+
+Initialize the SDK **once** from Dart — this initializes both the Android and iOS native SDKs in a
+single call. Do it in `main()` before `runApp`, and `await` it before logging any events. Replace
+`YOUR_APP_ID` and `YOUR_HOST` with the values from your Klaritics dashboard.
+
+```dart
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  final config = KlariticsConfig('YOUR_APP_ID');
+  config.host = 'YOUR_HOST';
+  await KlariticsFlutter.setup(config);
+
+  runApp(const MyApp());
+}
+```
+
+> Because initialization happens from Dart, you do **not** need to call the native
+> `Klaritics.setup(...)` in your Android `Activity`/`Application` or iOS `AppDelegate`.
 
 ### Android
 
-- Add the following dependencies in `app/build.gradle` file
+- The Klaritics Android SDK is published to a private Maven repository. Add the repository in your
+  project-level `android/build.gradle` (or `settings.gradle`) `repositories { }` block:
+
+  ```groovy
+  maven {
+      url "https://asia-south1-maven.pkg.dev/org-infra-471907/klaritics-android-sdk"
+  }
+  ```
+
+- Add the dependency in your `app/build.gradle` file:
 
   ```groovy
   dependencies {
-    // Core plugin tracks events & manages the session
-    implementation "com.apxor.androidx:apxor-android-sdk-core:2.9.2@aar"
-
-    // Context Evaluation plugin
-    implementation "com.apxor.androidx:apxor-android-sdk-qe:1.5.6@aar"
-
-    // Real time messaging plugin to display Tooltips, Coachmarks, InApps and Onboarding walkthroughs
-    implementation "com.apxor.androidx:apxor-android-sdk-rtm:2.1.6@aar"
-
-    // Display contextual surveys
-    implementation "com.apxor.androidx:surveys:1.3.8@aar"
-
-    // Helper plugin for RTM plugin to pick the PATH for any view
-    implementation "com.apxor.androidx:wysiwyg:1.3.5@aar"
+    implementation "com.deeptaai.klaritics:klaritics-android-sdk:1.0.0"
   }
   ```
 
-- Create `plugins.json` file in `assets` folder
+- Initialization is handled from Dart via `KlariticsFlutter.setup(config)` (see
+  [Initialize](#initialize) above) — no native `Klaritics.setup(...)` call is required.
 
-  ```json
-  {
-    "plugins": [
-      {
-        "name": "rtm",
-        "class": "com.apxor.androidsdk.plugins.realtimeui.ApxorRealtimeUIPlugin"
-      },
-      {
-        "name": "wysiwyg",
-        "class": "com.apxor.androidsdk.plugins.wysiwyg.WYSIWYGPlugin"
-      },
-      {
-        "name": "surveys",
-        "class": "com.apxor.androidsdk.plugins.survey.SurveyPlugin"
-      }
-    ]
-  }
-  ```
-
-- Add `meta-data` tag in `AndroidManifest.xml` file with your unique `APP_ID` as a value. You need to replace `YOUR_APP_ID` with your actual App Id which you will get from the dashboard
-
-  > Note: Please contact your account manager about the APP_ID or you can find out in the dashboard
-
-  ```xml
-  <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.apxor.flutter_example">
-    <application ...>
-        <meta-data android:name="APXOR_APP_ID" android:value="YOUR_APP_ID" />
-      </application>
-  </manifest>
-  ```
-
-- If you use proguard, add the following in your `proguard-rules.pro` file
+- If you use proguard, add the following in your `proguard-rules.pro` file:
 
   ```proguard
-  -keep class com.apxor.** { *; }
-  -dontwarn com.apxor.**
+  -keep class com.deeptaai.klaritics.** { *; }
+  -dontwarn com.deeptaai.klaritics.**
   ```
 
-- If you would like to use Apxor's Video InApp messages in Android, add the following property in `gradle.properties` file and add the following dependency in `app/build.gradle` file
+> **Note:** `klaritics-android-sdk:1.0.0` ships the core analytics engine. The realtime-UI
+> (in-app messages / embedded cards) plugin is not yet available for Android; those APIs are
+> currently stubbed on Android and fully functional on iOS.
 
-  > Note: Exoplayer dependency version `>= 2.14.0` is mandatory for Video InApps to work
+### iOS
 
-  ```properties
-  android.enableDexingArtifactTransform = false
-  ```
-
-  ```js
-  dependendies {
-       implementation 'com.google.android.exoplayer:exoplayer:2.14.0'
-  }
-  ```
-
-### Ensuring ApxorSDK is initialised successfully
-
-- Lookout for the following log in `logcat`,
-
-  ```text
-  ApxorSDK(v2**) successfully initialized for: APP_ID
-  ```
-
-- By default, only error logs are enabled. To see debug logs, run the below command in terminal
-
-  ```bash
-  adb shell setprop log.tag.Apxor VERBOSE
-  ```
-
-> **Note**
->
-> Apxor uploads data only when the app is minimized to the background.
-> If you are running from Android Studio (emulators or devices), do not stop the app, just press on the "home" button in order for data to be uploaded.
+The Klaritics iOS SDK is consumed via Swift Package Manager. This plugin declares the dependency
+in its `Package.swift`, so with Flutter's Swift Package Manager support enabled it is added
+automatically. No `AppDelegate` changes are needed — initialization is handled from Dart via
+`KlariticsFlutter.setup(config)` (see [Initialize](#initialize) above).
 
 ## APIs
 
 ### Identifying Users
 
-The Apxor SDK automatically captures device IDs which the Apxor backend uses to uniquely identify users.
+The Klaritics SDK automatically captures device IDs which the Klaritics backend uses to uniquely identify users.
 
 If you want to, you can assign your own user IDs. This is particularly useful if you want to study a specific user with ease. To assign your own user ID, you can use
 
 ```dart
-AnthraFlutter.setUserIdentifier("<SOME_USER_ID>");
+KlariticsFlutter.setUserIdentifier("<SOME_USER_ID>");
 ```
 
 ### User Attributes
@@ -125,7 +99,7 @@ There is often additional user identifying information, such as name and email a
 To add some more attributes that are specific to a particular user,
 
 ```dart
-AnthraFlutter.setUserAttributes({
+KlariticsFlutter.setUserAttributes({
   'age': 27,
   'gender': "male",
 });
@@ -138,7 +112,7 @@ A Session can be simply defined as user journey as he opens the app, until he cl
 To add session attributes that are specific to a session,
 
 ```dart
-AnthraFlutter.setSessionAttributes({
+KlariticsFlutter.setSessionAttributes({
   "network": "4G",
   "location": "Hyderabad",
 });
@@ -151,7 +125,7 @@ App events make it easier to analyze user behavior and optimize your product and
 To track an event with the event name and properties.
 
 ```dart
-AnthraFlutter.logAppEvent("Login", attributes: {
+KlariticsFlutter.logAppEvent("Login", attributes: {
   "type": "Google",
   "language": "valyrian",
 });
@@ -159,7 +133,7 @@ AnthraFlutter.logAppEvent("Login", attributes: {
 
 ### Client Events
 
-Events that are logged to reside on the client application are called client events, the data captured is not transferred to Apxor.
+Events that are logged to reside on the client application are called client events, the data captured is not transferred to Klaritics.
 
 These are typically logged to capture behavioural observations and interactions to nudge a user.
 
@@ -168,17 +142,17 @@ These are typically logged to capture behavioural observations and interactions 
 > Soft back button, user reaching end of page, etc.
 
 ```dart
-AnthraFlutter.logClientEvent("SoftBackPressed", attributes: {
+KlariticsFlutter.logClientEvent("SoftBackPressed", attributes: {
   "screenName": "Payment",
 });
 ```
 
 ### Handle deeplink redirection
 
-Use `setDeeplinkListener` to listen on deeplink redirection from Apxor SDK and handle redirection logic (including external redirection) within application logic as follows
+Use `setDeeplinkListener` to listen on deeplink redirection from Klaritics SDK and handle redirection logic (including external redirection) within application logic as follows
 
 ```dart
-AnthraFlutter.setDeeplinkListener((url) {
+KlariticsFlutter.setDeeplinkListener((url) {
   // interpret the URL and handle redirection within the application
   _routeState.go(url!);
 
@@ -188,22 +162,22 @@ AnthraFlutter.setDeeplinkListener((url) {
 
 ### Track screens
 
-You can use `AnthraFlutter.trackScreen` to track screen navigations. Examples are as follows
+You can use `KlariticsFlutter.trackScreen` to track screen navigations. Examples are as follows
 
 ```dart
-AnthraFlutter.trackScreen("LoginScreen",context);
+KlariticsFlutter.trackScreen("LoginScreen",context);
 
-AnthraFlutter.trackScreen("AddToCartScreen",context);
+KlariticsFlutter.trackScreen("AddToCartScreen",context);
 
-AnthraFlutter.trackScreen("PaymentScreen",context);
+KlariticsFlutter.trackScreen("PaymentScreen",context);
 ```
 
-If you are using `Navigator` for navigation and routing in the application, you can add `AnthraNavigationObserver` to the `observer` list so the native SDK can track screens when routes change.
+If you are using `Navigator` for navigation and routing in the application, you can add `KlariticsNavigationObserver` to the `observer` list so the native SDK can track screens when routes change.
 
 ```dart
 return Navigator(
   key: widget.navigatorKey,
-  observers: [AnthraNavigationObserver()], // Add this line
+  observers: [KlariticsNavigationObserver()], // Add this line
   onPopPage: (route, dynamic result) {
     // ...
   },
@@ -226,7 +200,3 @@ return TextButton(
   },
 );
 ```
-
-## Latest plugin versions
-
-Check the latest plugin versions [here](https://docs.apxor.com/docs/SDK/androidx-guide)

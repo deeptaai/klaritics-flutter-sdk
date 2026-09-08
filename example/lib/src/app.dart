@@ -2,7 +2,7 @@
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
-import 'package:anthra_flutter/anthra_flutter.dart';
+import 'package:klaritics_flutter/klaritics_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
@@ -57,32 +57,32 @@ class _BookstoreState extends State<Bookstore> {
 
     super.initState();
 
-    AnthraFlutter.logAppEvent('AppOpen');
-    AnthraFlutter.logAppEvent('AppEventWithAttributes',
+    KlariticsFlutter.logAppEvent('AppOpen');
+    KlariticsFlutter.logAppEvent('AppEventWithAttributes',
         attributes: {"prop1": "A", "prop2": "B"});
 
-    AnthraFlutter.setUserAttributes({
+    KlariticsFlutter.setUserAttributes({
       'A': 1,
       'B': 2,
       'C': 3,
       'D': 4,
     });
-    AnthraFlutter.setSessionAttributes({
+    KlariticsFlutter.setSessionAttributes({
       'Session-A': 1,
       'Session-B': 2,
       'Session-C': 3,
       'Session-D': 4,
     });
-    AnthraFlutter.logClientEvent("DummyClientEvent",
+    KlariticsFlutter.logClientEvent("DummyClientEvent",
         attributes: {"prop1": "A", "prop2": "B"});
-    AnthraFlutter.setUserIdentifier("DummyCustomUserId");
-    AnthraFlutter.setPushRegistrationToken("DummyPushToken");
+    KlariticsFlutter.setUserIdentifier("DummyCustomUserId");
+    KlariticsFlutter.setPushRegistrationToken("DummyPushToken");
 
     Future.delayed(const Duration(seconds: 10), () async {
-      var attributes = await AnthraFlutter.getAttributes(['A', 'B', 'C']);
+      var attributes = await KlariticsFlutter.getAttributes(['A', 'B', 'C']);
       print(attributes);
 
-      var deviceId = await AnthraFlutter.getDeviceId();
+      var deviceId = await KlariticsFlutter.getDeviceId();
       print(deviceId);
     });
   }
@@ -113,7 +113,7 @@ class _BookstoreState extends State<Bookstore> {
       ),
     );
 
-    AnthraFlutter.setDeeplinkListener((url) async {
+    KlariticsFlutter.setDeeplinkListener((url) async {
       print("url: $url");
       if (url == null) {
         return;

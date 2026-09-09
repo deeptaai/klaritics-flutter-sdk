@@ -69,10 +69,6 @@ Future<void> main() async {
   -dontwarn com.deeptaai.klaritics.**
   ```
 
-> **Note:** `klaritics-android-sdk:1.0.0` ships the core analytics engine. The realtime-UI
-> (in-app messages / embedded cards) plugin is not yet available for Android; those APIs are
-> currently stubbed on Android and fully functional on iOS.
-
 ### iOS
 
 The Klaritics iOS SDK is consumed via Swift Package Manager. This plugin declares the dependency
@@ -145,58 +141,4 @@ These are typically logged to capture behavioural observations and interactions 
 KlariticsFlutter.logClientEvent("SoftBackPressed", attributes: {
   "screenName": "Payment",
 });
-```
-
-### Handle deeplink redirection
-
-Use `setDeeplinkListener` to listen on deeplink redirection from Klaritics SDK and handle redirection logic (including external redirection) within application logic as follows
-
-```dart
-KlariticsFlutter.setDeeplinkListener((url) {
-  // interpret the URL and handle redirection within the application
-  _routeState.go(url!);
-
-  // Or, to an external URL which will be opened in Browser
-});
-```
-
-### Track screens
-
-You can use `KlariticsFlutter.trackScreen` to track screen navigations. Examples are as follows
-
-```dart
-KlariticsFlutter.trackScreen("LoginScreen",context);
-
-KlariticsFlutter.trackScreen("AddToCartScreen",context);
-
-KlariticsFlutter.trackScreen("PaymentScreen",context);
-```
-
-If you are using `Navigator` for navigation and routing in the application, you can add `KlariticsNavigationObserver` to the `observer` list so the native SDK can track screens when routes change.
-
-```dart
-return Navigator(
-  key: widget.navigatorKey,
-  observers: [KlariticsNavigationObserver()], // Add this line
-  onPopPage: (route, dynamic result) {
-    // ...
-  },
-  pages: [
-    // Pages
-  ],
-);
-```
-
-## Set TAGs for Widgets
-
-In order to display actions on Widgets, you can set tags for widgets using `ValueKey` with `String` as a value to it. It is highly recommended to set TAGs for Widgets which are Scrollable or contains multiple child widgets.
-
-```dart
-return TextButton(
-  child: const Text('Sign In'),
-  key: const ValueKey("Sign-in"), // Add ValueKey with String
-  onPressed: () {
-    // Sign in
-  },
-);
 ```
